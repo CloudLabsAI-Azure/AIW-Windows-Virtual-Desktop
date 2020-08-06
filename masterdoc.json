@@ -1,0 +1,37 @@
+[
+  {
+    "Name": "Microsoft WVD Essentials",
+    "Language": "English",
+    "BaseURL": "https://github.com/SpektraSystems/WVD-Essentials",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/00-OVERVIEW.md",
+        "Order": 1
+      },
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/01-PREREQUISITE.md",
+        "Order": 2
+      },
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/02-CREATE-HOSTPOOL.md",
+        "Order": 3
+      },
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/03-CREATE-APPLICATION-GROUP.md",
+        "Order": 4
+      },
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/04-ACCESS-WORKSPACE-USING-BROWSER.md",
+        "Order": 5
+      },
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/05-ACCESS-WORKSPACE-USING-WVD-CLIENT.md",
+        "Order": 6
+      },
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/06-SUMMARY.md",
+        "Order": 7
+      }
+    ]
+  }
+]
