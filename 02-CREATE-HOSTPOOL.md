@@ -78,7 +78,7 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
    - OS disk type: **Standard SSD**
    - Use managed disks: *Leave to default*
    
-   ![ws name.](media/a8.png)
+   ![ws name.](media/ex3.png)
    
    
   **B**. Network and Security 
