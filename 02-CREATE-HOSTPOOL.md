@@ -74,18 +74,18 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
    - Number of VMs: **2**   
    - Name prefix: **WVD-HP01-SH** 
    - Image type: **Gallery**
-   - Image: **Windows 10 Enterprise multi-session, version 1909 + Office 365 ProPlus** *(choose from dropdown)* 
+   - Image: **Windows 10 Enterprise multi-session, version 1909 + Microsoft 365 Apps** *(choose from dropdown)* 
    - OS disk type: **Standard SSD**
-   - Use managed disks: **Yes**
+   - Use managed disks: *Leave to default*
    
    ![ws name.](media/a8.png)
    
    
   **B**. Network and Security 
   
+Leave all values on default except:
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
    - Specify Domain or Unit: **No**
-   - Leave all other values on default.
   
  
   **C**. Domain and Administrator account  
