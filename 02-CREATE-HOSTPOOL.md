@@ -1,7 +1,7 @@
 # **Exercise 3: Create Host Pool from Azure Portal** 
 
  
-Host pools are a collection of one or more identical virtual machines within Windows Virtual Desktop environments. Each host pool can contain an app group that users can interact with as they would on a physical desktop. 
+Host pools are a collection of one or more identical virtual machines within Windows Virtual Desktop environments. Each host pool can contain an app group that users can interact with as they would be on a physical desktop. 
  
 ### **Task 1: Create Host pool**
 
@@ -41,7 +41,7 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
       
    >**Note:** Host Pools are of 2 types: Pooled and Personal.  
    > **Pooled** is used to share the same Session Host (Virtual Machine) resources among multiple users.
-   > **Personal** uses a dedicated Session host of individual user.
+   > **Personal** uses a dedicated Session host of individual users.
 
    - Max session Limit: **5**
       
@@ -49,7 +49,7 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
      
    - Load Balancing Algorithm: **Breadth First**
       
-   >**Note:** Load Balancing Algorithm are of 2 types: *Breadth-first* and *Depth-first*. 
+   >**Note:** Load Balancing Algorithm is of two types: *Breadth-first* and *Depth-first*. 
    > - **Breadth-first** load balancing distributes new user sessions across all available session hosts in the host pool. 
    > - **Depth-first** load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
      
@@ -83,7 +83,7 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
    
   **B**. Network and Security 
   
-   - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(Choose from drop down)*
+   - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
    - Specify Domain or Unit: **No**
    - Leave all other values on default.
   
@@ -122,11 +122,11 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
     ![ws name.](media/70.png)
 
 
-12. Once the deployment gets succeededed, open notifications and click on **Go to Resource**.  
+12. Once the deployment gets succeeded, open notifications and click on **Go to Resource**.  
 
     ![ws name.](media/71.png)
 
-13. You will see that the host pool **WVD-HP-01** is created with 2 session hosts in it, and a default application group (of type Desktop).  
+13. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
 
     ![ws name.](media/85.png)
 
