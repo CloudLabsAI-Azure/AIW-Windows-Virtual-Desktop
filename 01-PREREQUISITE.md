@@ -21,17 +21,15 @@ In this lab, we have used AADDS and it is pre-provisioned. The Domain name will 
 3. Enter password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
 
    ![](media/wvd2.png)
-   
-> **Note**: Refer to the **Environment Details** tab for any other lab credentials/details.
-  
-   ![](media/wvd7.png)
 
-4. There will be a pop-up entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.
+> **Note:** If there's a popup entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.
 
-   ![](media/a102.png)
-
-5. You may encounter a popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
+4. You may encounter a popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
 
    ![](media/wvd4.png)
 
-6. Click on the **Next** button.  
+> **Note:** Refer to the **Environment Details** tab for any other lab credentials/details.
+  
+   ![](media/wvd7.png)
+  
+5. Click on the **Next** button.  
