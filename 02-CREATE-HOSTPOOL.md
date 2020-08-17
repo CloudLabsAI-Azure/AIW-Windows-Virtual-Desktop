@@ -1,15 +1,15 @@
 # **Exercise 3: Create Host Pool from Azure Portal** 
 
  
-Host pools are a collection of one or more identical virtual machines within Windows Virtual Desktop environment. Each host pool contains Application group that users can interact with as they would be on a physical desktop. 
+Host pools are a collection of one or more identical virtual machines within Windows Virtual Desktop environment. Each host pool contains Application groupS that users can interact with, as they would be on a physical desktop. 
  
 ### **Task 1: Create Host pool**
 
 In this exercise we will be creating a host pool named *WVD-HP-01* of pooled type and add two session hosts (virtual machines) i.e. *WVD-HP01-SH-0* and *WVD-HP01-SH-01*  then register them under a new workspace named *WVD-WS-01*.
 
-1. On **Azure portal** search for *Windows virtual* in the search bar and select **Windows Virtual Desktop** from the suggestions.
+1. On **Azure portal** search for *Windows Virtual Desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
 
-   ![ws name.](media/a109.png)
+   ![ws name.](media/w1.png)
  
 
 2. You will be directed towards the Windows Virtual Desktop (hereafter referred as WVD) management window.  
@@ -40,8 +40,8 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
    - Host pool type: **Pooled** 
       
    >**Note:** Host Pools are of 2 types: Pooled and Personal.  
-   > **Pooled** is used to share the same Session Host (Virtual Machine) resources among multiple users.
-   > **Personal** uses a dedicated Session host of individual users.
+   > - **Pooled** is used to share the same Session Host (Virtual Machine) resources among multiple users.
+   > - **Personal** uses a dedicated Session host of individual users.
 
    - Max session Limit: **5**
       
@@ -61,9 +61,9 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
 
    ![ws name.](media/66.png)
 
-6. Now a long list of parameter appears, here add following configurations respective to their fields. 
+6. In this step, we will provide the details of the VMs to be created as session Hosts. For your convenience, this step is divided into three sections as follows:
 
-  **A**. Session Host Specifications: In this section, we provide the details of the VMs to be created as session Hosts.    
+  **A**. Session Host Specifications:     
 
    - Resource Group: *Select **WVD-RG** from the drop down*.
    - Virtual machine location: **East US**, *location should be same as location of your resource group*.
@@ -81,38 +81,38 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
    ![ws name.](media/ex3.png)
    
    
-  **B**. Network and Security 
-  
-Leave all values on default except:
+  **B**. Network and Security:
+   Leave all values on default except:
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
    - Specify Domain or Unit: **No**
-  
  
-  **C**. Domain and Administrator account  
+   ![ws name.](media/w3.png)
+ 
+  **C**. Domain and Administrator account:
   
    - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
-   - Confirm Password: *Enter the password again.*
-
-   ![ws name.](media/87.png)
+   - Confirm Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *again.*
+   
+   ![ws name.](media/w2.png)
    
 7. Click on **Next:Workspace** to proceed. 
 
-8. In the Workspace section, we need to specify if we need to register the default application group with a workspace. 
+8. In the Workspace section, we need to specify if we need to register the default application group to a workspace. 
 
    - Register desktop app group: *Choose* **Yes** 
    - To this workspace: *Click on* **Create new**
 
    ![ws name.](media/67.png)
    
-9. Once you click the **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
+9. Once you click on **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
 
    - Workspace name: **WVD-WS-01** 
    - Click on **OK**
      
    ![ws name.](media/68.png) 
 
-10. Once we fill up all the parameters, click on the  **Review + create** button on the bottom left corner. 
+10. Now click on **Review + create** on the bottom left corner. 
 
     ![ws name.](media/69.png)
 
