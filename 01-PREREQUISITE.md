@@ -30,6 +30,6 @@ In this lab, we have used AADDS and it is pre-provisioned. The Domain name will 
 
 > **Note:** Refer to the **Environment Details** tab for any other lab credentials/details.
   
-   ![](media/wvd7.png)
+   ![](media/env.png)
   
 5. Click on the **Next** button.  
