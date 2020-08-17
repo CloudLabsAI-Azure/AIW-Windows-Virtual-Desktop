@@ -45,7 +45,7 @@ Now as we have published remote applications in previous exercises, now we will 
    ![ws name.](media/55.png)
    
    
-9. Now click on any of the applications you want to access. Here we are selecting **Excel**. 
+9. Now double click on any of the applications you want to access. Here we are selecting **Excel**. 
 
    ![ws name.](media/97.png)
    
@@ -65,7 +65,7 @@ Now as we have published remote applications in previous exercises, now we will 
 
 12. Your Application will launch and will be ready to use.
 
-    ![ws name.](media/59.png)
+   ![ws name.](media/59.png)
     
     
 13. You can close this session now.
@@ -81,7 +81,7 @@ In this task we will be accessing the desktop type application named *WVD-HP-01-
 
    
    
-2. Now Click on **WVD-HP-01-DAG** Desktop to access it.
+2. Now double click on **WVD-HP-01-DAG** Desktop to access it.
 
    ![ws name.](media/100.png)
    
@@ -101,7 +101,7 @@ In this task we will be accessing the desktop type application named *WVD-HP-01-
 
 5. Your virtual Desktop will launch and it should be ready to use.
         
-    ![ws name.](media/63.png)   
+   ![ws name.](media/63.png)   
     
      
 6. Click on the **Next** button.   
