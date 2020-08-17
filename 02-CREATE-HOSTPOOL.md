@@ -1,7 +1,7 @@
 # **Exercise 3: Create Host Pool from Azure Portal** 
 
  
-Host pools are a collection of one or more identical virtual machines within Windows Virtual Desktop environments. Each host pool can contain an app group that users can interact with as they would be on a physical desktop. 
+Host pools are a collection of one or more identical virtual machines within Windows Virtual Desktop environment. Each host pool contains Application group that users can interact with as they would be on a physical desktop. 
  
 ### **Task 1: Create Host pool**
 
