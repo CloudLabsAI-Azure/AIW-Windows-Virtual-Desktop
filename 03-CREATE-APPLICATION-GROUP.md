@@ -2,12 +2,12 @@
 
 As explained in the General Hierarchy section, Application Group is a logical grouping of applications installed on session hosts in the host pool. They are of two types: 
 
-1. Remote App 
+1. Remote Application 
 2. Desktop 
 
 ## **Task 1: Create Application Group**
 
-An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. Now in this task we will create a new application group of type ‘Remote App’ named *WVD-AG-01* and assign *Odl user* to it. Then we will add two applications i.e. *word* and *excel* to the application group.
+An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. Now in this task we will create a new application group of type ‘Remote application’ named *WVD-AG-01* and assign *Odl user* to it. Then we will add two applications i.e. *word* and *excel* to the application group.
 
 1. Navigate to Azure portal, then search for *Windows virtual* in search bar and select **Windows Virtual Desktop** from the suggestions.
 
