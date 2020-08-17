@@ -34,7 +34,7 @@ An application group of type ‘Desktop’ was created automatically while creat
  
 6. Now in the search bar, copy and paste your username **<inject key="AzureAdUserEmail" />**. Then under the search bar, click on your username to select it.
 
-   ![ws name.](media/w5.png)
+   ![ws name.](media/w7.png)
    
 7. At last click on **Select** button. 
  
