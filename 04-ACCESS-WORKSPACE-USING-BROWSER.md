@@ -1,8 +1,8 @@
 # **Exercise 5: Access the Published Applications/Desktop using Browser**
 
-## **Task 1: Access the Published Apps**
+## **Task 1: Access the Published Application**
 
-Now as we have published remote apps in previous exercise, now we will be accessing them using the web browser.
+Now as we have published remote applications in previous exercise, now we will be accessing them using the web browser.
 
 1. Use the link ```aka.ms/wvdarmweb``` and enter your **credentials** to login. 
 
