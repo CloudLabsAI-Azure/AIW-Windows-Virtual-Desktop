@@ -15,7 +15,7 @@ Now as we have published remote applications in previous exercise, now we will b
    ![ws name.](media/96.png)
   
 
-2. Now you will be inside the WVD dashboard with all the Desktop and Applications visible. Click on any one of the applications you want to access. Here we are selecting **Word**. 
+2. Now you will be directed to the WVD dashboard with all the Desktop and Applications visible. Click on any one of the applications you want to access. Here we are selecting **Word**. 
 
    ![ws name.](media/a46.png)
 
