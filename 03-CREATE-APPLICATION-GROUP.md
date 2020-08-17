@@ -60,16 +60,16 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 11. Click on the **+Add Azure AD users or user groups**, then copy and paste your username **<inject key="AzureAdUserEmail" />** in the search bar. When your username appears under the search bar, select it and then click on **Select** button.
 
-   ![ws name.](media/88.png)
+    ![ws name.](media/88.png)
 
 12. Now click on **Next:Applications**. 
 
-   ![ws name.](media/110.png)
+    ![ws name.](media/110.png)
 
 
 13. On the **Applications** section, click on **Add Applications** to publish applications in the Session Host. 
 
-   ![ws name.](media/76.png)
+    ![ws name.](media/76.png)
 
 
 14. In this window, choose the parameters as mentioned below: 
@@ -82,7 +82,7 @@ An application group of type ‘Desktop’ was created automatically while creat
  
 15. Click on **Add Application** again. 
 
-   ![ws name.](media/31.png)
+    ![ws name.](media/31.png)
 
 16. Choose the parameters as mentioned below: 
 
@@ -94,7 +94,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 17. Now click on **Next:Workspace**. 
 
-   ![ws name.](media/78.png)
+    ![ws name.](media/78.png)
 
 18. In the Workspace section, you choose if the Application Group should be registered now or later.  
 
