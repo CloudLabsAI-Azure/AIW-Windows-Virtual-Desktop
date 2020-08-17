@@ -45,9 +45,9 @@ Now as we have published remote applications in previous exercises, now we will 
    ![ws name.](media/55.png)
    
    
-9. Now double click on any of the applications you want to access. Here we are selecting **Excel**. 
+9. Now double click on either Word or Excel application that you want to access. Here we are selecting **Excel**. 
 
-   ![ws name.](media/97.png)
+   ![ws name.](media/excel.png)
    
 
 10. Enter your **credentials** to access the Application.
@@ -65,7 +65,7 @@ Now as we have published remote applications in previous exercises, now we will 
 
 12. Your Application will launch and will be ready to use.
 
-   ![ws name.](media/59.png)
+   ![ws name.](media/111.png)
     
     
 13. You can close this session now.
