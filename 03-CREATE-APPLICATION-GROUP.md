@@ -61,7 +61,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 11. Now click on **Next:Applications**. 
 
-   ![ws name.](media/75.png)
+   ![ws name.](media/110.png)
 
 
 12. On the **Applications** section, click on **Add Applications** to publish applications in the Session Host. 
