@@ -14,7 +14,7 @@ In this lab, we have used AADDS and it is pre-provisioned. The Domain name will 
 
 1. Navigate **Azure Portal** (https://portal.azure.com) in your browser. 
 
-2. Login to Azure with the username **<inject key="AzureAdUserEmail" />**
+2. Login to Azure with the username **<inject key="AzureAdUserEmail" />** and click on **Next**.
 
    ![](media/wvd1.png)
 
@@ -22,14 +22,13 @@ In this lab, we have used AADDS and it is pre-provisioned. The Domain name will 
 
    ![](media/wvd2.png)
 
-> **Note:** If there's a popup entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.
+> **Note:** 
+> - If there's a popup entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.
 
-4. You may encounter a popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
+   ![](media/a102.png)
+   
+> - If there's another popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
 
    ![](media/wvd4.png)
 
-> **Note:** Refer to the **Environment Details** tab for any other lab credentials/details.
-  
-   ![](media/env.png)
-  
-5. Click on the **Next** button.  
+4. Click on the **Next** button.  
