@@ -117,10 +117,11 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
     ![ws name.](media/69.png)
 
 
-11. The last window helps us verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
+11. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
     ![ws name.](media/70.png)
 
+> **Note:** The deployment will take about 30 minutes to succeed.
 
 12. Once the deployment gets succeeded, open notifications and click on **Go to Resource**.  
 
