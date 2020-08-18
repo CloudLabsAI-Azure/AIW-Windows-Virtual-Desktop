@@ -1,28 +1,26 @@
 # **Exercise 3: Create Host Pool from Azure Portal** 
 
  
-Host pools are a collection of one or more identical virtual machines within Windows Virtual Desktop environment. Each host pool contains Application groupS that users can interact with, as they would be on a physical desktop. 
+Host pools are a collection of one or more identical virtual machines within Windows Virtual Desktop environment. Each host pool contains Application groups that users can interact with, as they would be on a physical desktop. 
  
 ### **Task 1: Create Host pool**
 
-In this exercise we will be creating a host pool named *WVD-HP-01* of pooled type and add two session hosts (virtual machines) i.e. *WVD-HP01-SH-0* and *WVD-HP01-SH-01*  then register them under a new workspace named *WVD-WS-01*.
+In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled type, then adding two session hosts (virtual machines) i.e. *WVD-HP01-SH-0* and *WVD-HP01-SH-01*  and registering them under a new workspace named *WVD-WS-01*.
 
 1. On **Azure portal** search for *Windows Virtual Desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
  
 
-2. You will be directed towards the Windows Virtual Desktop (hereafter referred as WVD) management window.  
+2. You will get directed towards the Windows Virtual Desktop (hereafter referred to as WVD) management window.  
 
    ![ws name.](media/64.png)
-
 
 3. Now select **Host pools** under **Manage** blade and then click on **+ Add** to add new Host Pool.
 
    ![ws name.](media/z.png)
 
-
-4. Creating a Host Pool is divided into multiple sections. The first one is the Basic section. All the fields in this section are explained below along with the values: 
+4. In this step, we will provide the details required to create a Host Pool. For your convenience, this step is divided into two sections as follows:
 
  **A.** **Project Details –** Defines the environment 
 
@@ -34,7 +32,8 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
       
    >**Note:** Validation host pools let you monitor service updates before rolling them out to your production environment.
             
-            
+   ![ws name.](media/w9.png)
+   
  **B.** **Host Pool Type –** Defines the type of host pool. 
 
    - Host pool type: **Pooled** 
@@ -55,7 +54,7 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
      
    - Then click on **Next:Virtual Machines**.
           
-   ![ws name.](media/a1.png)  
+   ![ws name.](media/w10.png)  
 
 5. In the Virtual machines tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool. 
 
