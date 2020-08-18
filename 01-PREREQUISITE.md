@@ -2,7 +2,7 @@
 
 ### **Task 1**: **Review the Pre-requisites**
 
-To deploy a Windows Virtual Desktop environment, we need a pre-created windows domain (for example: contoso.com). This can be achieved in one of the followings ways:
+To deploy a Windows Virtual Desktop environment, we need a pre-created windows domain (for example: contoso.com). This can be achieved using one of the followings ways:
 
 1. Azure Active Directory Domain Services(AADDS)
 2. Windows Active Directory
