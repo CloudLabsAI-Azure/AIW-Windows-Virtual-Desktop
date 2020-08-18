@@ -65,11 +65,11 @@ Now as we have published remote applications in previous exercises, here we will
 
 12. Your Application will launch and will be ready to use.
 
-   ![ws name.](media/111.png) 
+   ![ws name.](media/w13.png) 
     
 13. You can close this Excel Application session now by clicking on close button.
 
-   ![ws name.](media/newimagetobeadded.png)
+   ![ws name.](media/w11.png)
    
 ## **Task 2: Access the Workspace Desktop using WVD Client**
 
