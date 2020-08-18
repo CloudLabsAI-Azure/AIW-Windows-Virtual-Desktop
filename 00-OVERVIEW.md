@@ -7,11 +7,11 @@ WVD offers support for a lot of Azure VM sizes. One of the interesting features 
 
 ## **General Hierarchy**
 
-### **Hostpools**
+### **Host Pools**
 
-A host pool is a collection of Azure virtual machines that register to Windows Virtual Desktop as session hosts when you run the Windows Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for consistent user experience. 
+A Host pool is a collection of Azure virtual machines that register to Windows Virtual Desktop as session hosts when you run the Windows Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for consistent user experience. 
 
-A host pool can be one of two types: 
+Host Pools can be one of two types: 
 
 1. **Personal**, where each session host is assigned to individual users. 
 
