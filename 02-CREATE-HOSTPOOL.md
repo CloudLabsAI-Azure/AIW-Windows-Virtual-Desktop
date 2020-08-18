@@ -140,7 +140,7 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
 > **Note:** In case you face deployment failure regarding Virtual Machine or any other resources under Host Pool, then follow the steps given below:
 > 1. Go to your **WVD-RG** resource group and delete the resources highlighted in the image below.
 >
->   ![ws name.](media/86.png)
+>   ![ws name.](media/w14.png)
 > 
 > 2. Now perform Task 1 from Step 1 to Step 11 to create the Host Pool again.
 > 3. Wait for the deployment to succeed.
