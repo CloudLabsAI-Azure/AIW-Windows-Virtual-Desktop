@@ -107,6 +107,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/35.png)
 
+> **Note:** The deployment will take about 2 minutes to succeed.
 
 20. You will get a provision to validate the settings in the validation page. If everything looks correct, click on **Create**. 
 
