@@ -1,10 +1,10 @@
 # **Exercise 6: Access the Published Applications/ Desktop using WVD Client**
 
-WVD-Client is a remote desktop application through which we can connect to our windows virtual desktop environment.
+WVD Client is a Windows Application through which we can connect to our windows virtual desktop environment.
 
 ## **Task 1: Access the Published Applications using WVD Client**
 
-Now as we have published remote applications in previous exercises, now we will be accessing them using wvd-client.
+Now as we have published remote applications in previous exercises, here we will be accessing them using WVD Client.
 
 1. Download the **WVD Client** on your local machine from the following [**Link**](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-and-10) and install **Windows 64-bit** version by clicking on it.
    
@@ -40,7 +40,7 @@ Now as we have published remote applications in previous exercises, now we will 
    ![ws name.](media/96.png)
    
    
-8. Make sure to uncheck **Allow my organization to manage my device** and click on **This app only**.
+8. Make sure to **uncheck** *Allow my organization to manage my device* and click on **This app only**.
 
    ![ws name.](media/55.png)
    
@@ -65,22 +65,20 @@ Now as we have published remote applications in previous exercises, now we will 
 
 12. Your Application will launch and will be ready to use.
 
-   ![ws name.](media/111.png)
+   ![ws name.](media/w13.png) 
     
-    
-13. You can close this session now.
+13. You can close this Excel Application session now by clicking on close button.
 
-
+   ![ws name.](media/w11.png)
+   
 ## **Task 2: Access the Workspace Desktop using WVD Client**
 
-In this task we will be accessing the desktop type application named *WVD-HP-01-DAG* created by default when we created *WVD-HP-01* host pool using wvd-client.
+In this task we will be accessing the desktop type application named *WVD-HP-01-DAG* created by default when we created *WVD-HP-01* host pool using WVD Client.
 
-1. In your local machine go to **start** and search for **Remote desktop** and open the Application with exact exact Icon as shown below.
+1. In your local machine go to **Start** and search for **Remote desktop** and open the Application with exact Icon as shown below.
 
    ![ws name.](media/51.png)
-
-   
-   
+ 
 2. Now double click on **WVD-HP-01-DAG** Desktop to access it.
 
    ![ws name.](media/100.png)
@@ -99,7 +97,7 @@ In this task we will be accessing the desktop type application named *WVD-HP-01-
    ![ws name.](media/62.png)
    
 
-5. Your virtual Desktop will launch and it should be ready to use.
+5. Your virtual desktop will launch and it should be ready to use.
         
    ![ws name.](media/63.png)   
     

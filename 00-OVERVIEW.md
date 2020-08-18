@@ -1,18 +1,17 @@
 # **Exercise 1: Overview** 
+   
+Windows Virtual Desktop (WVD) is a desktop and app virtualization service that runs on the cloud. It is a multi-tenant service hosted by Microsoft Azure and manages connections between Remote Desktop clients and isolated Windows Virtual Desktop environments. Since it is on the cloud, you know it’s always up to date, secure, and highly scalable. You can connect to the Virtual Desktop running on Azure from anywhere in the world on any device. Also, it leverages the capability to control and monitor the resources needed for the users. Remote Desktop and App Virtualization provides access to an environment that is customized for user's needs, whether that is an app or desktop environment.
 
-Windows Virtual Desktop is a multi-tenant service hosted by Microsoft that manages connections between Remote Desktop clients and isolated Windows Virtual Desktop tenant environments. Each Windows Virtual Desktop tenant environment consists of one or more host pools. Each host pool consists of one or more identical session hosts. The session hosts are virtual machines (VMs) running Windows 10 Enterprise multi-session, Windows Server 2019, Windows Server 2016, Windows 7, and Windows 10 Enterprise. 
 
- 
-
-Each host pool may have one or more application groups. There are two types of application groups: Remote Desktop and Remote Application. Remote desktop application group offers access to a full desktop and provides immersive user experience and full interaction with the operating system running on the session host. A Remote Application group publishes one or more Remote Application that display on the Remote Desktop client as the application window on the local Remote Desktop client's desktop. 
+WVD offers support for a lot of Azure VM sizes. One of the interesting features is the support for Windows 7, on top of support for Windows 10 Enterprise multi-session, Windows Server 2019, Windows Server 2016, and Windows 10 Enterprise. WVD is optimized for Office 365 services, with full Teams video & audio functionality and fast, reliable experience from OneDrive. Windows Virtual Desktop is an appealing option to users as it is easy to implement, provide cost and time savings, enhanced security, and increase employee efficiency.
 
 ## **General Hierarchy**
 
-### **Hostpools**
+### **Host Pools**
 
-A host pool is a collection of Azure virtual machines that register to Windows Virtual Desktop as session hosts when you run the Windows Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for consistent user experience. 
+A Host pool is a collection of Azure virtual machines that register to Windows Virtual Desktop as session hosts when you run the Windows Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for consistent user experience. 
 
-A host pool can be one of two types: 
+Host Pools can be one of two types: 
 
 1. **Personal**, where each session host is assigned to individual users. 
 
