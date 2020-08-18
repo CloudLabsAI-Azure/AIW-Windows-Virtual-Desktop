@@ -19,10 +19,9 @@ An application group of type ‘Desktop’ was created automatically while creat
    ![ws name.](media/64.png)
 
 
-3. Click on the **Application Group** tab. You will see the default Application Group there. Note that the type is ‘Desktop’. Also, it is associated with the Host Pool **WVD-HP-01** we created before and to the workspace **WVD-WS-01**. 
+3. Click on the **Application Group** tab and you will see the default Application Group there. 
 
-   ![ws name.](media/23.png)
-   
+   ![ws name.](media/w8.png)
    
 4. Click on **WVD-HP-01-DAG** application group.
 
