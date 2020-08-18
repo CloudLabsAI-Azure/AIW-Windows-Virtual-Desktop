@@ -9,9 +9,9 @@ As explained in the General Hierarchy section, Application Group is a logical gr
 
 An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. Now in this task, we will create a new application group of ‘Remote application’ type named *WVD-AG-01* and then assigning your user account to it. Then we will publish two applications i.e. *Word* and *Excel* in the application group.
 
-1. Navigate to Azure portal, then search for *Windows virtual* in search bar and select **Windows Virtual Desktop** from the suggestions.
+1. Navigate to Azure portal, then search for *Windows Virtual Desktop* in search bar and select **Windows Virtual Desktop** from the suggestions.
 
-   ![ws name.](media/a109.png)
+   ![ws name.](media/w1.png)
 
 
 2. You will be directed towards the Windows Virtual Desktop management window.  
