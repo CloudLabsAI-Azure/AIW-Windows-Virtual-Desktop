@@ -2,7 +2,7 @@
 
 ### **Task 1**: **Review the Pre-requisites**
 
-To deploy a Windows Virtual Desktop environment, we need a pre-created windows domain (for example: contoso.com). This can be achieved using one of the followings ways:
+To deploy Windows Virtual Desktop environment, we need a pre-created windows domain (for example: contoso.com). This can be achieved using one of the following ways:
 
 1. Azure Active Directory Domain Services(AADDS)
 2. Windows Active Directory
@@ -12,7 +12,7 @@ In this lab, we have used AADDS and it is pre-provisioned. The Domain name will 
 
 ### **Task 2: Log in to Azure Portal**
 
-1. Navigate **Azure Portal** (https://portal.azure.com) in your browser. 
+1. Open **Azure Portal** (https://portal.azure.com) in your browser. 
 
 2. Login to Azure with the username **<inject key="AzureAdUserEmail" />** and click on **Next**.
 
