@@ -37,11 +37,15 @@ Now as we have published remote applications in previous exercise, now we will b
 
    ![ws name.](media/130.png)
 
+6. Now close this Word application session.
+
+   ![ws name.](media/w11.png)
+   
 ## **Task 2: Access the published Desktop**
 
 1. Now on the top-left side click on **All Resources**.
    
-   ![ws name.](media/wvd53.png)
+   ![ws name.](media/w12.png)
    
    
 2. Here you will be inside the WVD dashboard with all the Desktop and Applications visible. Click on the **WVD-HP-01-DAG** Desktop to access it. 
