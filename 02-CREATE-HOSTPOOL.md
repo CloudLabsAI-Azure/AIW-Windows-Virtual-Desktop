@@ -126,6 +126,8 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
 
     ![ws name.](media/71.png)
 
+> **Note:** In case of deployment failure, go to the **Note** given after step 15.
+
 13. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
 
     ![ws name.](media/85.png)
@@ -135,7 +137,8 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
 
     ![ws name.](media/86.png)
 
-15. Click on the **Next** button.  
+15. Click on the **Next** button present in the bottom-right corner of this lab guide.  
+  
 
 > **Note:** In case you face deployment failure regarding Virtual Machine or any other resources under Host Pool, then follow the steps given below:
 1. Go to your **WVD-RG** resource group.
