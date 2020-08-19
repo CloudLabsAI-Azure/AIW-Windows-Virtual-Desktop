@@ -121,4 +121,4 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/82.png)
 
-23. Click on the **Next** button.
+23. Click on the **Next** button present in the bottom-right corner of this lab guide. 

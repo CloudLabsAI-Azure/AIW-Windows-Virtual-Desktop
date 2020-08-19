@@ -102,4 +102,4 @@ In this task we will be accessing the desktop type application named *WVD-HP-01-
    ![ws name.](media/63.png)   
     
      
-6. Click on the **Next** button.   
+6. Click on the **Next** button present in the bottom-right corner of this lab guide. 

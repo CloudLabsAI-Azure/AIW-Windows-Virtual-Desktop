@@ -31,4 +31,5 @@ In this lab, we have used AADDS and it is pre-provisioned. The Domain name will 
 >
 >  ![](media/wvd4.png)
 
-4. Click on the **Next** button.  
+4. Click on the **Next** button present in the bottom-right corner of this lab guide.  
+ 
