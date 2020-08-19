@@ -126,35 +126,33 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
 
     ![ws name.](media/71.png)
 
-> **Note:** In case of deployment failure, go to the **Note** given after step 15.
+> **Note:** In case you face deployment failure regarding Virtual Machine or any other resources under Host Pool, then follow the steps given below:
 
-13. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
+13. Go to your **WVD-RG** resource group.
+
+    ![ws name.](media/w15.png)
+ 
+14. Select the resources highlighted in the image below, then click on ellipsis in the top-right corner and click on delete.
+
+    ![ws name.](media/w16.png)
+
+15. Now under *Confirm delete* type **yes** in the bar and click on **Delete**.
+ 
+    ![ws name.](media/w17.png)
+
+16. Once the resources get deleted,then perform Task 1 from Step 1 to Step 11 to create the Host Pool again.
+
+17. Now wait for the deployment to succeed. When it gets succeeded, open the notifications and click on **Go to Resource**.  
+
+    ![ws name.](media/71.png) 
+
+18. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
 
     ![ws name.](media/85.png)
 
 
-14. Click on **Session Hosts**. Notice the Session Hosts created, with a name concatenating the Name Prefix and increment number. 
+19. Click on **Session Hosts**. Notice the Session Hosts created, with a name concatenating the Name Prefix and increment number. 
 
     ![ws name.](media/86.png)
 
-15. Click on the **Next** button present in the bottom-right corner of this lab guide.  
-  
-
-> **Note:** In case you face deployment failure regarding Virtual Machine or any other resources under Host Pool, then follow the steps given below:
-1. Go to your **WVD-RG** resource group.
-
-    ![ws name.](media/w15.png)
- 
-2. Select the resources highlighted in the image below, then click on ellipsis in the top-right corner and click on delete.
-
-    ![ws name.](media/w16.png)
-
-3. Now under *Confirm delete* type **yes** in the bar and click on **Delete**.
- 
-    ![ws name.](media/w17.png)
-
-4. Once the resources get deleted,then perform Task 1 from Step 1 to Step 11 to create the Host Pool again.
-
-5. Wait for the deployment to succeed. When it gets succeeded, open the notifications and click on **Go to Resource**.  
-
-    ![ws name.](media/71.png)
+20. Click on the **Next** button present in the bottom-right corner of this lab guide.  
