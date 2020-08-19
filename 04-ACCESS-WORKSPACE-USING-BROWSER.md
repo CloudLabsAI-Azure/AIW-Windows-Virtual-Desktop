@@ -71,4 +71,4 @@ Now as we have published remote applications in previous exercise, now we will b
 
    ![ws name.](media/49.png)
    
-6. Click on the **Next** button.
+6. Click on the **Next** button present in the bottom-right corner of this lab guide. 
