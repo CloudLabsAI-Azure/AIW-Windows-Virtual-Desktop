@@ -47,13 +47,13 @@ An application group of type ‘Desktop’ was created automatically while creat
 
       - Subscription: *Select the default subscription*.
       - Resource Group: *Select **WVD-RG** from the drop down*.
-      - Host Pool: **WVD-HP-01** (*this application group will be created under WVD-HP-01 hostpool*)
-      - Location: **East US**, *this should be same as the region of your resource group*.
+      - Host Pool: *Leave to default* (i.e., WVD-HP-01)
+      - Location: *Leave to default*. (i.e.,East US)
       - Application Group Type: **RemoteApp** 
       - Application Group Name: **WVD-AG-01**
       - Click on **Next:Assignments**
 
-   ![ws name.](media/72.png)
+   ![ws name.](media/w23.png)
 
 10. In the assignments section, you can add the user whom should be given access to WVD solution on this application group. 
 
@@ -63,7 +63,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 12. Now click on **Next:Applications**. 
 
-    ![ws name.](media/110.png)
+    ![ws name.](media/w21.png)
 
 
 13. On the **Applications** section, click on **Add Applications** to publish applications in the Session Host. 
@@ -100,7 +100,7 @@ An application group of type ‘Desktop’ was created automatically while creat
    - Register Application Group: **Yes**
    - **WVD-WS-01** workspace will be selected by default, since the default ‘Desktop’ type application group on the same Session Host *(WVD-HP01-SH-01)* is registered to this workspace.
 
-   ![ws name.](media/79.png)
+   ![ws name.](media/w22.png)
 
 19. Click on **Review + Create**
 
