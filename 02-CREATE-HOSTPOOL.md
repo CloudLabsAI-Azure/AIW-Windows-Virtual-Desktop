@@ -127,9 +127,9 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
 
     ![ws name.](media/71.png)
 
-> **Note:** In case you face deployment failure regarding Virtual Machine or any other resources under Host Pool, then follow the steps given below:
+> **Note:** In case you face deployment failure for Host Pool, then follow the steps given below:
 
-13. Go to your **WVD-RG** resource group.
+13. Go to your **WVD-RG** resource group and click on **Overview**.
 
     ![ws name.](media/w15.png)
  
