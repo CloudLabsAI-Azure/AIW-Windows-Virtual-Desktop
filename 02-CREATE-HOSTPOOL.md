@@ -1,9 +1,34 @@
-# **Exercise 3: Create Host Pool from Azure Portal** 
+# **Exercise 1: Create Host Pool from Azure Portal** 
 
  
 Host pools are a collection of one or more identical virtual machines within Windows Virtual Desktop environment. Each host pool contains Application groups that users can interact with, as they would be on a physical desktop. 
  
-### **Task 1: Create Host pool**
+ 
+### **Task 1: Log in to Azure Portal**
+
+1. Open **Azure Portal** (https://portal.azure.com) in your browser. 
+
+2. Login to Azure with the username **<inject key="AzureAdUserEmail" />** and click on **Next**.
+
+   ![](media/w24.png)
+
+3. Enter password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
+
+   ![](media/w25.png)
+
+> **Note:** 
+> - If there's a popup entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.
+>
+>  ![](media/w26.png)
+>   
+> - If there's another popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
+>
+>  ![](media/wvd4.png)
+
+4. Click on the **Next** button present in the bottom-right corner of this lab guide.  
+ 
+ 
+### **Task 2: Create Host Pool**
 
 In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled type, then adding two session hosts (virtual machines) i.e. *WVD-HP01-SH-0* and *WVD-HP01-SH-01*  and registering them under a new workspace named *WVD-WS-01*.
 
