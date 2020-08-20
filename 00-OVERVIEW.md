@@ -1,4 +1,4 @@
-# **Exercise 1: Overview** 
+# **Overview** 
    
 Windows Virtual Desktop (WVD) is a desktop and app virtualization service that runs on the cloud. It is a multi-tenant service hosted by Microsoft Azure and manages connections between Remote Desktop clients and isolated Windows Virtual Desktop environments. Since it is on the cloud, you know it’s always up to date, secure, and highly scalable. You can connect to the Virtual Desktop running on Azure from anywhere in the world on any device. Also, it leverages the capability to control and monitor the resources needed for the users. Remote Desktop and App Virtualization provides access to an environment that is customized for user's needs, whether that is an app or desktop environment.
 
