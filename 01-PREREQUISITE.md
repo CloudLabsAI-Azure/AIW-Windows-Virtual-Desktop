@@ -10,4 +10,6 @@
   ![ws name.](media/w30.png)
 
 
-- The domain name will be the suffix of your lab user account (for example: If your lab user account is ***odl_user_189588@azurehol1057.onmicrosoft.com***, the domain will be ***azurehol1057.onmicrosoft.com***.) Your lab user account is given ‘AAD DC Administrator’ privilege, hence can be used to domain join machines later. 
+- The domain name will be the suffix of your lab user account (for example: If your lab user account is ***odl_user_189588@azurehol1057.onmicrosoft.com***, the domain will be ***azurehol1057.onmicrosoft.com***.) 
+
+- Your lab user account is given ‘AAD DC Administrator’ privilege, hence can be used to domain join machines later. 
