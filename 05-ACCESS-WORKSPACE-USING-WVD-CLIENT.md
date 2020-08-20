@@ -1,4 +1,4 @@
-# **Exercise 6: Access the Published Applications/ Desktop using WVD Client**
+# **Exercise 4: Access the Published Applications/ Desktop using WVD Client**
 
 WVD Client is a Windows Application through which we can connect to our windows virtual desktop environment.
 
