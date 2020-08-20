@@ -63,7 +63,7 @@ Now as we have published remote applications in previous exercises, here we will
    ![ws name.](media/58.png)
    
 
-12. Your Application will launch and will be ready to use.
+12. Your Application will launch, and will be ready to use.
 
    ![ws name.](media/w13.png) 
     
