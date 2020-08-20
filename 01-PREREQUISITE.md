@@ -25,7 +25,7 @@ In this lab, we have used AADDS and it is pre-provisioned. The domain name will 
 > **Note:** 
 > - If there's a popup entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.
 >
->  ![](media/a102.png)
+>  ![](media/w26.png)
 >   
 > - If there's another popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
 >
