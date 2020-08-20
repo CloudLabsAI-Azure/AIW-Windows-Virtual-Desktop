@@ -16,11 +16,11 @@ In this lab, we have used AADDS and it is pre-provisioned. The domain name will 
 
 2. Login to Azure with the username **<inject key="AzureAdUserEmail" />** and click on **Next**.
 
-   ![](media/wvd1.png)
+   ![](media/w24.png)
 
 3. Enter password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
 
-   ![](media/wvd2.png)
+   ![](media/w25.png)
 
 > **Note:** 
 > - If there's a popup entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.
