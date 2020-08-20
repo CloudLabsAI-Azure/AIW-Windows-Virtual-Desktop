@@ -149,7 +149,7 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
 
 18. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
 
-    ![ws name.](media/85.png)
+    ![ws name.](media/w29.png)
 
 
 19. Click on **Session Hosts**. Notice the Session Hosts created, with a name concatenating the Name Prefix and increment number. 
