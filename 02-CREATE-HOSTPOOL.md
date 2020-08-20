@@ -135,11 +135,11 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
  
 14. Select the resources highlighted in the image below, then click on ellipsis in the top-right corner and click on delete.
 
-    ![ws name.](media/w16.png)
+    ![ws name.](media/w27.png)
 
 15. Now under *Confirm delete* type **yes** in the bar and click on **Delete**.
  
-    ![ws name.](media/w17.png)
+    ![ws name.](media/w28.png)
 
 16. Once the resources get deleted,then perform Task 1 from Step 1 to Step 11 to create the Host Pool again.
 
