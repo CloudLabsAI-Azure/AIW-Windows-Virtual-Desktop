@@ -102,8 +102,7 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
    - Use managed disks: *Leave to default*
    
    ![ws name.](media/ex3.png)
-   
-   
+    
   **B**. Network and Security:
     Leave all values on default except:
     
@@ -112,7 +111,7 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
  
    ![ws name.](media/w3.png)
  
- **C**. Domain and Administrator account:
+  **C**. Domain and Administrator account:
   
    - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
@@ -120,7 +119,7 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
    
    ![ws name.](media/w2.png)
    
-7. Click on **Next:Workspace** to proceed. 
+7. Click on **Next: Workspace** to proceed. 
 
 8. In the Workspace section, we need to specify if we need to register the default application group to a workspace. 
 
