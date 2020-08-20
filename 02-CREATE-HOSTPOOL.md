@@ -88,7 +88,7 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
  
    ![ws name.](media/w3.png)
  
-  **C**. Domain and Administrator account:
+ **C**. Domain and Administrator account:
   
    - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
