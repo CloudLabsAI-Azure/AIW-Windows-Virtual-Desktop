@@ -31,7 +31,7 @@ An Application group is a logical grouping of applications installed on session 
 
 2. **Desktop**, where users access the full desktop 
 
-By default, a desktop application group (named "Desktop Application Group") is automatically created whenever you create a host pool. You can remove this application group at any time. However, you can't create another desktop application group in the host pool while a desktop application group exists. To publish RemoteApps, you must create a RemoteApp application group. You can create multiple RemoteApp application groups to accommodate different worker scenarios. Different RemoteApp application groups can also contain overlapping RemoteApps. 
+By default, a desktop application group (named "Desktop Application Group") is automatically created whenever you create a host pool. You can remove this application group at any time. However, you can't create another desktop application group in the host pool while a desktop application group already exists. To publish RemoteApps, you must create a RemoteApp application group. You can create multiple RemoteApp application groups to accommodate different worker scenarios. Different RemoteApp application groups can also contain overlapping RemoteApps. 
 
  
 
@@ -47,7 +47,7 @@ To publish resources to users, you must assign them to application groups. When 
 
 A workspace is a logical grouping of application groups in the Windows Virtual Desktop. Each Windows Virtual Desktop application group must be associated with a workspace for users to see the remote applications and desktops published to them. 
 
-### **End Users**
+### **End User Experience**
 
 After you've assigned users to their application groups, they can connect to a Windows Virtual Desktop deployment with any of the Windows Virtual Desktop clients. 
 
