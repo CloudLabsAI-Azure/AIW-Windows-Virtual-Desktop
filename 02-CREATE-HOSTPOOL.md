@@ -141,7 +141,7 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
  
     ![ws name.](media/w28.png)
 
-16. Once the resources get deleted,then perform Task 1 from Step 1 to Step 11 to create the Host Pool again.
+16. Once the resources get deleted, then perform Task 1 from Step 1 to Step 11 to create the Host Pool again.
 
 17. Now wait for the deployment to succeed. When it gets succeeded, open the notifications and click on **Go to Resource**.  
 
