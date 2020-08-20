@@ -80,10 +80,10 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
    ![ws name.](media/ex3.png)
    
    
-  **B**. Network and Security:
-   Leave all values on default except:
-   - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
-   - Specify Domain or Unit: **No**
+   **B**. Network and Security:
+    Leave all values on default except:
+    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
+    - Specify Domain or Unit: **No**
  
    ![ws name.](media/w3.png)
  
