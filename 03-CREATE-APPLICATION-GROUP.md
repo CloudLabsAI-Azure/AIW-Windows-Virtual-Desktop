@@ -7,7 +7,7 @@ As explained in the General Hierarchy section, Application Group is a logical gr
 
 ## **Task 1: Create Application Group**
 
-An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. Now in this task, we will create a new application group of ‘Remote application’ type named *WVD-AG-01* and then assigning your user account to it. Then we will publish two applications i.e. *Word* and *Excel* in the application group.
+An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. Now in this task, we will create a new application group of type ‘Remote application’ and name it *WVD-AG-01* for assigning the user account to it. Then we will publish two applications i.e. *Word* and *Excel* in the application group.
 
 1. Navigate to Azure portal, then search for *Windows Virtual Desktop* in search bar and select **Windows Virtual Desktop** from the suggestions.
 
@@ -58,17 +58,17 @@ An application group of type ‘Desktop’ was created automatically while creat
 10. In the assignments section, you can add the user whom should be given access to WVD solution on this application group. 
 
 11. Click on the **+Add Azure AD users or user groups**, then copy and paste your username **<inject key="AzureAdUserEmail" />** in the search bar. When your username appears under the search bar, select it and then click on **Select** button.
-
-    ![ws name.](media/88.png)
+ 
+   ![ws name.](media/88.png)
 
 12. Now click on **Next:Applications**. 
 
-    ![ws name.](media/w21.png)
+   ![ws name.](media/w21.png)
 
 
-13. On the **Applications** section, click on **Add Applications** to publish applications in the Session Host. 
+13. On the **Applications** section, click on **Add Applications** to add applications to this application group. 
 
-    ![ws name.](media/76.png)
+   ![ws name.](media/76.png)
 
 
 14. In this window, choose the parameters as mentioned below: 
@@ -77,11 +77,11 @@ An application group of type ‘Desktop’ was created automatically while creat
    - Application: **Excel**
    - Leave rest of the parameters to be on default settings and click on **Save**.
    
-   ![ws name.](media/a34.png)
+  ![ws name.](media/a34.png)
  
-15. Click on **Add Application** again. 
+15. Click on **Add Applications** again. 
 
-    ![ws name.](media/31.png)
+   ![ws name.](media/31.png)
 
 16. Choose the parameters as mentioned below: 
 
@@ -89,13 +89,14 @@ An application group of type ‘Desktop’ was created automatically while creat
    - Application: **Word**   
    - Leave rest of the parameters to be on default settings and click on **Save**.
 
+   
    ![ws name.](media/77.png)
 
 17. Now click on **Next:Workspace**. 
 
-    ![ws name.](media/78.png)
+   ![ws name.](media/78.png)
 
-18. In the Workspace section, you choose if the Application Group should be registered now or later.  
+18. In the Workspace section, we can choose to register the Application Group now or we can also register it later.  
 
    - Register Application Group: **Yes**
    - **WVD-WS-01** workspace will be selected by default, since the default ‘Desktop’ type application group on the same Session Host *(WVD-HP01-SH-01)* is registered to this workspace.
@@ -106,7 +107,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/35.png)
 
-20. You will get a provision to validate the settings in the validation page. If everything looks correct, click on **Create**. 
+20. A provision to validate the settings will be available on the validation page. If everything looks correct, click on **Create**. 
 
    ![ws name.](media/80.png)
 
