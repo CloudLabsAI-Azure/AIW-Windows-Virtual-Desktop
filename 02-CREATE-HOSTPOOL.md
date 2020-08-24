@@ -28,7 +28,7 @@ Host pools are a collection of one or more identical virtual machines within Win
  
 ### **Task 2: Create Host Pool**
 
-In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled type, then adding two session hosts (virtual machines) i.e. *WVD-HP01-SH-0* and *WVD-HP01-SH-01*  and register the default desktop application group from this hostpool to a new workspace named *WVD-WS-01*.
+In this exercise, we will create a host pool named *WVD-HP-01* of pooled type, then add two session hosts (virtual machines) i.e. *WVD-HP01-SH-0* and *WVD-HP01-SH-01*  and register the default desktop application group from this hostpool to a new workspace named *WVD-WS-01*.
 
 1. On **Azure portal** search for *Windows Virtual Desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
 
@@ -112,7 +112,7 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
  
    ![ws name.](media/w3.png)
  
-  **C**. Domain and Administrator account:
+  **C**. Administrator Account details:
   
    - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
