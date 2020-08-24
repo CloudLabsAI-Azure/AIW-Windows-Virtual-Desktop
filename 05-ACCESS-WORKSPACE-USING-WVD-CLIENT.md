@@ -4,7 +4,7 @@ WVD Client is a Windows Application through which we can connect to our windows 
 
 ## **Task 1: Access the Published Applications using WVD Client**
 
-Now as we have published remote applications in previous exercise 2, here we will be accessing them using WVD Client.
+In exercise 2 we published remote type applications, here we will be accessing them using WVD Client.
 
 1. Download the **WVD Client** on your local machine from the following [**Link**](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-and-10) by clicking on **Windows 64-bit**.
    
