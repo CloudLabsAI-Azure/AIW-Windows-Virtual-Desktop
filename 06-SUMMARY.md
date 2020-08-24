@@ -1,7 +1,7 @@
 # **Summary**
 
 
-## **These are the aspects we covered through this lab:**
+## **These are the topics we covered in this lab:**
 
 - Creating host pools of *Pooled* type and utilizing it as per the needs of the users/ organizations needs.
 
