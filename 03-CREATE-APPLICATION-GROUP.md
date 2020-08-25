@@ -97,7 +97,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/78.png)
 
-17. In the *Workspace* tab, we can choose to register the Application Group now or we can also register it later.  
+17. In the *Workspace* tab, choose the parameters as mentioned below:  
 
    - Register Application Group: **Yes**
    - **WVD-WS-01** workspace will be selected by default, since the default ‘Desktop’ type application group on the same Session Host *(WVD-HP01-SH-01)* is registered to this workspace.
@@ -108,16 +108,15 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/35.png)
 
-19. A provision to validate the settings will be available on the validation page. If everything looks correct, click on **Create**. 
+19. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
    ![ws name.](media/80.png)
 
-> **Note:** The deployment will take about 2 minutes to succeed.
+> **Note:** The deployment will take about a minute to succeed.
 
 20. Once the deployment is complete, open notifications and click on **Go to Resource**. 
 
    ![ws name.](media/81.png)
-
 
 21. Now in the Application Group Window that comes up, click on **Applications** present under **Manage** and you will see that the applications are published in the application Group. 
 
