@@ -43,15 +43,15 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/a18.png)
 
-9. Under the *Basics* section, fill the parameters as mentioned below: 
-
-      - Subscription: *Select the default subscription*.
-      - Resource Group: *Select **WVD-RG** from the drop down*.
-      - Host Pool: *Leave to default (i.e., WVD-HP-01)*
-      - Location: *Leave to default (i.e., East US)*
-      - Application Group Type: **RemoteApp** 
-      - Application Group Name: **WVD-AG-01**
-      - Click on **Next:Assignments**
+9. For *Basics* section, follow the points mentioned below: 
+   i.  Leave the following parameters to default:
+         - *Subscription*
+         - *Host Pool*
+         - *Location*
+   ii.  Fill the left parameters as mentioned below and then click on **Next:Assignments**:   
+         - Resource Group: *Select **WVD-RG** from the drop down*.
+         - Application Group Type: **RemoteApp** 
+         - Application Group Name: **WVD-AG-01**
 
    ![ws name.](media/w23.png)
 
