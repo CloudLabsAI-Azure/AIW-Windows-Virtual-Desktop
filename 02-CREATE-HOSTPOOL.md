@@ -79,11 +79,9 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    > - **Depth-first** load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
      
    - Then click on **Next:Virtual Machines**.
-          
-          
+   
    ![ws name.](media/w10.png)  
    
-
 5. In the Virtual machines tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool. 
 
    ![ws name.](media/66.png)
