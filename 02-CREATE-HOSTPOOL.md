@@ -156,13 +156,13 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
 
     ![ws name.](media/71.png)
 
-> **Note:** In case the previous deployment for Host Pool fails, follow the below steps else continue from step 13:
+> **Note:** In case the previous deployment for Host Pool fails, follow the below steps. Else, continue from step 13:
 >
 >i. Go to the **WVD-RG** resource group and click on **Overview**.
 >
 >    ![ws name.](media/w15.png)
 > 
->ii. Select the resources highlighted in the image below, then click on ellipsis in the top-right corner and click on delete. Make sure you **DO NOT** delete any other resources than the ones shown in screenshot below.
+>ii. Select the resources highlighted in the image below, then click on ellipsis in the top-right corner and click on delete. Make sure you **DO NOT** delete any other resources other than the ones shown in screenshot below.
 >
 >   ![ws name.](media/w27.png)
 >
@@ -171,18 +171,18 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
 >    ![ws name.](media/w28.png)
 >
 >iv. Once the resources get deleted, then perform Task 1 from Step 1 to Step 11 to create the Host Pool again.
-
-
-13. Now wait for the deployment to succeed. When it gets succeeded, open the notifications and click on **Go to Resource**.  
-
-    ![ws name.](media/71.png) 
+>
+>
+>v. Now wait for the deployment to succeed. When it gets succeeded, open the notifications and click on **Go to Resource**.  
+>
+>   ![ws name.](media/71.png) 
 
 14. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
 
     ![ws name.](media/w29.png)
 
 
-15. Click on **Session Hosts**. Notice the Session Hosts created, with a name concatenating the Name Prefix and increment number. 
+15. Now click on **Session Hosts** present under **Manage** blade. Here you can view the session hosts created. 
 
     ![ws name.](media/86.png)
 
