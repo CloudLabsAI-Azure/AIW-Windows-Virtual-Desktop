@@ -2,7 +2,7 @@
 
 ## **Task 1: Access the Published Application**
 
-In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise.
+In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using browser.
 
 1. Use the link ```aka.ms/wvdarmweb``` and enter your **credentials** to login. 
 
