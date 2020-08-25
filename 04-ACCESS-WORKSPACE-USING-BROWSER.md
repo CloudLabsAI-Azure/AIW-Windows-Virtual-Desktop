@@ -33,7 +33,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/89.png)
       
-5. The word application will launch and will look similar to the screenshot below.
+5. The Word application will launch and will look similar to the screenshot below.
 
    ![ws name.](media/130.png)
 
