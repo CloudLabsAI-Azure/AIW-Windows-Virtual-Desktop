@@ -44,4 +44,6 @@ A workspace is a logical grouping of application groups in the Windows Virtual D
 
 After you've assigned users to their application groups, they can connect to a Windows Virtual Desktop deployment with any of the Windows Virtual Desktop clients. 
 
+
+
 Click on the **Next** button present in the bottom-right corner of this lab guide.  
