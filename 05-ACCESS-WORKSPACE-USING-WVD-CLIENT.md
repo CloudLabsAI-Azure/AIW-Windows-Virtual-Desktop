@@ -4,30 +4,33 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 ## **Task 1: Access the Published Applications**
 
-1. Download the **WVD Client** on your local machine from the following [**Link**](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-and-10) by clicking on **Windows 64-bit**.
+1. Open the following URL in a new browser tab.
+
+   ```https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10#install-the-windows-desktop-client```
+
+2. Under *Install the Windows Desktop Client*, click on **Windows 64-bit**. This will download the **WVD Client** on your local machine.
    
    ![ws name.](media/a48.png)
-   
-   
-2. Then open the setup and click **Next** on the Welcome page of setup.
+      
+3. After the download completes, open the setup to run it. Then on the Welcome page of setup click on **Next**.
 
-3. Check the agreement box and click on **Next**.
+4. Check the agreement box and click on **Next**.
 
-4. On **Installation scope** window select **Install just for you** and then click on **Install**.
+5. On **Installation scope** window select **Install just for you** and then click on **Install**.
 
    ![ws name.](media/wvd41.png)
 
-5. After installation, in your local machine go to **Start** and search for **Remote desktop** and open the application with exact icon as shown below.
+6. After installation, in your local machine go to **Start** and search for **Remote desktop** and open the application with exact icon as shown below.
 
    ![ws name.](media/137.png)
    
    
-6. After the application opens click on **Subscribe**.
+7. After the application opens click on **Subscribe**.
 
    ![ws name.](media/a49.png)
   
   
-7. Enter your **credentials** to access the workspace.
+8. Enter your **credentials** to access the workspace.
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
@@ -38,17 +41,17 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/96.png)
    
    
-8. Make sure to **uncheck** *Allow my organization to manage my device* and click on **This app only**.
+9. Make sure to **uncheck** *Allow my organization to manage my device* and click on **This app only**.
 
    ![ws name.](media/55.png)
    
    
-9. Now double click on either Word or Excel application that you want to access. Here we are selecting **Excel**. 
+10. Now double click on either Word or Excel application that you want to access. Here we are selecting **Excel**. 
 
    ![ws name.](media/excel.png)
    
 
-10. Enter your **lab credentials** to access the Application.
+11. Enter your **lab credentials** to access the Application.
 
    - Username: **<inject key="AzureAdUserEmail" />** 
    - Password: **<inject key="AzureAdUserPassword" />**
@@ -56,16 +59,16 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/89.png)
    
 
-11. Wait for your application to connect.
+12. Wait for your application to connect.
 
    ![ws name.](media/58.png)
    
 
-12. The Excel application will launch and will look similar to the screenshot below.
+13. The Excel application will launch and will look similar to the screenshot below.
 
    ![ws name.](media/w13.png) 
     
-13. You can exit the sign-in window of Excel Application by clicking on close button.
+14. You can exit the sign-in window of Excel Application by clicking on close button.
 
    ![ws name.](media/w11.png)
    
