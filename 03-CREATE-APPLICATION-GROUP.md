@@ -106,7 +106,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 18. Click on **Review + Create**
 
-   ![ws name.](media/35.png)
+   ![ws name.](media/review.png)
 
 19. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
