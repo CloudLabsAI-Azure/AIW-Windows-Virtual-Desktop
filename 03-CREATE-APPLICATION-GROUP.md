@@ -68,7 +68,7 @@ An application group of type ‘Desktop’ was created automatically while creat
    ![ws name.](media/w21.png)
 
 
-12. On the **Applications** section, click on **Add Applications** to add applications to this application group. 
+12. On the *Applications* tab, click on **Add Applications** to add applications to this application group. 
 
    ![ws name.](media/76.png)
 
@@ -77,20 +77,19 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    - Application Source: **Start Menu**    
    - Application: **Excel**
-   - Leave rest of the parameters to be on default settings and click on **Save**.
+   - Leave rest of the parameters to default and click on **Save**.
    
   ![ws name.](media/a34.png)
  
 14. Click on **Add Applications** again. 
 
-   ![ws name.](media/31.png)
+   ![ws name.](media/addapp.png)
 
 15. Choose the parameters as mentioned below: 
 
    - Application Source: **Start Menu**    
    - Application: **Word**   
-   - Leave rest of the parameters to be on default settings and click on **Save**.
-
+   - Leave rest of the parameters to default and click on **Save**.  
    
    ![ws name.](media/77.png)
 
@@ -98,7 +97,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/78.png)
 
-17. In the Workspace section, we can choose to register the Application Group now or we can also register it later.  
+17. In the *Workspace* tab, we can choose to register the Application Group now or we can also register it later.  
 
    - Register Application Group: **Yes**
    - **WVD-WS-01** workspace will be selected by default, since the default ‘Desktop’ type application group on the same Session Host *(WVD-HP01-SH-01)* is registered to this workspace.
