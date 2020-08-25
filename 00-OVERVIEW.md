@@ -1,9 +1,9 @@
 # **Overview** 
    
-Windows Virtual Desktop (WVD) is a desktop and app virtualization service that runs on the cloud. It is a multi-tenant service hosted by Microsoft Azure and manages connections between Remote Desktop clients and isolated Windows Virtual Desktop environments. Since it is on the cloud, you know it’s always up to date, secure, and highly scalable. You can connect to the Virtual Desktop running on Azure from anywhere in the world on any device. Also, it leverages the capability to control and monitor the resources needed for the users. Remote Desktop and App Virtualization provides access to an environment that is customized for user's needs, whether that is an app or desktop environment.
+Windows Virtual Desktop (WVD) is a desktop and app virtualization service that runs on the cloud. It is a multi-tenant service hosted by Microsoft Azure and manages connections between Remote Desktop clients and isolated Windows Virtual Desktop environments. Since it is on the cloud, it’s always up to date, secure, and highly scalable. You can connect to the Virtual Desktop running on Azure from anywhere in the world on any device. Also, it leverages the capability to control and monitor the resources needed for the users. Remote Desktop and App Virtualization provides access to an environment that is customized for user's needs, whether that is an app or desktop environment.
 
 
-WVD offers support for a lot of Azure VM sizes. One of the interesting features is the support for Windows 7, on top of support for Windows 10 Enterprise multi-session, Windows Server 2019, Windows Server 2016, and Windows 10 Enterprise. WVD is optimized for Office 365 services, with full Teams video & audio functionality and fast, reliable experience from OneDrive. Windows Virtual Desktop is an appealing option to users as it is easy to implement, provide cost and time savings, enhanced security, and increase employee efficiency.
+WVD offers support for a lot of Azure VM sizes. One of the interesting features is the support for Windows 7, on top of support for Windows 10 Enterprise multi-session, Windows Server 2019, Windows Server 2016, and Windows 10 Enterprise. WVD is optimized for Office 365 services, with full Teams video & audio functionality and fast, reliable experience for OneDrive. Windows Virtual Desktop is an appealing option to users as it is easy to implement, provide cost and time savings, enhanced security, and increase employee efficiency.
 
 ## **General Hierarchy**
 
@@ -35,13 +35,6 @@ By default, a desktop application group (named "Desktop Application Group") is a
 
  
 
-To publish resources to users, you must assign them to application groups. When assigning users to application groups, consider the following things: 
-
- 
-
-1. A user can be assigned to both - a desktop application group and a RemoteApp application group in the same host pool. However, users can only launch one type of application group per session. Users can't launch both types of application groups at the same time in a single session. 
-
-2. A user can be assigned to multiple application groups within the same host pool, and their feed will be an accumulation of both application groups. 
 
 ### **Workspaces** 
 
@@ -50,5 +43,7 @@ A workspace is a logical grouping of application groups in the Windows Virtual D
 ### **End User Experience**
 
 After you've assigned users to their application groups, they can connect to a Windows Virtual Desktop deployment with any of the Windows Virtual Desktop clients. 
+
+
 
 Click on the **Next** button present in the bottom-right corner of this lab guide.  
