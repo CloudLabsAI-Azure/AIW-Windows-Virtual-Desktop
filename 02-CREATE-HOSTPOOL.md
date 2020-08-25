@@ -119,10 +119,9 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
    - Confirm Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *again.*
    
-   
-   >**Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
-
    ![ws name.](media/w2.png)
+   
+> **Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
    
 7. Click on **Next: Workspace** to proceed. 
 
