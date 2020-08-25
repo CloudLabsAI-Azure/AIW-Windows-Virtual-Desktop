@@ -51,7 +51,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/excel.png)
    
 
-11. Enter your **lab credentials** to access the Application.
+11. Enter the lab credentials to access the Application.
 
    - Username: **<inject key="AzureAdUserEmail" />** 
    - Password: **<inject key="AzureAdUserPassword" />**
@@ -84,7 +84,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/100.png)
    
 
-3. Enter your **lab credentials** to access the Desktop.
+3. Enter the lab credentials to access the Desktop.
 
    - Username: **<inject key="AzureAdUserEmail" />** 
    - Password: **<inject key="AzureAdUserPassword" />**
