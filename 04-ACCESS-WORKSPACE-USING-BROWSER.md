@@ -8,7 +8,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ```aka.ms/wvdarmweb``` 
 
-2. Enter your **credentials** to login. 
+2. Now to login, enter the lab credentials as mentioned below:
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
@@ -29,7 +29,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/128.png)
 
 
-5. Enter your **lab credentials** to access the application and click on **Submit**.
+5. Enter the lab credentials to access the application and click on **Submit**.
 
    - Username: **<inject key="AzureAdUserEmail" />** 
   
@@ -62,7 +62,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/93.png)
 
 
-4. Enter your **lab credentials** to access the application and click on **Submit**.
+4. Enter the lab credentials to access the application and click on **Submit**.
 
    - Username: **<inject key="AzureAdUserEmail" />** 
   
