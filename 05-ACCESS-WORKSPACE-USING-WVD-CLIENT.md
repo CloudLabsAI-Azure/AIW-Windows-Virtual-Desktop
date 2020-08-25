@@ -1,10 +1,8 @@
 # **Exercise 4: Access the Published Applications/ Desktop using WVD Client**
 
-WVD Client is a Windows Application through which we can connect to our windows virtual desktop environment.
+In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using WVD client
 
-## **Task 1: Access the Published Applications using WVD Client**
-
-In exercise 2 we published remote type applications, here we will be accessing them using WVD Client.
+## **Task 1: Access the Published Applications**
 
 1. Download the **WVD Client** on your local machine from the following [**Link**](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-and-10) by clicking on **Windows 64-bit**.
    
@@ -31,11 +29,11 @@ In exercise 2 we published remote type applications, here we will be accessing t
   
 7. Enter your **credentials** to access the workspace.
 
-   - Username: **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
+   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
    ![ws name.](media/95.png)
 
-   - Password: **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
 
    ![ws name.](media/96.png)
    
@@ -50,7 +48,7 @@ In exercise 2 we published remote type applications, here we will be accessing t
    ![ws name.](media/excel.png)
    
 
-10. Enter your **credentials** to access the Application.
+10. Enter your **lab credentials** to access the Application.
 
    - Username: **<inject key="AzureAdUserEmail" />** 
    - Password: **<inject key="AzureAdUserPassword" />**
@@ -63,28 +61,27 @@ In exercise 2 we published remote type applications, here we will be accessing t
    ![ws name.](media/58.png)
    
 
-12. Your Application will launch, and will be ready to use.
+12. The Excel application will launch and will look similar to the screenshot below.
 
    ![ws name.](media/w13.png) 
     
-13. You can close this Excel Application session now by clicking on close button.
+13. You can exit the sign-in window of Excel Application by clicking on close button.
 
    ![ws name.](media/w11.png)
    
-## **Task 2: Access the Workspace Desktop using WVD Client**
+## **Task 2: Access the Virtual Desktop**
 
-In this task we will be accessing the desktop type application named *WVD-HP-01-DAG* created by default when we created *WVD-HP-01* host pool using WVD Client.
 
-1. In your local machine go to **Start** and search for **Remote desktop** and open the Application with exact Icon as shown below.
+1. In your local machine go to **Start** and search for **Remote desktop** and open the Application with icon similar to the one shown below.
 
    ![ws name.](media/51.png)
  
-2. Now double click on **WVD-HP-01-DAG** Desktop to access it.
+2. The WVD client application will launch and we will land on the WVD dashboard. Click on the tile named **WVD-HP-01-DAG** to launch the desktop.
 
    ![ws name.](media/100.png)
    
 
-3. Enter your **credentials** to access the Desktop.
+3. Enter your **lab credentials** to access the Desktop.
 
    - Username: **<inject key="AzureAdUserEmail" />** 
    - Password: **<inject key="AzureAdUserPassword" />**
@@ -97,7 +94,7 @@ In this task we will be accessing the desktop type application named *WVD-HP-01-
    ![ws name.](media/62.png)
    
 
-5. Your virtual desktop will launch and it should be ready to use.
+5. Your virtual desktop will launch.
         
    ![ws name.](media/63.png)   
     
