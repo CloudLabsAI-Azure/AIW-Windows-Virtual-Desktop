@@ -73,6 +73,6 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 5. Now the virtual desktop will launch. 
 
-   ![ws name.](media/49.png)
+   ![ws name.](media/w32.png)
    
 6. Click on the **Next** button present in the bottom-right corner of this lab guide. 
