@@ -121,8 +121,7 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    
    
    >**Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
-   
-   
+
    ![ws name.](media/w2.png)
    
 7. Click on **Next: Workspace** to proceed. 
