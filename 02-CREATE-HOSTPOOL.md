@@ -18,11 +18,11 @@ Host pools are a collection of one or more identical virtual machines within Win
 
 > **Note:** If there's a popup entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.
 >
->  ![](media/w26.png)
+>   ![](media/w26.png)
 >   
 > **Note:** If there's another popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
 >
->  ![](media/wvd4.png)
+>   ![](media/wvd4.png)
   
  
  
@@ -177,15 +177,15 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
 >
 >   ![ws name.](media/71.png) 
 
-14. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
+13. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
 
     ![ws name.](media/w29.png)
 
 
-15. Now click on **Session Hosts** present under **Manage** blade. Here you can view the session hosts created. 
+14. Now click on **Session Hosts** present under **Manage** blade. Here you can view the session hosts created. 
 
     ![ws name.](media/86.png)
 
 
 
-16. Click on the **Next** button present in the bottom-right corner of this lab guide.  
+15. Click on the **Next** button present in the bottom-right corner of this lab guide.  
