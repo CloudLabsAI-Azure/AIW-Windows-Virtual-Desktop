@@ -43,7 +43,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/a18.png)
 
-9. For *Basics* section, follow the points mentioned below: 
+9. In the *Basics* tab, do the following configuration: 
 
   i.  Leave the following parameters to default:
    
@@ -51,7 +51,7 @@ An application group of type ‘Desktop’ was created automatically while creat
    - *Host Pool*
    - *Location*
          
-  ii.  Fill the left parameters as mentioned below and then click on **Next:Assignments**:  
+  ii.  Fill the remaining parameters as mentioned below and then click on **Next:Assignments**:  
    
    - Resource Group: *Select **WVD-RG** from the drop down*.
    - Application Group Type: **RemoteApp** 
