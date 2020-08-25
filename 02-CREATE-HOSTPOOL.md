@@ -156,21 +156,21 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
 >
 >i.   Go to the **WVD-RG** resource group and click on **Overview**.
 >
->     ![ws name.](media/w15.png)
+>    ![ws name.](media/w15.png)
 > 
 >ii.  Select the resources highlighted in the image below, then click on ellipsis in the top-right corner and click on delete. Make sure you **DO NOT** delete any other resources other than the ones shown in screenshot below.
 >
->     ![ws name.](media/w27.png)
+>    ![ws name.](media/w27.png)
 >
 >iii. Now under *Confirm delete* type **yes** in the bar and click on **Delete**.
 > 
->     ![ws name.](media/w28.png)
+>    ![ws name.](media/w28.png)
 >
 >iv.  Once the resources get deleted, then perform Task 1 from Step 1 to Step 11 to create the Host Pool again.
 >
 >v.   Now wait for the deployment to succeed. When it gets succeeded, open the notifications and click on **Go to Resource**.  
 >
->     ![ws name.](media/71.png) 
+>    ![ws name.](media/71.png) 
 
 13. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
 
