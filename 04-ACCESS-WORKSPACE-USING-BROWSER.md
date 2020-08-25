@@ -2,7 +2,7 @@
 
 ## **Task 1: Access the Published Application**
 
-Now as we have published remote applications in previous exercise, now we will be accessing them using the web browser.
+In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise.
 
 1. Use the link ```aka.ms/wvdarmweb``` and enter your **credentials** to login. 
 
@@ -15,7 +15,7 @@ Now as we have published remote applications in previous exercise, now we will b
    ![ws name.](media/96.png)
   
 
-2. Now the WVD dashboard will open. Click on any one of the applications you want to access. Here we are selecting **Word**. 
+2. Now the WVD dashboard will launch. Click on **Word** application to access it. Here we are selecting **Word**. 
 
    ![ws name.](media/a46.png)
 
@@ -33,7 +33,7 @@ Now as we have published remote applications in previous exercise, now we will b
 
    ![ws name.](media/89.png)
       
-5. Your application will launch and look similar to the one shown below.
+5. The word application will launch and will look similar to the screenshot below.
 
    ![ws name.](media/130.png)
 
@@ -43,12 +43,12 @@ Now as we have published remote applications in previous exercise, now we will b
    
 ## **Task 2: Access the published Desktop**
 
-1. Now on the top-left side click on **All Resources**.
+1. Now on the top-left side, click on **All Resources**.
    
    ![ws name.](media/w12.png)
    
    
-2. Here you will be inside the WVD dashboard with all the Desktop and Applications visible. Click on the **WVD-HP-01-DAG** Desktop to access your desktop type application.
+2. We will land on the WVD dashboard again. Click on the tile named WVD-HP-01-DAG to launch the desktop.
 
    ![ws name.](media/92.png)
 
@@ -58,7 +58,7 @@ Now as we have published remote applications in previous exercise, now we will b
    ![ws name.](media/93.png)
 
 
-4. Enter your **credentials** to access the application and click on **Submit**.
+4. Enter your **lab credentials** to access the application and click on **Submit**.
 
    - Username: **<inject key="AzureAdUserEmail" />** 
   
