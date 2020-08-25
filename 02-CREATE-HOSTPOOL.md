@@ -158,36 +158,36 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
 
     ![ws name.](media/71.png)
 
-> **Note:** In case the previous deployment for Host Pool failed, follow step 13 to 16:
+> **Note:** In case the previous deployment for Host Pool fails, follow the below steps else continue from step 13:
 >
->13. Go to the **WVD-RG** resource group and click on **Overview**.
+>i. Go to the **WVD-RG** resource group and click on **Overview**.
 >
 >    ![ws name.](media/w15.png)
 > 
->14. Select the resources highlighted in the image below, then click on ellipsis in the top-right corner and click on delete. Make sure you **DO NOT** delete any other resources than the ones shown in screenshot below.
+>ii. Select the resources highlighted in the image below, then click on ellipsis in the top-right corner and click on delete. Make sure you **DO NOT** delete any other resources than the ones shown in screenshot below.
 >
 >   ![ws name.](media/w27.png)
 >
->15. Now under *Confirm delete* type **yes** in the bar and click on **Delete**.
+>iii. Now under *Confirm delete* type **yes** in the bar and click on **Delete**.
 > 
 >    ![ws name.](media/w28.png)
 >
->16. Once the resources get deleted, then perform Task 1 from Step 1 to Step 11 to create the Host Pool again.
+>iv. Once the resources get deleted, then perform Task 1 from Step 1 to Step 11 to create the Host Pool again.
 
 
-17. Now wait for the deployment to succeed. When it gets succeeded, open the notifications and click on **Go to Resource**.  
+13. Now wait for the deployment to succeed. When it gets succeeded, open the notifications and click on **Go to Resource**.  
 
     ![ws name.](media/71.png) 
 
-18. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
+14. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
 
     ![ws name.](media/w29.png)
 
 
-19. Click on **Session Hosts**. Notice the Session Hosts created, with a name concatenating the Name Prefix and increment number. 
+15. Click on **Session Hosts**. Notice the Session Hosts created, with a name concatenating the Name Prefix and increment number. 
 
     ![ws name.](media/86.png)
 
 
 
-20. Click on the **Next** button present in the bottom-right corner of this lab guide.  
+16. Click on the **Next** button present in the bottom-right corner of this lab guide.  
