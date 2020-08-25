@@ -15,7 +15,7 @@ Now as we have published remote applications in previous exercise, now we will b
    ![ws name.](media/96.png)
   
 
-2. Now you will be directed to the WVD dashboard with all the Desktop and Applications visible. Click on any one of the applications you want to access. Here we are selecting **Word**. 
+2. Now the WVD dashboard will open. Click on any one of the applications you want to access. Here we are selecting **Word**. 
 
    ![ws name.](media/a46.png)
 
@@ -25,7 +25,7 @@ Now as we have published remote applications in previous exercise, now we will b
    ![ws name.](media/128.png)
 
 
-4. Enter your **credentials** to access the application and click on **Submit**.
+4. Enter your **lab credentials** to access the application and click on **Submit**.
 
    - Username: **<inject key="AzureAdUserEmail" />** 
   
@@ -48,7 +48,7 @@ Now as we have published remote applications in previous exercise, now we will b
    ![ws name.](media/w12.png)
    
    
-2. Here you will be inside the WVD dashboard with all the Desktop and Applications visible. Click on the **WVD-HP-01-DAG** Desktop to access it. 
+2. Here you will be inside the WVD dashboard with all the Desktop and Applications visible. Click on the **WVD-HP-01-DAG** Desktop to access your desktop type application.
 
    ![ws name.](media/92.png)
 
@@ -67,7 +67,7 @@ Now as we have published remote applications in previous exercise, now we will b
    ![ws name.](media/89.png)
 
 
-5. Your virtual Desktop will launch, and it should be ready to use. 
+5. Now the virtual desktop will launch. 
 
    ![ws name.](media/49.png)
    

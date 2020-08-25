@@ -1,6 +1,6 @@
 # **Pre-requisites to deploy Windows Virtual Desktop**
 
-- To deploy Windows Virtual Desktop environment, we need a pre-created windows domain (for example: contoso.com). This can be achieved using one of the following ways:
+- To deploy Windows Virtual Desktop environment, we need a Windows Active Directory (for example: contoso.com). This can be achieved using one of the following ways:
 
     1. Azure Active Directory Domain Services(AADDS)
     2. Windows Active Directory
@@ -12,4 +12,4 @@
 
 - The domain name will be the suffix of your lab user account (for example: If your lab user account is ***odl_user_189588@azurehol1057.onmicrosoft.com***, the domain will be ***azurehol1057.onmicrosoft.com***.) 
 
-- Your lab user account is given ‘AAD DC Administrator’ privilege, hence can be used to domain join machines later. 
+- When you provision Azure ADDS, it creates a group named "AAD DC Administrators" in Azure Active Directory. Members of this users are allowed to be able to join WVD Sessions Hosts to Azure ADDS.  Your lab account is already a member of this group. 

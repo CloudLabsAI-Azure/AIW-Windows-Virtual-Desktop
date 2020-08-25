@@ -23,20 +23,19 @@ Host pools are a collection of one or more identical virtual machines within Win
 > **Note:** If there's another popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
 >
 >  ![](media/wvd4.png)
-
-4. Click on the **Next** button present in the bottom-right corner of this lab guide.  
+  
  
  
 ### **Task 2: Create Host Pool**
 
-In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled type, then adding two session hosts (virtual machines) i.e. *WVD-HP01-SH-0* and *WVD-HP01-SH-01*  and registering them under a new workspace named *WVD-WS-01*.
+In this exercise, we will create a host pool named *WVD-HP-01* of pooled type, then add two session hosts (virtual machines) i.e. *WVD-HP01-SH-0* and *WVD-HP01-SH-01*  and register the default desktop application group from this hostpool to a new workspace named *WVD-WS-01*.
 
 1. On **Azure portal** search for *Windows Virtual Desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
  
 
-2. You will get directed towards the Windows Virtual Desktop (hereafter referred to as WVD) management window.  
+2. You will get directed towards the Windows Virtual Desktop (here after referred to as WVD) management window.  
 
    ![ws name.](media/64.png)
 
@@ -78,7 +77,9 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
      
    - Then click on **Next:Virtual Machines**.
           
+          
    ![ws name.](media/w10.png)  
+   
 
 5. In the Virtual machines tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool. 
 
@@ -111,7 +112,7 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
  
    ![ws name.](media/w3.png)
  
-  **C**. Domain and Administrator account:
+  **C**. Administrator Account details:
   
    - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
@@ -146,11 +147,11 @@ In this exercise, we will be creating a host pool named *WVD-HP-01* of pooled ty
 
 > **Note:** The deployment will take about 30 minutes to succeed.
 
-12. Once the deployment gets succeeded, open notifications and click on **Go to Resource**.  
+12. Once the deployment is succeeded, open notifications and click on **Go to Resource**.  
 
     ![ws name.](media/71.png)
 
-> **Note:** In case you face deployment failure for Host Pool, then follow the steps given below:
+> **Note:** In case of deployment failure for Host Pool, then follow step 13 to 16:
 
 13. Go to your **WVD-RG** resource group and click on **Overview**.
 
