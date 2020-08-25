@@ -21,11 +21,8 @@ You can set additional properties on the host pool to change its load-balancing 
 
 ### **Application Groups**
 
- 
 
 An Application group is a logical grouping of applications installed on session hosts in the host pool. An application group can be one of two types: 
-
- 
 
 1. **RemoteApp**, where users access the RemoteApps you individually select and publish to the application group .
 
@@ -38,9 +35,9 @@ By default, a desktop application group (named "Desktop Application Group") is a
 
 ### **Workspaces** 
 
-A workspace is a logical grouping of application groups in the Windows Virtual Desktop. Each Windows Virtual Desktop application group must be associated with a workspace for users to see the remote applications and desktops published to them. 
+A workspace is a logical grouping of application groups in Windows Virtual Desktop. Each Windows Virtual Desktop application group must be associated with a workspace for users to see the remote apps and desktops published to them. 
 
-### **End User Experience**
+### **End users**
 
 After you've assigned users to their application groups, they can connect to a Windows Virtual Desktop deployment with any of the Windows Virtual Desktop clients. 
 
