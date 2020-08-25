@@ -59,23 +59,21 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/w23.png)
 
-10. In the assignments section, you can add the user whom should be given access to WVD solution on this application group. 
-
-11. Click on the **+Add Azure AD users or user groups**, then copy and paste your username **<inject key="AzureAdUserEmail" />** in the search bar. When your username appears under the search bar, select it and then click on **Select** button.
+10. Click on the **+Add Azure AD users or user groups**, then copy and paste your username **<inject key="AzureAdUserEmail" />** in the search bar. When your username appears under the search bar, select it and then click on **Select** button. This will give you the access to application group.
  
    ![ws name.](media/88.png)
 
-12. Now click on **Next:Applications**. 
+11. Now click on **Next:Applications**. 
 
    ![ws name.](media/w21.png)
 
 
-13. On the **Applications** section, click on **Add Applications** to add applications to this application group. 
+12. On the **Applications** section, click on **Add Applications** to add applications to this application group. 
 
    ![ws name.](media/76.png)
 
 
-14. In this window, choose the parameters as mentioned below: 
+13. In this window, choose the parameters as mentioned below: 
 
    - Application Source: **Start Menu**    
    - Application: **Excel**
@@ -83,11 +81,11 @@ An application group of type ‘Desktop’ was created automatically while creat
    
   ![ws name.](media/a34.png)
  
-15. Click on **Add Applications** again. 
+14. Click on **Add Applications** again. 
 
    ![ws name.](media/31.png)
 
-16. Choose the parameters as mentioned below: 
+15. Choose the parameters as mentioned below: 
 
    - Application Source: **Start Menu**    
    - Application: **Word**   
@@ -96,34 +94,34 @@ An application group of type ‘Desktop’ was created automatically while creat
    
    ![ws name.](media/77.png)
 
-17. Now click on **Next:Workspace**. 
+16. Now click on **Next:Workspace**. 
 
    ![ws name.](media/78.png)
 
-18. In the Workspace section, we can choose to register the Application Group now or we can also register it later.  
+17. In the Workspace section, we can choose to register the Application Group now or we can also register it later.  
 
    - Register Application Group: **Yes**
    - **WVD-WS-01** workspace will be selected by default, since the default ‘Desktop’ type application group on the same Session Host *(WVD-HP01-SH-01)* is registered to this workspace.
 
    ![ws name.](media/w22.png)
 
-19. Click on **Review + Create**
+18. Click on **Review + Create**
 
    ![ws name.](media/35.png)
 
-20. A provision to validate the settings will be available on the validation page. If everything looks correct, click on **Create**. 
+19. A provision to validate the settings will be available on the validation page. If everything looks correct, click on **Create**. 
 
    ![ws name.](media/80.png)
 
 > **Note:** The deployment will take about 2 minutes to succeed.
 
-21. Once the deployment is complete, open notifications and click on **Go to Resource**. 
+20. Once the deployment is complete, open notifications and click on **Go to Resource**. 
 
    ![ws name.](media/81.png)
 
 
-22. Now in the Application Group Window that comes up, click on **Applications** present under **Manage** and you will see that the applications are published in the application Group. 
+21. Now in the Application Group Window that comes up, click on **Applications** present under **Manage** and you will see that the applications are published in the application Group. 
 
    ![ws name.](media/82.png)
 
-23. Click on the **Next** button present in the bottom-right corner of this lab guide. 
+22. Click on the **Next** button present in the bottom-right corner of this lab guide. 
