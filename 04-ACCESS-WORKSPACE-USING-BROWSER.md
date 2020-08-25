@@ -4,7 +4,11 @@
 
 In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using browser.
 
-1. Use the link ```aka.ms/wvdarmweb``` and enter your **credentials** to login. 
+1. Open the following URL in a new browser tab, this will lead us to the Remote Desktop Web Client.
+
+   ```aka.ms/wvdarmweb``` 
+
+2. Enter your **credentials** to login. 
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
@@ -15,17 +19,17 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/96.png)
   
 
-2. Now the WVD dashboard will launch. Click on **Word** application to access it. Here we are selecting **Word**. 
+3. Now the WVD dashboard will launch. Click on **Word** application to access it. Here we are selecting **Word**. 
 
    ![ws name.](media/a46.png)
 
 
-3. Now click on **Allow** for the prompt.
+4. Now click on **Allow** for the prompt.
 
    ![ws name.](media/128.png)
 
 
-4. Enter your **lab credentials** to access the application and click on **Submit**.
+5. Enter your **lab credentials** to access the application and click on **Submit**.
 
    - Username: **<inject key="AzureAdUserEmail" />** 
   
@@ -33,11 +37,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/89.png)
       
-5. The Word application will launch and will look similar to the screenshot below.
+6. The Word application will launch and will look similar to the screenshot below.
 
    ![ws name.](media/130.png)
 
-6. Now close this Word application session.
+7. Now close this Word application session.
 
    ![ws name.](media/w11.png)
    
