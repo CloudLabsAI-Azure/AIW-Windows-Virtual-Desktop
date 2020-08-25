@@ -3,28 +3,27 @@
 
 ## **These are the topics we covered in this lab:**
 
-- Creating host pools of *Pooled* type and utilizing it as per the needs of the users/ organizations needs.
+- Creating host pools of *Pooled* type and utilizing it as per the needs of the users/organizations.
 
-- Deploying *session hosts* i.e. virtual machines and using them to publish applications in windows desktop environment.
+- Deploying *session hosts* and using them to publish applications in Windows Virtual Desktop environment.
 
-- Creating an application group of type *Remote app* and *using the default desktop application group*.
+- Creating an application group of type *RemoteApp* and using the default *Desktop* application group.
 
-- Creating *workspaces* to have an isolated/ differentiated environment for the user while using windows virtual desktop. 
+- Creating *workspaces* to have an isolated/ differentiated environment for the user while using Windows Virtual Desktop. 
 
-- Registering application groups to the workspace.
+- Registering application groups to Workspace.
 
-- Publishing applications using the *Start menu* in the remote app type application groups.
+- Publishing applications using the *Start menu* in the RemoteApp type application groups.
 
-- Assigning users to the application groups and workspaces to allow/ restrict users from using certain applications.
+- Assigning users to the application groups and workspaces to allow/restrict users from using certain applications.
 
-- Accessing windows virtual desktop and published applications through the Browser and Client application.
+- Accessing Windows Virtual Desktop and published applications through Browser and WVD Client application.
 
 
 ## **Why Windows Virtual Desktop?**
 
 According to Gartner by 2023, 30% of all the on-premises VDI users will be accessing workspace in the cloud using DaaS!
 
-The yearly *VDI Like A Pro survey* lists Windows Virtual Desktop as number one as a response. Remote working is more popular than ever due to the current circumstances and further circumstances are still unexpected. This yearly research is a global initiative for and by the entire EUC community and answers independently how the market looks like.
 
 ![ws name.](media/g3.png)
 
