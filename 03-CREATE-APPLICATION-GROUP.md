@@ -7,7 +7,7 @@ As explained in the General Hierarchy section, Application Group is a logical gr
 
 ## **Task 1: Create Application Group**
 
-An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. Now in this task, we will create a new application group of type ‘*RemoteApp*’ and publish two applications in it. Also, we will assign users to both the application groups.
+An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. In this task, we will create a new application group of type ‘*RemoteApp*’ and publish two applications in it. Also, we will assign users to both the application groups.
 
 1. Navigate to Azure portal, then search for *Windows Virtual Desktop* in search bar and select **Windows Virtual Desktop** from the suggestions.
 
@@ -35,7 +35,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/w7.png)
    
-7. At last click on **Select** button. 
+7. At last, click on **Select** button. 
  
    ![ws name.](media/w6.png) 
  
@@ -53,7 +53,7 @@ An application group of type ‘Desktop’ was created automatically while creat
          
   ii.  Fill the remaining parameters as mentioned below and then click on **Next:Assignments**:  
    
-   - Resource Group: *Select **WVD-RG** from the drop down*.
+   - Resource Group: *Select **WVD-RG** from the dropdown*.
    - Application Group Type: **RemoteApp** 
    - Application Group Name: **WVD-AG-01**
 
@@ -75,8 +75,8 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 13. In this window, choose the parameters as mentioned below: 
 
-   - Application Source: **Start Menu**    
-   - Application: **Excel**
+   - Application Source: **Start Menu** *(choose from the dropdown)*  
+   - Application: **Excel** *(choose from the dropdown)* 
    - Leave rest of the parameters to default and click on **Save**.
    
   ![ws name.](media/a34.png)
@@ -87,11 +87,11 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 15. Choose the parameters as mentioned below: 
 
-   - Application Source: **Start Menu**    
-   - Application: **Word**   
+   - Application Source: **Start Menu** *(choose from the dropdown)*   
+   - Application: **Word** *(choose from the dropdown)*    
    - Leave rest of the parameters to default and click on **Save**.  
    
-   ![ws name.](media/77.png)
+   ![ws name.](media/word.png)
 
 16. Now click on **Next:Workspace**. 
 
