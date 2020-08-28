@@ -1,6 +1,6 @@
-# **Exercise 4: Access the Published Applications/ Desktop using WVD Client**
+# **Exercise 4: Access the Published Applications and Desktop using WVD Desktop Client**
 
-In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using WVD client
+In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using WVD Desktop client.
 
 ## **Task 1: Access the Published Applications**
 
@@ -8,7 +8,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ```https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10#install-the-windows-desktop-client```
 
-2. Under *Install the Windows Desktop Client*, click on **Windows 64-bit**. This will download the **WVD Client** on your local machine.
+2. Under *Install the Windows Desktop Client*, click on **Windows 64-bit**. This will download the **WVD Desktop Client** on your local machine.
    
    ![ws name.](media/a48.png)
       
@@ -20,12 +20,12 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/wvd41.png)
 
-6. After installation, in your local machine go to **Start** and search for **Remote desktop** and open the application with exact icon as shown below.
+6. After installation, in your local machine go to **Start** and search for **Remote desktop** and open the remote desktop application with exact icon as shown below.
 
    ![ws name.](media/137.png)
    
    
-7. After the application opens click on **Subscribe**.
+7. Once the application opens, click on **Subscribe**.
 
    ![ws name.](media/a49.png)
   
@@ -46,7 +46,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/55.png)
    
    
-10. Now double click on either Word or Excel application that you want to access. Here we are selecting **Excel**. 
+10. The WVD dashboard will launch, then double click on Excel application to access it.
 
    ![ws name.](media/excel.png)
    
@@ -75,7 +75,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 ## **Task 2: Access the Virtual Desktop**
 
 
-1. In your local machine go to **Start** and search for **Remote desktop** and open the Application with icon similar to the one shown below.
+1. In your local machine go to **Start** and search for **Remote desktop** and open the remote desktop application with icon similar to the one shown below.
 
    ![ws name.](media/51.png)
  
@@ -99,7 +99,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 5. Your virtual desktop will launch.
         
-   ![ws name.](media/63.png)   
+   ![ws name.](media/launchwvd1.png)   
     
      
 6. Click on the **Next** button present in the bottom-right corner of this lab guide. 
