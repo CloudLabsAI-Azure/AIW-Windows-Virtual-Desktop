@@ -20,12 +20,12 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/96.png)
   
 
-3. Now the WVD dashboard will launch. Click on **Word** application to access it. Here we are selecting **Word**. 
+3. The WVD dashboard will launch, then click on **Word** application to access it. 
 
    ![ws name.](media/a46.png)
 
 
-4. Now click on **Allow** for the prompt.
+4. Select **Allow** on the prompt asking permission to *Access local resources*.
 
    ![ws name.](media/128.png)
 
@@ -38,17 +38,17 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/89.png)
       
-6. The Word application will launch and will look similar to the screenshot below.
+6. The Word application will launch and look similar to the screenshot below.
 
    ![ws name.](media/130.png)
 
-7. Now close this Word application session.
+7. Close the *Sign in* page of Word application by clicking on the close button.
 
    ![ws name.](media/w11.png)
    
 ## **Task 2: Access the published Desktop**
 
-1. Now on the top-left side, click on **All Resources**.
+1. On the top-left side of Remote Desktop Web Client, click on **All Resources**.
    
    ![ws name.](media/w12.png)
    
@@ -58,7 +58,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/92.png)
 
 
-3. Click on **Allow** for the Prompt.
+3. Select **Allow** on the prompt asking permission to *Access local resources*.
 
    ![ws name.](media/93.png)
 
@@ -72,8 +72,8 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/89.png)
 
 
-5. Now the virtual desktop will launch. 
+5. The virtual desktop will launch and look similar to the screenshot below. 
 
-   ![ws name.](media/w32.png)
+   ![ws name.](media/launchwvd.png)
    
 6. Click on the **Next** button present in the bottom-right corner of this lab guide. 
