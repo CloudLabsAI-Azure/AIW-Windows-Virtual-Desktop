@@ -61,8 +61,8 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    
       
    >**Note:** Host Pools are of 2 types: Pooled and Personal.  
-   > - **Pooled** is used to share the same Session Host (Virtual Machine) resources among multiple users.
-   > - **Personal** uses a dedicated Session host of individual users.
+   > - **Pooled**, where session hosts can accept connections from any user authorized to an app group within the host pool.
+   > - **Personal**, where each session host is assigned to individual users.
 
    - Max session Limit: **5**
    
