@@ -17,7 +17,7 @@
 
 - Assigning users to the application groups and workspaces to allow/restrict users from using certain applications.
 
-- Accessing Windows Virtual Desktop and published applications through Browser and WVD Client application.
+- Accessing Windows Virtual Desktop and published applications through Browser and WVD Desktop Client application.
 
 
 ## **Why Windows Virtual Desktop?**
