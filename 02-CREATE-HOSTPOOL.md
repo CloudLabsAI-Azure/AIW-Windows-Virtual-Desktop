@@ -73,8 +73,8 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    
       
    >**Note:** Load Balancing Algorithm is of two types: *Breadth-first* and *Depth-first*. 
-   > - **Breadth-first** load balancing distributes new user sessions across all available session hosts in the host pool. 
-   > - **Depth-first** load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
+   > - **Breadth-first** load balancing allows you to evenly distribute user sessions across the session hosts in a host pool. 
+   > - **Depth-first** load balancing allows you to saturate a session host with user sessions in a host pool. 
      
    - Then click on **Next:Virtual Machines**.
    
@@ -104,7 +104,8 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    ![ws name.](media/ex3.png)
     
   **B**. Network and Security:
-    Leave all values to default, except:
+    
+   Leave all values to default, except:
     
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
    - Specify Domain or Unit: **No**
