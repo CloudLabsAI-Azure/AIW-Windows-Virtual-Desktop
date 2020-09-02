@@ -85,15 +85,15 @@
 
    ![ws name.](media/wiw22.png)
 
-Navigate back to Windows Virtual Desktop and open **Workspaces**.
+15. Navigate back to Windows Virtual Desktop and open **Workspaces**.
 
    ![ws name.](media/wiw9.png)
    
-14. Click on **WVD-WS-01**. Then select **Diagnostic settings** present under **Monitoring** blade and click on **+Add diagnostic setting**.    
+16. Click on **WVD-WS-01**. Then select **Diagnostic settings** present under **Monitoring** blade and click on **+Add diagnostic setting**.    
    
    ![ws name.](media/wiw11.png)
  
-15. Add the following configurations:
+17. Add the following configurations:
 
   - Diagnostic settings name: **WorkspaceMonitoring**
   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management & Feed.** 
@@ -104,15 +104,15 @@ Navigate back to Windows Virtual Desktop and open **Workspaces**.
    
    ![ws name.](media/wiw13.png)
    
-16. Now navigate to *Log Analytics Workspace*, then select **Logs** under *General* blade. 
+18. Now navigate to *Log Analytics Workspace*, then select **Logs** under *General* blade. 
 
    ![ws name.](media/wiw14.png)
 
-17. Click on **Get Started** button and then close the *Example queries* window.
+19. Click on **Get Started** button and then close the *Example queries* window.
 
    ![ws name.](media/wiw15.png)
 
-18. Now in *Query Explorer*, paste the following query and set the **Time Range** to **Last 30 minutes**, then click on **Run** button.
+20. Now in *Query Explorer*, paste the following query and set the **Time Range** to **Last 30 minutes**, then click on **Run** button.
 
    ```
    WVDConnections 
@@ -122,11 +122,11 @@ Navigate back to Windows Virtual Desktop and open **Workspaces**.
    
    ![ws name.](media/wiw23.png)
 
-19. In results, logs will appear similar to one shown below.
+21. In results, logs will appear similar to one shown below.
 
    ![ws name.](media/wiw17.png)
 
-20. Click on the **Next** button present in the bottom-right corner of this lab guide.
+22. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
 
 
