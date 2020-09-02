@@ -93,7 +93,7 @@
 
    ![ws name.](media/wiw14.png)
 
-17. Close the *Example queries* window.
+17. Click on **Get Started**, then close the *Example queries* window.
 
    ![ws name.](media/wiw15.png)
 
