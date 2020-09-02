@@ -93,10 +93,11 @@
 
    ![ws name.](media/wiw14.png)
 
-17. Close 
+17. Close the *Example queries* window.
 
+   ![ws name.](media/wiw15.png)
 
-18. In *Query Explorer* and paste the following query there 
+18. Now in *Query Explorer*, paste the following query and click on **Run** button.
 
 ```
 WVDConnections 
@@ -104,8 +105,13 @@ WVDConnections
 |summarize Connectcount = dcount(CorrelationId) by bin(TimeGenerated, 1d),UserName = toupper(trim_end("@.*",UserName))
 ```
    
-   
+   ![ws name.](media/wiw16.png)
 
+19. In results, logs will appear similar to one shown below.
+
+   ![ws name.](media/wiw17.png)
+
+20. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
 
 
