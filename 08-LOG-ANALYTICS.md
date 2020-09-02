@@ -126,6 +126,8 @@
 
    ![ws name.](media/wiw17.png)
 
+> **Note:** Logs may take upto an hour to appear in results.
+
 22. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
 
