@@ -255,11 +255,11 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
 
     - Username: Put username of **odl_user_{unique_id}**  (for example: **odl_user_242421@azurehol1055.onmicrosoft.com**). Then click on **Next**.
    
-    ![ws name.](media/wvd42.png)
+    ![ws name.](media/w24.png)
 
     - Password: **Azure1234567** and click on **Sign in**.
 
-    ![ws name.](media/wvd43.png)
+    ![ws name.](media/w25.png)
    
 20. Click on the **WVD-HP-01-DAG** Desktop to launch it.
 
@@ -267,9 +267,8 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
     
 21. Enter your **Credentials** to access the desktop.
 
-    ![ws name.](media/w2.png)
-    
-    
+    ![ws name.](media/89.png)
+        
 22. Now you can see the desktop saying ***Please wait for the FSLogix Apps Services***.
 
     ![ws name.](media/a77.png)
