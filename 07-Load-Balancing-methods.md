@@ -8,7 +8,7 @@ While configuring  a hostpool, we can select load balancing methods as per the n
 
 There are two types of load balancing methods:
 
- **1. Breath first**: Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool. 
+ **1. Breadth first**: Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool. 
 
  **2. Depth first**:  Depth-first load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
 
