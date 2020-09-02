@@ -16,7 +16,7 @@ In the following task we will be creating a storage account with a file share wh
 
 3. Use the following configuration for the storage account.
    
-   - Subscription: *Select the default subscription*.
+   - Subscription: *Select the default subscription*. 
    
    - Resource Group: *Select **WVD-RG** from the drop down*. 
    
@@ -52,7 +52,7 @@ In the following task we will be creating a storage account with a file share wh
   
   - Click on **Review + Create**.
      
-   ![ws name.](media/a57.png)
+   ![ws name.](media/fs1.png)
      
 5. Click on **Create**.
 
@@ -64,7 +64,7 @@ In the following task we will be creating a storage account with a file share wh
    
 7. Now click on **Configuration** present under **Settings** blade. Then scroll down and find the option **Active Directory Domain Services (Azure AD DS)**. Select **Enabled** for it.
 
-   ![ws name.](media/a60.png)
+   ![ws name.](media/fs2.png)
     
    >**Note:** This will enable your storage account to domain join under Azure Active Domain Join services
     
@@ -100,8 +100,7 @@ In this task we will give *Storage File Data SMB Share Contributor* permissions 
 
    ![ws name.](media/a65.png)
      
-     
-     
+         
 2. Click on **Access Control (IAM)**, then click on **Add** and select **Add role assignment**.
 
    ![ws name.](media/wvd48.png)
@@ -115,7 +114,7 @@ In this task we will give *Storage File Data SMB Share Contributor* permissions 
    - Under **Select** search for your **unique_id** (for example: 206533) and click on both the users to select them.
    - Then click on **Save**.
    
-   ![ws name.](media/a66.png)
+   ![ws name.](media/fs3.png)
    
 
 
@@ -132,7 +131,7 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
    
 2. Click on **WVD-HP01-SH-0**.
 
-   ![ws name.](media/wvd50.png)
+   ![ws name.](media/fs4.png)
       
    
 3. Then click on **Run command** under **Operations** tab .
@@ -210,9 +209,9 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
    
    > It will take around five minutes for the script to execute.
    
-10. Navigate ro virtual machine and click on **WVD-HP01-SH-1**.
+10. Navigate to virtual machine and click on **WVD-HP01-SH-1**.
 
-    ![ws name.](media/a85.png)
+    ![ws name.](media/fs7.png)
 
 
 11. Select **RunPowerShellScript**.
@@ -239,7 +238,7 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
    
 16. Click on **Users**, then in the search bar search for **odl_user_{unique_id}** (for example: odl_user_260344) then click on **odl_user_{unique_id}@azurehol1001.onmicrosoft.com**.
 
-    ![ws name.](media/a71.png)
+    ![ws name.](media/fs5.png)
     
 17. Switch to **Sessions** blade, then select **odl_user_{unique_id}** and click on **Log off**.
 
@@ -308,10 +307,11 @@ In this task we will be accessing the file share to verify the user profiles sto
 
 6. You will see the user folder created in the file share, click on the folder.
 
-   ![ws name.](media/w3.png) 
+   ![ws name.](media/fs6.png) 
 
 7. Now you will be able to see the user profiles data stored in the fileshares in a ***.vhd*** format.
 
    ![ws name.](media/w4.png)
 
-8. Click on the **Next** button.
+8. Click on the **Next** button present in the bottom-right corner of this lab guide.
+
