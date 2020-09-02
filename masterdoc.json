@@ -29,8 +29,16 @@
         "Order": 6
       },
 			{
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/06-SUMMARY.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/06-Setup-FsLogix.md",
         "Order": 7
+      },
+	    			{
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/08-LOG-ANALYTICS.md",
+        "Order": 8
+      },
+	    			{
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/06-SUMMARY.md",
+        "Order": 9
       }
     ]
   }
