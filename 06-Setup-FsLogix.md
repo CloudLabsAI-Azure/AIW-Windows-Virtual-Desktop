@@ -198,60 +198,60 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
    >**Note:** The above script will create a new directory i.e. *C:\LabFiles* where it will download FSLogix Installation bundle and extract it. After extraction installation of FSLogix will begin. When configuring Profile Container registry settings are added here: Registry Key: *HKLM\SOFTWARE\FSLogix\Profiles*. When configuring Profile Container the entire contents of the registry will be redirected to the FSLogix Profile Container. 
 
 
-8. Now scroll up on the script you pasted and replace **{NameofStorageAccount}** (for example: storageaccount204756) with the storage account name you created earlier. Make sure to remove the curly braces.
+7. Now scroll up on the script you pasted and replace **{NameofStorageAccount}** (for example: storageaccount204756) with the storage account name you created earlier. Make sure to remove the curly braces.
 
    ![ws name.](media/a113.png)
       
  
-9. Click on **Run** to execute the script. Wait for sometime for the script to execute. It will show a output saying **Script Executed successfully**.
+8. Click on **Run** to execute the script. Wait for sometime for the script to execute. It will show a output saying **Script Executed successfully**.
 
    ![ws name.](media/a112.png)
    
    > It will take around five minutes for the script to execute.
    
-10. Navigate to virtual machine and click on **WVD-HP01-SH-1**.
+9. Navigate to virtual machine and click on **WVD-HP01-SH-1**.
 
     ![ws name.](media/fs7.png)
 
 
-11. Select **RunPowerShellScript**.
+10. Select **RunPowerShellScript**.
 
     ![ws name.](media/a68.png)
     
     
-12. Press **Ctrl + V** to paste the script in the Powershell window.
+11. Press **Ctrl + V** to paste the script in the Powershell window.
 
-13. Now scroll up on the script you pasted and replace **{NameofStorageAccount}** (for example: storageaccount204756) with the storage account name you created earlier. Make sure to remove the curly braces.
+12. Now scroll up on the script you pasted and replace **{NameofStorageAccount}** (for example: storageaccount204756) with the storage account name you created earlier. Make sure to remove the curly braces.
 
     ![ws name.](media/a113.png)
       
  
-14. Click on **Run** to execute the script. Wait for sometime for the script to execute. It will show a output saying **Script Executed successfully**.
+13. Click on **Run** to execute the script. Wait for sometime for the script to execute. It will show a output saying **Script Executed successfully**.
 
     ![ws name.](media/a112.png)
 
   
-15. Now search for *Windows virtual* in the search bar and select **Windows Virtual Desktop** from the suggestions.
+14. Now search for *Windows virtual* in the search bar and select **Windows Virtual Desktop** from the suggestions.
 
     ![ws name.](media/a109.png)
    
    
-16. Click on **Users**, then in the search bar search for **odl_user_{unique_id}** (for example: odl_user_260344) then click on **odl_user_{unique_id}@azurehol1001.onmicrosoft.com**.
+15. Click on **Users**, then in the search bar search for **odl_user_{unique_id}** (for example: odl_user_260344) then click on **odl_user_{unique_id}@azurehol1001.onmicrosoft.com**.
 
     ![ws name.](media/fs5.png)
     
-17. Switch to **Sessions** blade, then select **odl_user_{unique_id}** and click on **Log off**.
+16. Switch to **Sessions** blade, then select **odl_user_{unique_id}** and click on **Log off**.
 
     ![ws name.](media/a72.png)
     
-18. Click on **OK** for **Log off user from VMs**.
+17. Click on **OK** for **Log off user from VMs**.
 
     ![ws name.](media/a73.png)
 
     >**Note:** This will logoff both the session host so that when the users sign in again to the session host the Fxlogix will start functioning.
     
     
-19. Now paste this link ```aka.ms/wvdarmweb``` in your browser and enter your **credentials** to login. 
+18. Now paste this link ```aka.ms/wvdarmweb``` in your browser and enter your **credentials** to login. 
 
     - Username: Put username of **odl_user_{unique_id}**  (for example: **odl_user_242421@azurehol1055.onmicrosoft.com**). Then click on **Next**.
    
@@ -261,15 +261,15 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
 
     ![ws name.](media/w25.png)
    
-20. Click on the **WVD-HP-01-DAG** Desktop to launch it.
+19. Click on the **WVD-HP-01-DAG** Desktop to launch it.
 
     ![ws name.](media/a75.png)
     
-21. Enter your **Credentials** to access the desktop.
+20. Enter your **Credentials** to access the desktop.
 
     ![ws name.](media/89.png)
         
-22. Now you can see the desktop saying ***Please wait for the FSLogix Apps Services***.
+21. Now you can see the desktop saying ***Please wait for the FSLogix Apps Services***.
 
     ![ws name.](media/a77.png)
     
