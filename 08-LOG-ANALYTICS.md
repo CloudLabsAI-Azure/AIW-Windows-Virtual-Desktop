@@ -6,7 +6,7 @@
 
    ![ws name.](media/wiw.png)
 
-2. Type *Log Analytics Workspace* in the search bar a click on **Log Analytics Workspace** from the suggestions.
+2. Type *Log Analytics Workspace* in the search bar and click on **Log Analytics Workspace** from the suggestions.
 
    ![ws name.](media/wiw1.png)
 
@@ -38,13 +38,13 @@
 
 8. Now click on **Diagnostic settings** present under **Monitoring** blade, then click on **+Add diagnostic setting**.
 
-   ![ws name.](media/wiw20.png)
+   ![ws name.](media/wiw5.png)
 
 9. Add the following configurations:
 
   - Diagnostic settings name: **HostPoolMonitoring**
   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management, Connection & HostRegistration.** 
-  - Send to Log Analytics: *Check the box*
+  - Destination details: *Check the box for **Send to Log Analytics***
   - Subscription: *Choose the default subscription.*
   - Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
   - At last, click on **Save**.
@@ -63,7 +63,7 @@
 
   - Diagnostic settings name: **ApplicationGroupMonitoring**
   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error & Management.** 
-  - Send to Log Analytics: *Check the box*
+  - Destination details: *Check the box for **Send to Log Analytics***
   - Subscription: *Choose the default subscription.*
   - Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
   - At last, click on **Save**.
@@ -78,7 +78,7 @@
 
   - Diagnostic settings name: **ApplicationGroupMonitoring1**
   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error & Management.** 
-  - Send to Log Analytics: *Check the box*
+  - Destination details: *Check the box for **Send to Log Analytics***
   - Subscription: *Choose the default subscription.*
   - Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
   - At last, click on **Save**.
@@ -97,7 +97,7 @@
 
   - Diagnostic settings name: **WorkspaceMonitoring**
   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management & Feed.** 
-  - Send to Log Analytics: *Check the box*
+  - Destination details: *Check the box for **Send to Log Analytics***
   - Subscription: *Choose the default subscription.*
   - Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
   - At last, click on **Save**.  
