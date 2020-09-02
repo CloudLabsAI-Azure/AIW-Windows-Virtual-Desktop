@@ -94,7 +94,7 @@ In the following task we will be creating a storage account with a file share wh
     
 ### **Task 2: Configure File share**
 
-In this task we will give *Storage File Data SMB Share Contributor* permissions to odl_user_{unique_id} so that their profiles can be stored in the fileshare.
+In this task we will give *Storage File Data SMB Share Contributor* permissions to **odl_user_{unique_id}** so that their profiles can be stored in the fileshare.
 
 1. Click on the file share you just created.
 
