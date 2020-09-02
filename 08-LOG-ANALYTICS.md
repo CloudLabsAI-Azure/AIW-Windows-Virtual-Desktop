@@ -1,6 +1,6 @@
-# Exercise 1: Create Log Analytics and associate it with WVD
+# Exercise 6: Create Log Analytics and associate it with WVD
 
-## Task 1: Create Log Analytics
+## Task 1: Create Log Analytics 
 
 1. On the Azure portal, click on **Create a resource** given under Azure services.
 
@@ -26,7 +26,7 @@
 
 5. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
 
-   ![ws name.](media/wiw4.png)
+   ![ws name.](media/wiw18.png)
 
 6. Once the deployment gets succeeded, go to **Windows Virtual Desktop**.
 
