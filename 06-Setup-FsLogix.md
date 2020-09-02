@@ -1,10 +1,10 @@
 # Exercise 5: Setup FsLogix
 
-The Windows Virtual Desktop service recommends FSLogix profile containers as a user profile solution. FSLogix is designed to roam profiles in remote computing environments, such as Windows Virtual Desktop. It stores a complete user profile in a single container. At sign in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile. This article describes how FSLogix profile containers used with Azure Files function in Windows Virtual Desktop.
+The Windows Virtual Desktop service recommends FSLogix profile containers as a user profile solution. FSLogix is designed to roam profiles in remote computing environments, such as Windows Virtual Desktop. It stores a complete user profile in a single container. At sign-in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile. This article describes how FSLogix profile containers used with Azure Files function in Windows Virtual Desktop.
 
 ### **Task 1: Create Storage account and file share**
 
-In the following task we will be creating a storage account with a file share which will be used to store user profiles for FSlogix.
+In the following task, we will be creating a storage account with a file share which will be used to store user profiles for FSlogix.
 
 1. In your Azure portal search for *storage* and select **storage account** from the suggestions.
 
@@ -40,7 +40,7 @@ In the following task we will be creating a storage account with a file share wh
     
   - Connectivity method: **Public endpoint(selected networks)**
      
-  >**Note:** This will make sure that your storage account is not accesable from public network making it more secure.
+  >**Note:** This will make sure that your storage account is not accessible from public network making it more secure.
     
   - Virtual network subscription: *Select the default subscription*.
   
@@ -203,7 +203,7 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
    ![ws name.](media/a113.png)
       
  
-8. Click on **Run** to execute the script. Wait for sometime for the script to execute. It will show a output saying **Script Executed successfully**.
+8. Click on **Run** to execute the script. Wait for sometime for the script to execute. It will show an output saying **Script Executed successfully**.
 
    ![ws name.](media/a112.png)
    
@@ -226,7 +226,7 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
     ![ws name.](media/a113.png)
       
  
-13. Click on **Run** to execute the script. Wait for sometime for the script to execute. It will show a output saying **Script Executed successfully**.
+13. Click on **Run** to execute the script. Wait for sometime for the script to execute. It will show an output saying **Script Executed successfully**.
 
     ![ws name.](media/a112.png)
 
@@ -271,13 +271,13 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
         
 21. Now you can see the desktop saying ***Please wait for the FSLogix Apps Services***.
 
-    ![ws name.](media/wiw19.png)
+    ![ws name.](media/a77.png)
     
     >**Note:** This means that user profile is being managed by FSLogix.
     
 ### **Task 4: Verifying the User profiles stored in File share.**
 
-In this task we will be accessing the file share to verify the user profiles stored in *.vhd* format.
+In this task, we will be accessing the file share to verify the user profiles stored in *.vhd* format.
 
 1. Now return back to the Azure Portal and search for *storage account* and click on it.
 
