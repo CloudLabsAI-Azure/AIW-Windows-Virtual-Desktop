@@ -1,4 +1,4 @@
-# Exercise 6: Create Log Analytics and associate it with WVD
+# Exercise 6: Monitoring using Log Analytics
 
 ### **Task 1: Create Log Analytics**
 
