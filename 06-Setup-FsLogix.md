@@ -111,7 +111,7 @@ In this task we will give *Storage File Data SMB Share Contributor* permissions 
    
    >**Note:** There are three types of roles specified for the storage account i.e. *Storage Account contributor, Storage file data SMB share contributor, Storage File Data SMB share contributor*
    
-   - Under **Select** search for your **unique_id** (for example: 206533) and click on both the users to select them.
+   - Under **Select** search for your **unique_id** (for example: 216332) and click on the your user to select it.
    - Then click on **Save**.
    
    ![ws name.](media/fs3.png)
@@ -236,7 +236,7 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
     ![ws name.](media/a109.png)
    
    
-15. Click on **Users**, then in the search bar search for **odl_user_{unique_id}** (for example: odl_user_260344) then click on **odl_user_{unique_id}@azurehol1001.onmicrosoft.com**.
+15. Click on **Users**, then in the search bar search for **ODL_USER_{unique_id}** (for example: odl_user_260344) then click on **odl_user_{unique_id}@azurehol1001.onmicrosoft.com**.
 
     ![ws name.](media/fs5.png)
     
@@ -253,11 +253,11 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
     
 18. Now paste this link ```aka.ms/wvdarmweb``` in your browser and enter your **credentials** to login. 
 
-    - Username: Put username of **odl_user_{unique_id}**  (for example: **odl_user_242421@azurehol1055.onmicrosoft.com**). Then click on **Next**.
+    - Username: Paste username **<inject key="AzureAdUserEmail" />**, then click on **Next**.
    
     ![ws name.](media/w24.png)
 
-    - Password: **Azure1234567** and click on **Sign in**.
+    - Password: Paste password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
 
     ![ws name.](media/w25.png)
    
@@ -271,7 +271,7 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
         
 21. Now you can see the desktop saying ***Please wait for the FSLogix Apps Services***.
 
-    ![ws name.](media/a77.png)
+    ![ws name.](media/wiw19.png)
     
     >**Note:** This means that user profile is being managed by FSLogix.
     
