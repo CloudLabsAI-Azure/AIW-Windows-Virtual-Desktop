@@ -94,7 +94,7 @@ In the following task we will be creating a storage account with a file share wh
     
 ### **Task 2: Configure File share**
 
-In this task we will give *Storage File Data SMB Share Contributor* permissions to WVDUser-01 and WVDUser-02 so that their profiles can be stored in the fileshare.
+In this task we will give *Storage File Data SMB Share Contributor* permissions to odl_user_{unique_id} so that their profiles can be stored in the fileshare.
 
 1. Click on the file share you just created.
 
@@ -112,7 +112,7 @@ In this task we will give *Storage File Data SMB Share Contributor* permissions 
    
    >**Note:** There are three types of roles specified for the storage account i.e. *Storage Account contributor, Storage file data SMB share contributor, Storage File Data SMB share contributor*
    
-   - Under **Select** search for **WVDUser** and click on both the users to select them.
+   - Under **Select** search for your **unique_id** (for example: 206533) and click on both the users to select them.
    - Then click on **Save**.
    
    ![ws name.](media/a66.png)
@@ -237,7 +237,7 @@ A. In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** s
     ![ws name.](media/a109.png)
    
    
-16. Click on **Users**, then in the search bar search for **WVDUser** then click on **WVDUser-01**.
+16. Click on **Users**, then in the search bar search for **odl_user_{unique_id}** (for example: odl_user_260344) then click on **odl_user_{unique_id}@azurehol1001.onmicrosoft.com**.
 
     ![ws name.](media/a71.png)
     
@@ -254,7 +254,7 @@ A. In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** s
     
 19. Now paste this link ```aka.ms/wvdarmweb``` in your browser and enter your **credentials** to login. 
 
-    - Username: Put username of **WVD User-01**  (for example: **WVDUser-01@azurehol1055.onmicrosoft.com**). Then click on **Next**.
+    - Username: Put username of **odl_user_{unique_id}**  (for example: **odl_user_242421@azurehol1055.onmicrosoft.com**). Then click on **Next**.
    
     ![ws name.](media/wvd42.png)
 
