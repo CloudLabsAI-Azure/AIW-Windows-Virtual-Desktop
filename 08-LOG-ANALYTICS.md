@@ -108,19 +108,19 @@ Navigate back to Windows Virtual Desktop and open **Workspaces**.
 
    ![ws name.](media/wiw14.png)
 
-17. Click on **Get Started**, then close the *Example queries* window.
+17. Click on **Get Started** button and then close the *Example queries* window.
 
    ![ws name.](media/wiw15.png)
 
-18. Now in *Query Explorer*, paste the following query and click on **Run** button.
+18. Now in *Query Explorer*, paste the following query and set the **Time Range** to **Last 30 minutes**, then click on **Run** button.
 
-```
-WVDConnections 
-|sort by TimeGenerated asc, CorrelationId
-|summarize Connectcount = dcount(CorrelationId) by bin(TimeGenerated, 1d),UserName = toupper(trim_end("@.*",UserName))
-```
+   ```
+   WVDConnections 
+   |sort by TimeGenerated asc, CorrelationId
+   |summarize Connectcount = dcount(CorrelationId) by bin(TimeGenerated, 1d),UserName = toupper(trim_end("@.*",UserName))
+   ```
    
-   ![ws name.](media/wiw16.png)
+   ![ws name.](media/wiw23.png)
 
 19. In results, logs will appear similar to one shown below.
 
