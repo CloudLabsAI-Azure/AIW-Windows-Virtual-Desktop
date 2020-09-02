@@ -38,7 +38,7 @@
 
 8. Now click on **Diagnostic settings** present under **Monitoring** blade, then click on **+Add diagnostic setting**.
 
-   ![ws name.](media/wiw5.png)
+   ![ws name.](media/wiw20.png)
 
 9. Add the following configurations:
 
@@ -70,7 +70,22 @@
 
    ![ws name.](media/wiw8.png)
    
-13. Navigate back to Windows Virtual Desktop and open **Workspaces**.
+13. Navigate back to **Application groups** and click on **WVD-AG-01**.
+
+   ![ws name.](media/wiw21.png)
+
+14. Add the following configurations:
+
+  - Diagnostic settings name: **ApplicationGroupMonitoring1**
+  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error & Management.** 
+  - Send to Log Analytics: *Check the box*
+  - Subscription: *Choose the default subscription.*
+  - Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
+  - At last, click on **Save**.
+
+   ![ws name.](media/wiw22.png)
+
+Navigate back to Windows Virtual Desktop and open **Workspaces**.
 
    ![ws name.](media/wiw9.png)
    
