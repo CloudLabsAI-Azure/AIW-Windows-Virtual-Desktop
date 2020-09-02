@@ -1,6 +1,6 @@
 # Exercise 6: Create Log Analytics and associate it with WVD
 
-### **Task 1: Create Log Analytics **
+### **Task 1: Create Log Analytics**
 
 1. On the Azure portal, click on **Create a resource** given under Azure services.
 
