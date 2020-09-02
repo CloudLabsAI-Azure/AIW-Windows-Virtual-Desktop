@@ -20,7 +20,7 @@ In the following task, we will be creating a storage account with a file share w
    
    - Resource Group: *Select **WVD-RG** from the drop down*. 
    
-   - Storage account name: **storageaccount{unique-id}**, for example: storageaacount204756 (*copy your unique id from environment details tab*)
+   - Storage account name: **storageaccount{unique-id}**, *for example: storageaacount204756*
    
    - Location: **East US**, *this should be same as the location of your resource group*.  
    
@@ -211,7 +211,7 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
    
 9. Navigate to virtual machine and click on **WVD-HP01-SH-1**.
 
-    ![ws name.](media/fs7.png)
+    ![ws name.](media/fs8.png)
 
 
 10. Select **RunPowerShellScript**.
