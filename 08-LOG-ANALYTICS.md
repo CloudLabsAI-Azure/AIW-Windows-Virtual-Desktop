@@ -57,7 +57,7 @@
    
 11. Click on **WVD-HP-01-DAG**. Then select **Diagnostic settings** present under **Monitoring** blade and click on **+Add diagnostic setting**.
 
-   ![ws name.](media/wiw7.png) 
+   ![ws name.](media/wiw20.png) 
    
 12. Add the following configurations:
 
@@ -72,7 +72,7 @@
    
 13. Navigate back to **Application groups** and click on **WVD-AG-01**.
 
-   ![ws name.](media/wiw21.png)
+   ![ws name.](media/wiw25.png)
 
 14. Add the following configurations:
 
