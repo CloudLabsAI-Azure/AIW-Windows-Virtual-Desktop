@@ -241,7 +241,7 @@ A. In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** s
 
     ![ws name.](media/a71.png)
     
-17. Switch to **Sessions** blade, then select both WVDUser-01 and WVDUser-02 and click on **Log off**.
+17. Switch to **Sessions** blade, then select **odl_user_{unique_id}** and click on **Log off**.
 
     ![ws name.](media/a72.png)
     
