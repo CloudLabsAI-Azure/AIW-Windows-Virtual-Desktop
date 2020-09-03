@@ -87,11 +87,11 @@ There are two types of load balancing methods:
 
    - Username: Put the username of **WVD User-02** you copied earlier (for example: **WVDUser-02@azurehol1055.onmicrosoft.com**).
    
-   ![ws name.](media/lb17.png)
+   ![ws name.](media/username2.png)
    
    - Password: *Paste the temporary password you copied earlier*
 
-   ![ws name.](media/lb17.png)
+   ![ws name.](media/password2.png)
 
 4. Portal will ask you to set a permanent password. For that just paste your temporary password under *Current Password* and add new password for the user.
 
@@ -133,7 +133,7 @@ There are two types of load balancing methods:
 
    ![ws name.](media/lb2.png)
    
->**Note:** This shows how users are divided into 2 different session host under *Breath first load balancing methods*.
+>**Note:** This shows how users are divided into 2 different session host under *Breadth first load balancing methods*.
    
 9. Click on first session with one active session host and verify which user has been assigned to the particular session host and click on **Log off all active users**, then click on the **X** icon on the top right corner to return back to the session host page.
 
@@ -157,11 +157,11 @@ There are two types of load balancing methods:
 
    - Username: Put username **WVD User-01** which you copied earlier and then click on **Next**.
    
-   ![ws name.](media/wvd42.png)
+   ![ws name.](media/username.png)
 
    - Password: *Paste the temporary password you copied earlier* and click on **Sign in**.
 
-   ![ws name.](media/wvd43.png)
+   ![ws name.](media/password.png)
       
  5. Portal will ask you to set a permanent password. For that just paste your temporary password under *Current Password* and add new password for the user.
 
