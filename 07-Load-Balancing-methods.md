@@ -228,6 +228,8 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 
 
+
+
 # **Scale session hosts using Azure Automation**
 
 Here, you will learn about the scaling tool built with the Azure Automation account and Azure Logic App that automatically scales session host VMs in your Windows Virtual Desktop environment. 
