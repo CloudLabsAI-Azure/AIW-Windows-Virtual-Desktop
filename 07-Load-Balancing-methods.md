@@ -162,8 +162,9 @@ There are two types of load balancing methods:
    - Password: *Paste the temporary password you copied earlier* and click on **Sign in**.
 
    ![ws name.](media/password.png)
-      
- 4. Portal will ask you to set a permanent password. For that just paste your temporary password under *Current Password* and add new password for the user.
+ 
+
+4. Portal will ask you to set a permanent password. For that just paste your temporary password under *Current Password* and add new password for the user.
 
    ![ws name.](media/lb15.png)
 
