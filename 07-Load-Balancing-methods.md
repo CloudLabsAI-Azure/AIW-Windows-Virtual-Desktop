@@ -106,7 +106,7 @@ There are two types of load balancing methods:
    - Username: Put the username of **WVD User-02** (for example: **WVDUser-02@azurehol1055.onmicrosoft.com**).
    - Password: *Paste the permanent password*
    
-   ![ws name.](media/lb.png)
+   ![ws name.](media/lb33.png)
   
 
 7. The virtual Desktop will launch as shown below. 
@@ -203,7 +203,7 @@ There are two types of load balancing methods:
    - Username: Put the username of **WVD User-02** which you copied in previous task (for example: **WVDUser-02@azurehol1055.onmicrosoft.com**)
    - Password: *Paste the permanent password that you created earlier*
    
-   ![ws name.](media/lb29.png)
+   ![ws name.](media/lb33.png)
    
 
 12. The virtual Desktop will launch as shown below. 
