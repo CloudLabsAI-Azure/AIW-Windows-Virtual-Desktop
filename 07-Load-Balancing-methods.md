@@ -1,19 +1,16 @@
 # **Exercise 7: Load Balancing methods**
 
-
-### **Task 1: Understand the Load balancing methods in Host Pools**
-
-
+Windows Virtual Desktop supports two load-balancing methods. Each method determines which session host will host a user's session when they connect to a resource in a host pool.
 While configuring  a host pool, we can select load balancing methods as per the needs.
 
-There are two types of load balancing methods:
+The following load-balancing methods are available in Windows Virtual Desktop:
 
  **1. Breadth-first**: Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool. 
 
  **2. Depth-first**:  Depth-first load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
 
 
-### **Task 2: Add new users to Azure Active Directory**
+### **Task 1: Add new users to Azure Active Directory**
 
 1. On theAzure Portal page, click on the **Show portals menu** button and select **Azure Active Directory**.
 
@@ -66,10 +63,10 @@ There are two types of load balancing methods:
 11. Repeat *Step 7* to *Step 10* for **WVDUser02**.
 
 
-### **Task 3: Change and experience Load Balancing methods**
+### **Task 2: Change and experience Load Balancing methods**
 
 
-#### **A**. While creating WVD-HP-01 host pool we selected load balancing method as *Breadth-first*, now we are going to log into both the session hosts created inside the WVD-HP-01 host pool and see the user distribution.
+**A**. While creating WVD-HP-01 host pool we selected load balancing method as *Breadth-first*, now we are going to log into both the session hosts created inside the WVD-HP-01 host pool and see the user distribution.
 
 
 >**Note:** You are already logged into WVD-HP-01-DAG using WVDUser01 when you performed ***Exercise 11, Task 2, Step 20***, if that session is closed then visit `aka.ms/wvdarmweb` and click on WVD-HP-01-DAG and login with *WVDUser-01* credentials.
@@ -142,7 +139,7 @@ There are two types of load balancing methods:
 >**Note:** We need to log off users from session hosts so that when the users login back to the session host, they are divided based on the depth first load balancing method.
    
 
-#### **B**. Now we will change the load balancing method of WVD-HP-01 host pool to *Depth first* and see how users are divided between session hosts.
+**B**. Now we will change the load balancing method of WVD-HP-01 host pool to *Depth first* and see how users are divided between session hosts.
 
 1. In *WVD-HP-01* host pool, click on **Properties** under *Settings* blade.
 
