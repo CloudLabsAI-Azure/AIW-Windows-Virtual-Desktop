@@ -101,41 +101,41 @@ There are two types of load balancing methods:
 
    ![ws name.](media/lb14.png)
 
-3. Enter your **credentials** to access the application and click on **Submit**.
+6. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: Put the username of **WVD User-02** (for example: **WVDUser-02@azurehol1055.onmicrosoft.com**).
    - Password: *Paste the permanent password*
    
-   ![ws name.](media/a52.png)
+   ![ws name.](media/lb.png)
   
 
-4. The virtual Desktop will launch as shown below. 
+7. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/a54.png) 
+   ![ws name.](media/lb23.png) 
 
 
-5. Return back to azure portal on your browser and search for host pool and click on it.
+8. Return back to azure portal on your browser and search for host pool and click on it.
 
    ![ws name.](media/w5.png)
    
    
-6. Now click on **WVD-HP-01** hostpool to access it.
+9. Now click on **WVD-HP-01** hostpool to access it.
 
    ![ws name.](media/w7.png)
    
    
-7. Under Manage blade, click on **Session hosts**.
+10. Under Manage blade, click on **Session hosts**.
 
    ![ws name.](media/w8.png)
    
    
-8. Now as you can see two session host have one Active sessions each.
+11. Now as you can see two session host have one Active sessions each.
 
    ![ws name.](media/lb2.png)
    
 >**Note:** This shows how users are divided into 2 different session host under *Breadth first load balancing methods*.
    
-9. Click on first session with one active session host and verify which user has been assigned to the particular session host and click on **Log off all active users**, then click on the **X** icon on the top right corner to return back to the session host page.
+12. Click on first session with one active session host and verify which user has been assigned to the particular session host and click on **Log off all active users**, then click on the **X** icon on the top right corner to return back to the session host page.
 
    ![ws name.](media/lb20.png)
     
@@ -146,12 +146,12 @@ There are two types of load balancing methods:
 
 1. In *WVD-HP-01* host pool, click on **Properties** under *Settings* blade .
 
-   ![ws name.](media/w14.png)
+   ![ws name.](media/lb25.png)
    
    
 2. Change the load balancing algorithm to **Depth-first** then click on **Save icon**.
 
-   ![ws name.](media/w15.png)
+   ![ws name.](media/lb26.png)
    
 3. Now paste this link ```aka.ms/wvdarmweb``` in your browser and enter your **credentials** to login. 
 
@@ -163,19 +163,19 @@ There are two types of load balancing methods:
 
    ![ws name.](media/password.png)
       
- 5. Portal will ask you to set a permanent password. For that just paste your temporary password under *Current Password* and add new password for the user.
+ 4. Portal will ask you to set a permanent password. For that just paste your temporary password under *Current Password* and add new password for the user.
 
    ![ws name.](media/lb15.png)
 
-6. Now in the WVD client double click on the **WVD-HP-01-DAG** Desktop to access it. 
+5. Now in the WVD client double click on the **WVD-HP-01-DAG** Desktop to access it. 
 
    ![ws name.](media/lb14.png)
 
-7. Select **Allow** on the prompt asking permission to *Access local resources*.
+6. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/133.png)
+   ![ws name.](media/lb27.png)
 
-8. Enter your **credentials** to access the application and click on **Submit**.
+7. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: *Put the username of **WVD User-01** which you copied earlier (for example: **WVDUser-01@azurehol1055.onmicrosoft.com**)*
    
@@ -184,39 +184,39 @@ There are two types of load balancing methods:
    ![ws name.](media/a47.png)
 
 
-9. The virtual Desktop will launch as shown below. 
+8. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/wvd39.png)
+   ![ws name.](media/lb28.png)
    
    
-10. In your local machine go to **Start** and search for **Remote desktop** and open the application with exact icon as shown below.
+9. In your local machine go to **Start** and search for **Remote desktop** and open the application with exact icon as shown below.
 
    ![ws name.](media/137.png)
    
 
-11. Now in the WVD client double click on the **WVD-HP-01-DAG** Desktop to access it. 
+10. Now in the WVD client double click on the **WVD-HP-01-DAG** Desktop to access it. 
 
-   ![ws name.](media/w6.png)
+   ![ws name.](media/lb14.png)
 
-12. Enter your **credentials** to access the desktop and click on **Submit**.
+11. Enter your **credentials** to access the desktop and click on **Submit**.
 
    - Username: Put the username of **WVD User-02** which you copied in previous task (for example: **WVDUser-02@azurehol1055.onmicrosoft.com**)
-   - Password: **Azure1234567**
+   - Password: *Paste the permanent password that you created earlier*
    
-   ![ws name.](media/a52.png)
+   ![ws name.](media/lb29.png)
    
 
-13. The virtual Desktop will launch as shown below. 
+12. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/a54.png) 
+   ![ws name.](media/lb23.png) 
 
 
-14. Return back to azure portal and navigate to **WVD-HP-01** host pool.
+13. Return back to azure portal and navigate to **WVD-HP-01** host pool.
 
    ![ws name.](media/w8.png)
    
    
-15. Now as you can any one of the session host from  *WVD-HP01-SH-0* or *WVD-HP01-SH-1* will have 2 Active sessions, click on it.
+14. Now as you can any one of the session host from  *WVD-HP01-SH-0* or *WVD-HP01-SH-1* will have 2 Active sessions, click on it.
 
    ![ws name.](media/lb21.png)
    
@@ -224,9 +224,9 @@ There are two types of load balancing methods:
  that means first 5 users will be assigned to the the same session host, then the sixth user will be assigned to another session host.
  
    
-16. Verify that both users have been assigned to the particular session host. 
+15. Verify that both users have been assigned to the particular session host. 
 
    ![ws name.](media/lb22.png)
 
-17. Click on the **Next** button present in the bottom-right corner of this lab guide.
+16. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
