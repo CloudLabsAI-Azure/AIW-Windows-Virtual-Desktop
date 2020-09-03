@@ -19,6 +19,10 @@
 
 - Accessing Windows Virtual Desktop and published applications through Browser and WVD Desktop Client application.
 
+- Setting up FSLogix and how FSLogix profile containers are used with Azure Files function in Windows Virtual Desktop.
+
+- Configuring load balancing methods i.e. *Breadth-first* and *Depth-first* in your host pool to obtain required efficiency in your WVD environment.
+
 
 ## **Why Windows Virtual Desktop?**
 
