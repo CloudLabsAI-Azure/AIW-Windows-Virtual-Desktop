@@ -236,7 +236,7 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
     ![ws name.](media/a109.png)
    
    
-15. Click on **Users**, then in the search bar search for **ODL_USER_{unique_id}** (for example: odl_user_260344) then click on **odl_user_{unique_id}@azurehol1001.onmicrosoft.com**.
+15. Click on **Users**, then in the search bar paste your username **<inject key="AzureAdUserEmail" />** and then click on your user.
 
     ![ws name.](media/fs5.png)
     
