@@ -13,7 +13,60 @@ There are two types of load balancing methods:
  **2. Depth first**:  Depth-first load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
 
 
-### **Task 2: Change and experience Load Balancing methods**
+### **Task 2: Add new users to Azure Active Directory**
+
+1. On Azure Portal page, click on **Show portals menu** button and select **Azure Active Directory**.
+
+   ![ws name.](media/lb1.png)
+
+2. Click on **Users** under **Manage** blade.
+
+   ![ws name.](media/lb6.png)
+
+3. Click on **+ New user** to add a new user.
+
+   ![ws name.](media/lb5.png)
+
+4. Add following configurations and leave rest to default:
+
+   - User name: **WVDUser01**
+   - Name: **WVDUser01**
+   - Click on **Create**
+
+   ![ws name.](media/lb8.png)
+
+5. Now again click on **+ New user**, then add following configurations and leave rest to default.
+
+   - User name: **WVDUser02**
+   - Name: **WVDUser02**
+   - Click on **Create**
+   
+   ![ws name.](media/lb7.png)
+
+6. Both the newly created users will show up similarly as shown below.
+
+   ![ws name.](media/lb11.png)
+
+7. Click on **WVDUser01** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
+
+   ![ws name.](media/lb12.png)
+
+8. Click on **AAD DC Administrators** group and then click on **Select**.
+
+   ![ws name.](media/lb13.png)
+
+9. Once done, open **Profile** under **Manange** blade. Click on **Reset password** and then click on **Reset password** button.
+
+   ![ws name.](media/lb3.png)
+
+10. Copy the temporary password and paste it in a text editor.
+
+   ![ws name.](media/lb4.png)
+
+11. Repeat *Step 7* to *Step 10* for **WVDUser02**.
+
+
+### **Task 3: Change and experience Load Balancing methods**
 
 
 **A**. While creating WVD-HP-01 host pool we selected load blalancing method as *Breath first*, Now we are going to log into both the the session hosts created inside the WVD-HP-01 host pool and see the user distribution.
