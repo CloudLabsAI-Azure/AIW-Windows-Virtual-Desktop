@@ -4,18 +4,18 @@
 ### **Task 1: Understand the Load balancing methods in Host Pools**
 
 
-While configuring  a hostpool, we can select load balancing methods as per the needs.
+While configuring  a host pool, we can select load balancing methods as per the needs.
 
 There are two types of load balancing methods:
 
- **1. Breadth first**: Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool. 
+ **1. Breadth-first**: Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool. 
 
- **2. Depth first**:  Depth-first load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
+ **2. Depth-first**:  Depth-first load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
 
 
 ### **Task 2: Add new users to Azure Active Directory**
 
-1. On Azure Portal page, click on **Show portals menu** button and select **Azure Active Directory**.
+1. On theAzure Portal page, click on the **Show portals menu** button and select **Azure Active Directory**.
 
    ![ws name.](media/lb1.png)
 
@@ -27,7 +27,7 @@ There are two types of load balancing methods:
 
    ![ws name.](media/lb5.png)
 
-4. Add following configurations and leave rest to default:
+4. Add the following configurations and leave rest to default:
 
    - User name: **WVDUser01**
    - Name: **WVDUser01**
@@ -35,7 +35,7 @@ There are two types of load balancing methods:
 
    ![ws name.](media/lb8.png)
 
-5. Now again click on **+ New user**, then add following configurations and leave rest to default.
+5. Now again click on **+ New user**, then add the following configurations and leave rest to default.
 
    - User name: **WVDUser02**
    - Name: **WVDUser02**
@@ -51,11 +51,11 @@ There are two types of load balancing methods:
 
    ![ws name.](media/lb12.png)
 
-8. Click on **AAD DC Administrators** group and then click on **Select**.
+8. Click on the **AAD DC Administrators** group and then click on **Select**.
 
    ![ws name.](media/lb13.png)
 
-9. Once done, open **Profile** under **Manange** blade. Click on **Reset password** and then click on **Reset password** button.
+9. Once done, open **Profile** under **Manage** blade. Click on the **Reset password** and then click on **Reset password** button.
 
    ![ws name.](media/lb3.png)
 
@@ -69,12 +69,12 @@ There are two types of load balancing methods:
 ### **Task 3: Change and experience Load Balancing methods**
 
 
-#### **A**. While creating WVD-HP-01 host pool we selected load blalancing method as *Breadth first*, now we are going to log into both the the session hosts created inside the WVD-HP-01 host pool and see the user distribution.
+#### **A**. While creating WVD-HP-01 host pool we selected load balancing method as *Breadth-first*, now we are going to log into both the session hosts created inside the WVD-HP-01 host pool and see the user distribution.
 
 
 >**Note:** You are already logged into WVD-HP-01-DAG using WVDUser01 when you performed ***Exercise 11, Task 2, Step 20***, if that session is closed then visit `aka.ms/wvdarmweb` and click on WVD-HP-01-DAG and login with *WVDUser-01* credentials.
 
-1. In your local machine go to **Start** and search for **Remote desktop** and open the application with exact icon as shown below.
+1. In your local machine go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
@@ -93,7 +93,7 @@ There are two types of load balancing methods:
 
    ![ws name.](media/password2.png)
 
-4. Portal will ask you to set a permanent password. For that just paste your temporary password under *Current Password* and add new password for the user.
+4. Portal will ask you to set a permanent password. For that just paste your temporary password under *Current Password* and add a new password for the user.
 
    ![ws name.](media/lb15.png)
 
@@ -114,12 +114,12 @@ There are two types of load balancing methods:
    ![ws name.](media/lb23.png) 
 
 
-8. Return back to azure portal on your browser and search for host pool and click on it.
+8. Return to the Azure portal on your browser and search for the host pool and click on it.
 
    ![ws name.](media/w5.png)
    
    
-9. Now click on **WVD-HP-01** hostpool to access it.
+9. Now click on **WVD-HP-01** host pool to access it.
 
    ![ws name.](media/w7.png)
    
@@ -129,22 +129,22 @@ There are two types of load balancing methods:
    ![ws name.](media/w8.png)
    
    
-11. Now as you can see two session host have one Active sessions each.
+11. Now as you can see two session hosts have one Active sessions each.
 
    ![ws name.](media/lb2.png)
    
 >**Note:** This shows how users are divided into 2 different session host under *Breadth first load balancing methods*.
    
-12. Click on first session with one active session host and verify which user has been assigned to the particular session host and click on **Log off all active users**, then click on the **X** icon on the top right corner to return back to the session host page.
+12. Click on the first session with one active session host and verify which user has been assigned to the particular session host and click on **Log off all active users**, then click on the **X** icon on the top right corner to return to the session host page.
 
    ![ws name.](media/lb20.png)
     
 >**Note:** We need to log off users from session hosts so that when the users login back to the session host, they are divided based on the depth first load balancing method.
    
 
-#### **B**. Now we will change the load balanching method of WVD-HP-01 host pool to *Depth first* and see how users are divided between session hosts.
+#### **B**. Now we will change the load balancing method of WVD-HP-01 host pool to *Depth first* and see how users are divided between session hosts.
 
-1. In *WVD-HP-01* host pool, click on **Properties** under *Settings* blade .
+1. In *WVD-HP-01* host pool, click on **Properties** under *Settings* blade.
 
    ![ws name.](media/lb25.png)
    
@@ -220,7 +220,7 @@ There are two types of load balancing methods:
 
    ![ws name.](media/lb21.png)
    
->**Note:** This shows how both users are asigned into the same session host as *maximum limit per session was set to 5* under *Depth first load balancing method*
+>**Note:** This shows how both users are assigned into the same session host as *maximum limit per session was set to 5* under *Depth first load balancing method*
  that means first 5 users will be assigned to the the same session host, then the sixth user will be assigned to another session host.
  
    
