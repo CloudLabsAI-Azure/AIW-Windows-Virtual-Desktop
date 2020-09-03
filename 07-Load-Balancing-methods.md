@@ -1,4 +1,4 @@
-# **Exercise 13: Load Balancing methods**
+# **Exercise 7: Load Balancing methods**
 
 
 ### **Task 1: Understand the Load balancing methods in Host Pools**
