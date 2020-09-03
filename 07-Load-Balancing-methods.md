@@ -228,5 +228,17 @@ There are two types of load balancing methods:
 
    ![ws name.](media/lb22.png)
 
-16. Click on the **Next** button present in the bottom-right corner of this lab guide.
+
+
+# **Scale session hosts using Azure Automation**
+
+Here, you will learn about the scaling tool built with the Azure Automation account and Azure Logic App that automatically scales session host VMs in your Windows Virtual Desktop environment. 
+
+Please follow the link given below to know more about this feature. 
+
+```
+https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script
+```
+
+Click on the **Next** button present in the bottom-right corner of this lab guide.
 
