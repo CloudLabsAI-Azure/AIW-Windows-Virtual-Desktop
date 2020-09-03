@@ -267,7 +267,10 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
     
 20. Enter your **Credentials** to access the desktop.
 
-    ![ws name.](media/89.png)
+   - Username: **<inject key="AzureAdUserEmail" />**
+   - Password: **<inject key="AzureAdUserPassword" />**
+
+   ![ws name.](media/89.png)
         
 21. Now you can see the desktop saying ***Please wait for the FSLogix Apps Services***.
 
