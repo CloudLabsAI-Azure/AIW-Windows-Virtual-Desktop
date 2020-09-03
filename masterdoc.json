@@ -37,8 +37,12 @@
         "Order": 8
       },
 	    			{
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/06-SUMMARY.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/07-Load-Balancing-methods.md",
         "Order": 9
+      },
+	    {
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/06-SUMMARY.md",
+        "Order": 10
       }
     ]
   }
