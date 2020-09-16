@@ -172,7 +172,7 @@ The UI form offers the following actions:
 
     ![ws name.](media/e21.png)
 
-12. After erforming the above steps, go to **Start** and **Restart** your virtual machine.
+12. After performing the above steps, go to **Start** and **Restart** your virtual machine.
 
     ![ws name.](media/e22.png)
 
@@ -180,7 +180,7 @@ The UI form offers the following actions:
 
     ![ws name.](media/e23.png)
 
-![ws name.](media/e24.png)
+    ![ws name.](media/e24.png)
 
 # **Task 4: Run Sysprep**
 
@@ -225,7 +225,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/e30.png)
 
-6. Enter name of your virtual machine i.e **vmforimage** and click on **Create**.
+6. Enter name of your virtual machine i.e **wvdwin10** and click on **Create**.
 
    ![ws name.](media/e31.png)
 
