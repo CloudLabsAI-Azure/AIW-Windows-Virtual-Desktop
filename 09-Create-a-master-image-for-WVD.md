@@ -58,7 +58,7 @@ In this exercise we are going to walk through the process of creating a master i
    - Username: **azuser**
    - Password: **Azure1234567**
    
-   ![ws name.](media/e10.png)
+   ![ws name.](media/vmimage3.png)
 
 11. The virtual machine will look similar to the one shown below.
 
