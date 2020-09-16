@@ -1,10 +1,10 @@
 # Exercise 8: Create a master image for WVD
 
-In this exercise we are going to walk through the process of creating a master image for your WVD host pools. The basic concept for a master image is to start with a clean base install of Windows and layer on mandatory updates, applications and configurations. There are many ways to create and manage images for WVD. The steps covered in this exercise are going to walk you through a basic build and capture process that includes core applications and recommended configuration options for WVD.
+In this exercise, we are going to walk through the process of creating a master image for your WVD host pools. The basic concept for a master image is to start with a clean base install of Windows and layer on mandatory updates, applications and configurations. There are many ways to create and manage images for WVD. The steps covered in this exercise are going to walk you through a basic build and capture process that includes core applications and recommended configuration options for WVD.
 
 ## **Task 1: Create a new Virtual Machine in Azure**
 
-1. On the Azure portal home page, Select Create a resource.
+1. On the Azure portal home page, click on **Create a resource** button.
 
    ![ws name.](media/e1.png)
 
@@ -49,7 +49,7 @@ In this exercise we are going to walk through the process of creating a master i
 
    ![ws name.](media/e8.png)
 
-9. Now in the following RDP client window click on **Connect** to esablish a RDP connection to your virtual machine.
+9. Now in the following RDP client window click on **Connect** to establish an RDP connection to your virtual machine.
 
    ![ws name.](media/e9.png)
 
@@ -137,7 +137,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/e17.png)
 
-5. Now on your virtual machines taskbar search for *Powershell*, and then select **Run as administrator**.
+5. Now on your virtual machines taskbar search for *PowerShell*, and then select **Run as administrator**.
 
    ![ws name.](media/e18.png)
 
@@ -153,7 +153,7 @@ The UI form offers the following actions:
 
    ` .\Prepare-WVDImage.ps1 -DisplayForm `
 
-9. This will trigger the powershell to launch an application, here select the applications shown below and click on **Execute**.
+9. This will trigger the PowerShell to launch an application, here select the applications shown below and click on **Execute**.
 
    ![ws name.](media/e19.png)
 
@@ -225,11 +225,11 @@ The UI form offers the following actions:
 
    ![ws name.](media/e33.png)
 
-2. Open **Host pools** present under *Manage* blade, and then clcik on **+ Add**.
+2. Open **Host pools** present under *Manage* blade, and then click on **+ Add**.
 
    ![ws name.](media/e34.png)
 
-3. On the **Basics** tab configure your hostpool with following configurations:
+3. On the **Basics** tab configure your Host pool with following configurations:
 
    - Host pool name: **wvd-hostpool**
    - location: **EastUS**, *basically this should be same as the region of your resource group.*
@@ -291,7 +291,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/67.png)
 
-8. Under the *Workspace name*, fill the name of workpsace.
+8. Under the *Workspace name*, fill the name of workspace.
 
    - Workspace name: **WVD-WS-02**
    - Click on **OK**
@@ -313,7 +313,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/e33.png)
 
-2. Under Manage, select Application groups. Then locate the *Default Application group* that was created while creating hostpool in previous task.
+2. Under Manage, select Application groups. Then locate the *Default Application group* that was created while creating Host pool in previous task.
 
    ![ws name.](media/vmimage8.png)
 
