@@ -67,10 +67,11 @@ Despite the Azure support teams best efforts, the Marketplace images are not alw
 
    ![ws name.](media/e12.png)
 
-2. Click on **Download** to download and install windows updates.
+2. Click on **Download** to download and install available windows updates.
 
    ![ws name.](media/e13.png)
 
+>**Note:** If the installation of update asks to restart the virtual machine then restart the vm and continue with the next task.
 
 ## **Task 3: Prepare WVD image**
 
