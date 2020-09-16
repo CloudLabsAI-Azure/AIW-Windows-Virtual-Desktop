@@ -18,21 +18,24 @@ In this exercise we are going to walk through the process of creating a master i
 
 4. Provide the below configuration for the virtual machine, and click on **Review + create** and then click on **create**.
 
-   ![ws name.](media/e4.png)
-
-   - Name: wvdwin10
-   - Region: (default region of resource group)
+   - Subscription: *Choose the default subscription.*
+   - Resource Group: *Select WVD-RG from the drop down.*
+   - Virtual machine name: **wvdwin10**
+   - Region: **EastUS**, *basically this should be same as the region of your resource group.*
    - Image: **Windows 10 Enterprise multi-session, Version 1909-Gen1**
-   - size: Standard_D2s_v3
-   - Username: azuser
-   - Password: Azure1234567
+   - Size: **Standard_D2s_v3**
+   - Username: **azuser**
+   - Password: **Azure1234567**
+   - Confirm Password: **Azure1234567**
    - Public inbound ports: select **Allow selected ports**
-   - Select inbound ports: RDP(3389)
-   - **Click** on checkbox saying *"I confirm I have an eligible Windows 10 license with multi-tenant hosting rights."*
+   - Select inbound ports: **RDP(3389)**
+   - **Select** the checkbox saying *"I confirm I have an eligible Windows 10 license with multi-tenant hosting rights."*
+
+   ![ws name.](media/vmimage.png)
 
 5. After deployment of virtual machine completes, click on **Go to resource**.
 
-   ![ws name.](media/e5.png)
+   ![ws name.](media/vmimage1.png)
 
 6. Click on **Connect** and select **RDP** from the dropdown.
 
@@ -50,24 +53,30 @@ In this exercise we are going to walk through the process of creating a master i
 
    ![ws name.](media/e9.png)
 
-10. Now enter your virtual machine *credentials* and click **OK**.
+10. Enter your virtual machine *credentials* and click **OK**.
 
+   - Username: **azuser**
+   - Password: **Azure1234567**
    ![ws name.](media/e10.png)
 
-11. In virtual machine go to **Start** and click on **Settings**.
+11. The virtual machine will look similar to the one shown below.
 
-   ![ws name.](media/e11.png)
+   ![ws name.](media/vmimage2.png)
 
 
 ## **Task 2: Run Windows Update**
 
 Despite the Azure support teams best efforts, the Marketplace images are not always up to date. The best and most secure practice is to keep your master image up to date.
 
-1. From your virtual machine inside *settings* select **Updates & Security**.
+1. In the virtual machine, click on **Start** button and open **Settings**.
+
+   ![ws name.](media/e11.png)
+
+2. Select **Updates & Security** in the *Settings*.
 
    ![ws name.](media/e12.png)
 
-2. Click on **Download** to download and install available windows updates.
+3. Click on **Download** to download and install available windows updates.
 
    ![ws name.](media/e13.png)
 
