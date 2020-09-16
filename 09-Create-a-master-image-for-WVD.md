@@ -172,32 +172,17 @@ The UI form offers the following actions:
 
     ![ws name.](media/e21.png)
 
-12. After performing the above steps, go to **Start** and **Restart** your virtual machine.
-
-    ![ws name.](media/e22.png)
-
-13. Click on **Continue** and on prompt click on **restart anyway**.
-
-    ![ws name.](media/e23.png)
-
-    ![ws name.](media/e24.png)
-
 # **Task 4: Run Sysprep**
 
-1. After the VM has rebooted, reconnect your RDP session and sign in using the same credentials.
-
-   - username: azuser
-   - password: Azure1234567
-
-2. In taskbar search for *command prompt* and select **Run as administrator**.
+1. In taskbar search for *command prompt* and select **Run as administrator**.
 
    ![ws name.](media/e25.png)
 
-3. Navigate to "C:\Windows\System32\Sysprep" by running the command below.
+2. Navigate to "C:\Windows\System32\Sysprep" by running the command below.
 
    ` cd C:\Windows\System32\Sysprep `
 
-4. Run the following command to sysprep the VM and shutdown.
+3. Run the following command to sysprep the VM and shutdown.
 
    ` sysprep.exe /oobe /generalize /shutdown `
 
@@ -209,51 +194,53 @@ The UI form offers the following actions:
 
    ![ws name.](media/e26.png)
 
-2. On the Virtual machines blade, locate the VM you used for your master image and Select on the name.
+2. On the Virtual machines blade, locate the VM you used for your master image and open it.
 
-   ![ws name.](media/e27.png)
+   ![ws name.](media/vmimage4.png)
 
-3. On the Overview blade for your VM, confirm the Status shows Stopped. Select Stop in the menu bar to move it to a deallocated state.
+3. On the *Overview* blade for your VM, confirm the *Status* shows **Stopped**. 
+   
+   ![ws name.](media/vmimage5.png)
 
-   ![ws name.](media/e28.png)
+4. Click on **Stop** button to move it to *deallocated state*.
 
-4. Click **OK** on the prompt.
+   ![ws name.](media/vmimage6.png)
+
+5. Click **OK** on the prompt.
 
    ![ws name.](media/e29.png)
 
-5. When virtual machine is *deallocated*, click on **Capture**.
+6. When virtual machine is *deallocated*, click on **Capture**.
 
    ![ws name.](media/e30.png)
 
-6. Enter name of your virtual machine i.e **wvdwin10** and click on **Create**.
+7. Enter the name of your virtual machine i.e **wvdwin10** and click on **Create**.
 
    ![ws name.](media/e31.png)
 
-7. After image is created, in search bar of Azure portal search for **images** and select it.
-
-   ![ws name.](media/e32.png)
 
 ## **Task 6: Provision a Host Pool with a custom image**
 
-1. In azure portal Search for **Windows Virtual Desktop** and select it.
+1. In azure portal Search for *Windows Virtual Desktop* and select **Windows Virtual Desktop** from suggestions.
 
    ![ws name.](media/e33.png)
 
-2. Under Manage, select Host pools and Select + Add.
+2. Open **Host pools** present under *Manage* blade, and then clcik on **+ Add**.
 
    ![ws name.](media/e34.png)
 
-3. On the **Basics** tab configure your hostpool with following configuration and click on **Next: Virtual Machines>**
+3. On the **Basics** tab configure your hostpool with following configurations:
+
+   - Host pool name: **wvd-hostpool**
+   - location: **EastUS**, *basically this should be same as the region of your resource group.*
+   - Validation Environment: **No**
+   - Host pool type: **Personal**
+   - Assignment type: **Automatic**
+   - Click on **Next: Virtual Machines**
 
    ![ws name.](media/e35.png)
 
-   - Host pool name: **wvd-hostpool*
-   - location: *Default location of resource group*
-   - Validation Environment: **No**
-   - Host pool type: Personal
-   - Assignment type: **Automatic**
-
-4. In the Virtual machines tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool.
+4. In the *Virtual machine*s tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool.
 
    ![ws name.](media/66.png)
 
@@ -265,14 +252,14 @@ The UI form offers the following actions:
    - Virtual machine location: **East US**, location should be same as location of your resource group.
    - Virtual machine size: **Standard D1_v2**. Click on **Change Size**, then select **D1_v2** and click on **Select** as shown below
 
-   ![ws name.](media/65.png.png)
+   ![ws name.](media/65.png)
 
    - Number of VMs: **2**
    - Name prefix: **VmFromImage**
    - Image type: **Gallery**
    - Image: click on **Browse all images and disks** and select the Image we created earlier in this exercise, as shown below:
 
-   ![ws name.](media/e37.png)
+   ![ws name.](media/vmimage7.png)
 
    - OS disk type: **Standard SSD**
    - Use managed disks: **Leave to default**
@@ -283,30 +270,28 @@ The UI form offers the following actions:
 
   Leave all values to default, except:
 
-   - Subnet: **sessionhosts-subnet(10.0.1.0/24)** (choose from dropdown)
+   - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
    - Specify Domain or Unit: **No**
 
    ![ws name.](media/w3.png)
 
   **C**. Administrator Account details:
 
-   - AD domain join UPN: Paste your username
-   - Password: Paste the password
-   - Confirm Password: Paste the password again.
+   - AD domain join UPN: Paste your username **<inject key="AzureAdUserEmail" />**
+   - Password: Paste the password **<inject key="AzureAdUserPassword" />**
+   - Confirm Password: Paste the password **<inject key="AzureAdUserPassword" />** again.
+   - Click on **Next: Workspace**.
 
    ![ws name.](media/w2.png)
 
-6. Click on **Next: Workspace** to proceed.
+6.  In the Workspace section, we need to specify if we need to register the default application group to a workspace.
 
-  
-7. In the Workspace section, we need to specify if we need to register the default application group to a workspace.
-
-   - Register desktop app group: Choose **Yes**
-   - To this workspace: Click on **Create new**
+   - Register desktop app group: *Choose* **Yes**
+   - To this workspace: *Click on* **Create new**
 
    ![ws name.](media/67.png)
 
-8. Once you click on Create new, a small window pops up, where you can specify the Workspace name you are going to create.
+8. Under the *Workspace name*, fill the name of workpsace.
 
    - Workspace name: **WVD-WS-02**
    - Click on **OK**
@@ -322,30 +307,62 @@ The UI form offers the following actions:
     ![ws name.](media/e40.png)
 
 
-## **Task 10: Assign an Azure AD group to an application group**
+## **Task 7: Assign an Azure AD group to an application group**
 
 1. In search bar of Azure portal, search for *Windows virtual desktop* and click on it.
 
    ![ws name.](media/e33.png)
 
-2. Under Manage, select Application groups.
+2. Under Manage, select Application groups. Then locate the *Default Application group* that was created while creating hostpool in previous task.
 
-3. Locate the Default Application group that was created while creating hostpool in this exercise.
+   ![ws name.](media/vmimage8.png)
 
-4. Under Manage, select **Assignments** and Select **+ Add**.
+3. Under Manage, click on **Assignments** and then click on **+ Add** button.
 
-5. In the fly out, enter *ODL* in the search to find the name of your ODL User and select it.
+   ![ws name.](media/vmimage9.png)
 
-6. Choose **Select** to save your changes.
+4. In the search bar, type your unique id (for example:220436) and choose your user by clicking on it. Then click on **Select** to save your changes.
 
-## **Task 11: Connect to WVD with the web client**
+   ![ws name.](media/vmimage10.png)
+
+## **Task 8: Connect to WVD with the web client**
 
 1. In your web browser, navigate to the URL below. 
 
-   ` https://rdweb.wvd.microsoft.com/arm/webclient `
+   `https://rdweb.wvd.microsoft.com/arm/webclient`
 
->**Note:** We will be asked to login when we access the above URL. The credentials that we use are those from the lab.
+>**Note:** If you are asked o login, use the following credentials:
+> - Username: **<inject key="AzureAdUserEmail" />**
+> - Password: **<inject key="AzureAdUserPassword" />**
 
-2. Sign in using a synchronized identity that has been assigned to an application group.
+2. The WVD dashboard will launch, then click on the tile named **Default Desktop** under workspace **WVD-WS-02** to launch the desktop.
+
+   ![ws name.](media/vmimage11.png)
+
+3. Select **Allow** on the prompt asking permission to *Access local resources*.
+
+   ![ws name.](media/93.png)
+
+4. Enter the lab credentials to access the application and click on Submit.
+
+   - Username: **<inject key="AzureAdUserEmail" />**
+   - Password: **<inject key="AzureAdUserPassword" />**
+
+   ![ws name.](media/89.png)
+
+5. The virtual desktop will launch and look similar to the screenshot below.
+
+   ![ws name.](media/launchwvd.png)
+
+6. At last, validate the components relative to the configuration we made in previous task. The desktop should show icons for *Microsoft Edge* and *Microsoft Teams*. When you go to the *Windows start menu*, you can find the *Office applications*.
+
+   ![ws name.](media/vmimage12.png)
+
+7. Click on the **Next** button present in the bottom-right corner of this lab guide.
+
+
+
+
+
 
 
