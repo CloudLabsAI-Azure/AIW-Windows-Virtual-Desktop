@@ -1,50 +1,49 @@
 [
   {
-    "Name": "Microsoft WVD Essentials",
+    "Name": "WVD Immersion Workshop",
     "Language": "English",
-    "BaseURL": "https://github.com/SpektraSystems/WVD-Essentials",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/00-OVERVIEW.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/00-OVERVIEW.md",
         "Order": 1
       },
-			{
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/01-PREREQUISITE.md",
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/01-PREREQUISITE.md",
         "Order": 2
       },
-			{
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/02-CREATE-HOSTPOOL.md",
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/02-CREATE-HOSTPOOL.md",
         "Order": 3
       },
-			{
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/03-CREATE-APPLICATION-GROUP.md",
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/03-CREATE-APPLICATION-GROUP.md",
         "Order": 4
       },
-			{
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/04-ACCESS-WORKSPACE-USING-BROWSER.md",
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/04-ACCESS-WORKSPACE-USING-BROWSER.md",
         "Order": 5
       },
-			{
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/05-ACCESS-WORKSPACE-USING-WVD-CLIENT.md",
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/05-ACCESS-WORKSPACE-USING-WVD-CLIENT.md",
         "Order": 6
       },
-			{
+	{
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/06-Setup-FsLogix.md",
         "Order": 7
       },
-	    			{
-        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/08-LOG-ANALYTICS.md",
+    {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/07-Load-Balancing-methods.md",
         "Order": 8
       },
-	    			{
-        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/07-Load-Balancing-methods.md",
+	{
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/08-LOG-ANALYTICS.md",
         "Order": 9
       },
-	    {
+{
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/09-Create-a-master-image-for-WVD.md",
         "Order": 10
-      }
-	     {
+      },
+	    {
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/10-Summary.md",
         "Order": 11
       }
