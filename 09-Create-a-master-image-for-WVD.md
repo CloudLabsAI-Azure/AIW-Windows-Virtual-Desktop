@@ -88,14 +88,6 @@ Despite the Azure support teams best efforts, the Marketplace images are not alw
 
 The authors for this content have developed a scripted solution to assist in automating some common baseline image build tasks. The script includes a UI form, enabling you to quickly select which actions to perform. The end result will be a custom master image that incorporates Microsoft's main business applications, along with the necessary policies and settings for an optimized user experience.
 
-The script and related tools are maintained in GitHub.
-
-For additional documentation about the script (e.g. parameters, functions, etc.), refer to the comments in Prepare-WVDImage.ps1.
-
-For troubleshooting script execution, refer to the following log directory on the target machine: C:\Windows\Logs\ImagePrep.
-
-This script leverages the Local Group Policy Object (LGPO) tool in the Microsoft Security Compliance Toolkit (SCT) to apply settings in the image. The settings are documented and exported on the target machine under C:\Windows\Logs\ImagePrep\LGPO. This approach was taken to simplify troubleshooting, enabling you to leverage Group Policy Results.
-
 The UI form offers the following actions:
 
 **Office 365 ProPlus**
@@ -114,23 +106,20 @@ The UI form offers the following actions:
 
 -   Install the **latest** version of Microsoft Edge Enterprise.
 
-
 **FSLogix Profile Containers**
 
 -   Install the **latest** version of the FSLogix Agent.
 
 -   Apply recommended settings.
 
-
 **OS Settings**
 
 -   Apply the recommended WVD settings for image capture.
 
-
 **Running the script**
 
 
-1. Now inside your virtual machine click on **Start** and open **Microsoft edge browser**.
+1. Inside your virtual machine click on **Start** and open **Microsoft edge browser**.
 
    ![ws name.](media/e14.png)
 
