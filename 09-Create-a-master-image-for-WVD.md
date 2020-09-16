@@ -349,4 +349,30 @@ In the Workspace section, we need to specify if we need to register the default 
 ![ws name.](media/e40.png)
 
 
+## **Task 10: Assign an Azure AD group to an application group**
+
+1. In search bar of Azure portal, search for *Windows virtual desktop* and click on it.
+
+![ws name.](media/e33.png)
+
+2. Under Manage, select Application groups.
+
+3. Locate the Default Application group that was created while creating hostpool in this exercise.
+
+4. Under Manage, select **Assignments** and Select **+ Add**.
+
+5. In the fly out, enter *ODL* in the search to find the name of your ODL User and select it.
+
+6. Choose **Select** to save your changes.
+
+## **Task 11: Connect to WVD with the web client**
+
+1. In your web browser, navigate to the URL below. 
+
+` https://rdweb.wvd.microsoft.com/arm/webclient.`
+
+>**Note:** We will be asked to login when we access the above URL. The credentials that we use are those from the lab.
+
+2. Sign in using a synchronized identity that has been assigned to an application group.
+
 
