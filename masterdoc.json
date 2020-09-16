@@ -41,8 +41,12 @@
         "Order": 9
       },
 	    {
-        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/WVD-Essentials/master/06-SUMMARY.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/09-Create-a-master-image-for-WVD.md",
         "Order": 10
+      }
+	     {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/10-Summary.md",
+        "Order": 11
       }
     ]
   }
