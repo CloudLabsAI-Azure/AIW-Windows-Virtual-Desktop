@@ -343,7 +343,7 @@ The UI form offers the following actions:
 
 1. In your web browser, navigate to the URL below. 
 
-   ` https://rdweb.wvd.microsoft.com/arm/webclient.`
+   ` https://rdweb.wvd.microsoft.com/arm/webclient `
 
 >**Note:** We will be asked to login when we access the above URL. The credentials that we use are those from the lab.
 
