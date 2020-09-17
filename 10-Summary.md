@@ -21,7 +21,11 @@
 
 - Setting up FSLogix and how FSLogix profile containers are used with Azure Files function in Windows Virtual Desktop.
 
+- Creating *Log Analytics Workspace* to stream log data into different workspaces.
+
 - Configuring load balancing methods i.e. *Breadth-first* and *Depth-first* in your host pool to obtain required efficiency in your WVD environment.
+
+- Creating a master image to start with a clean base installation of Windows and layer on mandatory updates, applications and configurations.
 
 
 ## **Why Windows Virtual Desktop?**
