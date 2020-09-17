@@ -29,7 +29,7 @@ In this exercise, we are going to walk through the process of creating a master 
    - Confirm Password: **Azure1234567**
    - Public inbound ports: select **Allow selected ports**
    - Select inbound ports: **RDP(3389)**
-   - **Select** the checkbox saying *"I confirm I have an eligible Windows 10 license with multi-tenant hosting rights."*
+   - **Select** *the checkbox saying "I confirm I have an eligible Windows 10 license with multi-tenant hosting rights."*
 
    ![ws name.](media/vmimage13.png)
 
