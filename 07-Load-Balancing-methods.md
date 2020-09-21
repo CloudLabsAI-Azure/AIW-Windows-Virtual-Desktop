@@ -214,7 +214,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
    ![ws name.](media/w8.png)
    
    
-14. Now as you can any one of the session host from  *WVD-HP01-SH-0* or *WVD-HP01-SH-1* will have 2 Active sessions, click on it.
+14. Here, one of the session hosts from  *WVD-HP01-SH-0* or *WVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
 
    ![ws name.](media/lb21.png)
    
@@ -225,7 +225,6 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 15. Verify that both users have been assigned to the particular session host. 
 
    ![ws name.](media/lb22.png)
-
 
 
 
