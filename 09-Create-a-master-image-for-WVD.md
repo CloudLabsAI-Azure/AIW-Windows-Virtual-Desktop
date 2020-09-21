@@ -8,15 +8,15 @@ In this exercise, we are going to walk through the process of creating a master 
 
    ![ws name.](media/e1.png)
 
-2. Search and select **Microsoft Windows 10**.
+2. In the search bar type *Microsoft Windows 10* and select **Microsoft Windows 10** from suggestions.
 
    ![ws name.](media/e2.png)
 
-3. From dropdown menu select **Windows 10 Enterprise multi-session, Version 1909** and click on create **Create**.
+3. On *Microsoft Windows 10* page, select **Windows 10 Enterprise multi-session, Version 1909** from dropdown menu and click on **Create**.
 
    ![ws name.](media/e3.png)
 
-4. Provide the below configuration for the virtual machine, and click on **Review + create** and then click on **create**.
+4. Provide the below configurations for the virtual machine, and click on **Review + create** and then click on **create**.
 
    - Subscription: *Choose the default subscription.*
    - Resource Group: *Select WVD-RG from the drop down.*
@@ -31,7 +31,7 @@ In this exercise, we are going to walk through the process of creating a master 
    - Select inbound ports: **RDP(3389)**
    - **Select** *the checkbox saying "I confirm I have an eligible Windows 10 license with multi-tenant hosting rights."*
 
-   ![ws name.](media/vmimage14.png)
+   ![ws name.](media/vmimage14.png) 
 
 5. After deployment of virtual machine completes, click on **Go to resource**.
 
@@ -129,11 +129,11 @@ The UI form offers the following actions:
 
    ![ws name.](media/e15.png)
 
-3. Open file explorer and go to *Downloads directory*, there **right click** on *Customizations.zip* and select **Extract All**.
+3. Open file explorer and go to *Downloads directory*, then **right click** on *Customizations.zip* and select **Extract All**.
 
    ![ws name.](media/e16.png)
 
-4. A new window will open, click on **Extract**.
+4. Click on **Extract** on the window asking to *Select a Destination and Extract Files*.
 
    ![ws name.](media/e17.png)
 
@@ -141,9 +141,11 @@ The UI form offers the following actions:
 
    ![ws name.](media/e18.png)
 
-6. Use the following command to navigate to "C:\Users\(loginaccount)\Documents\Customizations".
+6. Use the following command to navigate to "C:\Users\azuser\Documents\Customizations".
 
    ` cd C:\Users\azuser\Downloads\Customizations\Customizations `
+
+> **Note:** If in case you used a different username for the virtual machine, then in the above command replace **azuser** with the username of your Virtual Machine that you created earlier.
 
 7. Run the following command to allow for script execution.
 
@@ -164,7 +166,7 @@ The UI form offers the following actions:
 
 > **Note:** This script takes some time to run, so be patient as it may seem like nothing is happening for a while, and then applications will begin to install. You can watch the status from within PowerShell. After the Disk Cleanup Wizard closes, you may notice the PowerShell window does not update. It is waiting for the cleanmgr.exe process to close, which can take some time. You can select the PowerShell window and continue to hit the up arrow on your keyboard until you are presented with an active prompt.
 
-10. After the script has completed, select the **Start** icon and note that Microsoft Office, Microsoft Edge Chromium, and Microsoft Teams have been installed.
+10. After the script has completed, select the **Start** icon and note that **Microsoft Office, Microsoft Edge Chromium,** and **Microsoft Teams** have been installed.
 
     ![ws name.](media/e20.png)
 
@@ -257,7 +259,7 @@ The UI form offers the following actions:
    - Number of VMs: **2**
    - Name prefix: **VmFromImage**
    - Image type: **Gallery**
-   - Image: click on **Browse all images and disks** and select the Image we created earlier in this exercise, as shown below:
+   - Image: *Click on **Browse all images and disks** and select the Image we created earlier in this exercise, as shown below.*
 
    ![ws name.](media/vmimage7.png)
 
@@ -277,32 +279,32 @@ The UI form offers the following actions:
 
   **C**. Administrator Account details:
 
-   - AD domain join UPN: Paste your username **<inject key="AzureAdUserEmail" />**
-   - Password: Paste the password **<inject key="AzureAdUserPassword" />**
-   - Confirm Password: Paste the password **<inject key="AzureAdUserPassword" />** again.
+   - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
+   - Confirm Password: *Paste the password* **<inject key="AzureAdUserPassword" />** again.
    - Click on **Next: Workspace**.
 
    ![ws name.](media/w2.png)
 
-6.  In the Workspace section, we need to specify if we need to register the default application group to a workspace.
+6.  In the *Workspace* section, we need to specify if we need to register the default application group to a workspace.
 
    - Register desktop app group: *Choose* **Yes**
    - To this workspace: *Click on* **Create new**
 
    ![ws name.](media/67.png)
 
-8. Under the *Workspace name*, fill the name of workspace.
+7. Under the *Workspace name*, fill the name of workspace.
 
    - Workspace name: **WVD-WS-02**
    - Click on **OK**
 
    ![ws name.](media/e38.png)
 
-10. Now click on **Review + create** on the bottom left corner.
+8. Now click on **Review + create** on the bottom left corner.
 
     ![ws name.](media/e39.png)
 
-11. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
+9. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
 
     ![ws name.](media/e40.png)
 
@@ -321,7 +323,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/vmimage9.png)
 
-4. In the search bar, type your unique id (for example:220436) and choose your user by clicking on it. Then click on **Select** to save your changes.
+4. In the search bar, paste **<inject key="AzureAdUserEmail" />** and choose your user by clicking on it. Then click on **Select** to save your changes.
 
    ![ws name.](media/vmimage10.png)
 
@@ -331,7 +333,7 @@ The UI form offers the following actions:
 
    `https://rdweb.wvd.microsoft.com/arm/webclient`
 
->**Note:** If you are asked o login, use the following credentials:
+> **Note:** If you are asked to login, use the following credentials:
 > - Username: **<inject key="AzureAdUserEmail" />**
 > - Password: **<inject key="AzureAdUserPassword" />**
 
