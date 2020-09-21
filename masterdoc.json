@@ -32,11 +32,11 @@
         "Order": 7
       },
     {
-        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/08-LOG-ANALYTICS.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/07-Monitoring%20using%20Log%20Analytics.md",
         "Order": 8
       },
 	{
-        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/07-Load-Balancing-methods.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/08-Load-Balancing-methods.md",
         "Order": 9
       },
 {
