@@ -5,7 +5,7 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 
 ### **Task 1: Create Log Analytics**
 
-1. On the Azure portal, click on **Create a resource** given under Azure services.
+1. On the Azure portal, click on **Create a resource** given under *Azure services*.
 
    ![ws name.](media/wiw.png)
 
@@ -35,19 +35,19 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 
    ![ws name.](media/64.png)
 
-7. Open on **Host Pools** and then click on **WVD-HP-01**.
+7. Open **Host Pools** and then click on **WVD-HP-01**.
 
    ![ws name.](media/wiw12.png)
 
-8. Now click on **Diagnostic settings** present under **Monitoring** blade, then click on **+Add diagnostic setting**.
+8. Now click on **Diagnostic settings** present under *Monitoring* blade, then click on **+Add diagnostic setting**.
 
    ![ws name.](media/wiw5.png)
 
 9. Add the following configurations:
 
   - Diagnostic settings name: **HostPoolMonitoring**
-  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management, Connection & HostRegistration.** 
-  - Destination details: *Check the box for **Send to Log Analytics***
+  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management, Connection and HostRegistration.** 
+  - Destination details: *Check the box for* **Send to Log Analytics**
   - Subscription: *Choose the default subscription.*
   - Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
   - At last, click on **Save**.
@@ -58,15 +58,15 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 
    ![ws name.](media/wiw10.png)
    
-11. Click on **WVD-HP-01-DAG**. Then select **Diagnostic settings** present under **Monitoring** blade and click on **+Add diagnostic setting**.
+11. Click on **WVD-HP-01-DAG**. Then select **Diagnostic settings** present under *Monitoring* blade and click on **+Add diagnostic setting**.
 
    ![ws name.](media/wiw20.png) 
    
 12. Add the following configurations:
 
   - Diagnostic settings name: **ApplicationGroupMonitoring**
-  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error & Management.** 
-  - Destination details: *Check the box for **Send to Log Analytics***
+  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
+  - Destination details: *Check the box for* **Send to Log Analytics**
   - Subscription: *Choose the default subscription.*
   - Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
   - At last, click on **Save**.
@@ -80,42 +80,42 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 14. Add the following configurations:
 
   - Diagnostic settings name: **ApplicationGroupMonitoring1**
-  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error & Management.** 
-  - Destination details: *Check the box for **Send to Log Analytics***
+  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
+  - Destination details: *Check the box for* **Send to Log Analytics**
   - Subscription: *Choose the default subscription.*
   - Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
   - At last, click on **Save**.
 
-   ![ws name.](media/wiw22.png)
+   ![ws name.](media/wiw26.png)
 
 15. Navigate back to Windows Virtual Desktop and open **Workspaces**.
 
    ![ws name.](media/wiw9.png)
    
-16. Click on **WVD-WS-01**. Then select **Diagnostic settings** present under **Monitoring** blade and click on **+Add diagnostic setting**.    
+16. Click on **WVD-WS-01**. Then select **Diagnostic settings** present under *Monitoring* blade and click on **+Add diagnostic setting**.    
    
    ![ws name.](media/wiw11.png)
  
 17. Add the following configurations:
 
   - Diagnostic settings name: **WorkspaceMonitoring**
-  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management & Feed.** 
-  - Destination details: *Check the box for **Send to Log Analytics***
+  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management and Feed.** 
+  - Destination details: *Check the box for* **Send to Log Analytics**
   - Subscription: *Choose the default subscription.*
   - Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
   - At last, click on **Save**.  
    
    ![ws name.](media/wiw13.png)
    
-18. Now navigate to *Log Analytics Workspace*, then select **Logs** under *General* blade. 
+18. Now navigate to *Log Analytics Workspace* and open your workpsace, then select **Logs** under *General* blade. 
 
    ![ws name.](media/wiw14.png)
 
-19. Click on **Get Started** button and then close the *Example queries* window.
+19. Click on **Get Started** button and then close the *Example queries* window by clicking on **X** button.
 
    ![ws name.](media/wiw15.png)
 
-20. Now in *Query Explorer*, paste the following query and set the **Time Range** to **Last 30 minutes**, then click on **Run** button.
+20. In the *Query Explorer*, paste the following query and set the **Time Range** to **Last 30 minutes**, then click on **Run** button.
 
    ```
    WVDConnections 
