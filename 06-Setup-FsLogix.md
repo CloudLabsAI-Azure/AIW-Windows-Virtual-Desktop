@@ -66,7 +66,7 @@ In the following task, we will be creating a storage account with a file share w
 
    ![ws name.](media/fs2.png)
     
-   >**Note:** This will enable your storage account to domain join under Azure Active Domain Join services
+>**Note:** Setting this property implicitly *"domain joins"* the storage account with the associated Azure AD DS deployment. Azure AD DS authentication over SMB is then enabled for all new and existing file shares in the storage account.
     
     
 8. Then click on **Save**.
@@ -76,15 +76,13 @@ In the following task, we will be creating a storage account with a file share w
 9. Now click on **Overview** to return back to storage account page, then click on **File shares**.
 
    ![ws name.](media/a62.png)
-    
-    
-    
+ 
 10. Click on **+ File share**.
 
    ![ws name.](media/a63.png)
     
     
-12. Enter the following name for your file share.
+11. Enter the following name for your file share.
     
     - Name: **userprofile**    
     - Click on **Create**. This will create the file share.
