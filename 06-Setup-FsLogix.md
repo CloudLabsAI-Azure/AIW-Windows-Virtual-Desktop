@@ -36,7 +36,7 @@ In the following task, we will be creating a storage account with a file share w
    
    ![ws name.](media/a56.png)
    
-4. Under networking tab use following configuration.
+4. Under *Networking* tab use following configuration.
     
   - Connectivity method: **Public endpoint(selected networks)**
      
