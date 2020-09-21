@@ -1,4 +1,4 @@
-# Exercise 5: Setup FsLogix
+# Exercise 5: Setup FSLogix
 
 The Windows Virtual Desktop service recommends FSLogix profile containers as a user profile solution. FSLogix is designed to roam profiles in remote computing environments, such as Windows Virtual Desktop. It stores a complete user profile in a single container. At sign-in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile. This article describes how FSLogix profile containers used with Azure Files function in Windows Virtual Desktop.
 
@@ -109,7 +109,7 @@ In this task we will give *Storage File Data SMB Share Contributor* permissions 
    
    >**Note:** There are three types of roles specified for the storage account i.e. *Storage Account contributor, Storage file data SMB share contributor, Storage File Data SMB share contributor*
    
-   - Under **Select** search for your **unique_id** (for example: 216332) and click on the your user to select it.
+   - Under **Select** search paste your username **<inject key="AzureAdUserEmail" />** and select it.
    - Then click on **Save**.
    
    ![ws name.](media/fs3.png)
@@ -120,9 +120,9 @@ In this task we will give *Storage File Data SMB Share Contributor* permissions 
 
 
 
-In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** session host using a power shell script.
+In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** session host using a Powershell script.
 
-1. In your Azure portal search for *Virtual* in the search bar and click on **Virtual Machine** from the suggestions.
+1. In your Azure portal search for *Virtual* in the search bar and click on **Virtual Machines** from the suggestions.
 
    ![ws name.](media/a67.png)
       
@@ -141,12 +141,12 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
    ![ws name.](media/a68.png)
    
    
-5. A similar window will open.
+5. A similar window as that of the below image will appear.
 
    ![ws name.](media/a69.png)
    
       
-6. **Copy** the complete Script below and **paste** it by pressing **Ctrl + V** in the powershell window in the Azure portal.
+6. **Copy** the script given below and **paste** it by pressing **Ctrl + V** in the Powershell window.
 
     ```
     #Variables
@@ -193,10 +193,10 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
  
  
     
-   >**Note:** The above script will create a new directory i.e. *C:\LabFiles* where it will download FSLogix Installation bundle and extract it. After extraction installation of FSLogix will begin. When configuring Profile Container registry settings are added here: Registry Key: *HKLM\SOFTWARE\FSLogix\Profiles*. When configuring Profile Container the entire contents of the registry will be redirected to the FSLogix Profile Container. 
+ > **Note:** The above script will create a new directory i.e. *C:\LabFiles* where it will download FSLogix Installation bundle and extract it. After extraction installation of FSLogix will begin. When configuring Profile Container registry settings are added here: Registry Key: *HKLM\SOFTWARE\FSLogix\Profiles*. When configuring Profile Container the entire contents of the registry will be redirected to the FSLogix Profile Container. 
 
 
-7. Now scroll up on the script you pasted and replace **{NameofStorageAccount}** (for example: storageaccount204756) with the storage account name you created earlier. Make sure to remove the curly braces.
+7. Now scroll up on the script you pasted and replace **{NameofStorageAccount}** with the actual storage account name you created earlier. Make sure to remove the curly braces.
 
    ![ws name.](media/a113.png)
       
@@ -205,9 +205,9 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
 
    ![ws name.](media/a112.png)
    
-   > It will take around five minutes for the script to execute.
+> **Note:** It will take around five minutes for the script to execute.
    
-9. Navigate to virtual machine and click on **WVD-HP01-SH-1**.
+9. Navigate to virtual machines and click on **WVD-HP01-SH-1**.
 
     ![ws name.](media/fs8.png)
 
@@ -217,9 +217,56 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
     ![ws name.](media/a68.png)
     
     
-11. Press **Ctrl + V** to paste the script in the Powershell window.
+11. **Copy** the script given below and **paste** it by pressing **Ctrl + V** in the Powershell window.
 
-12. Now scroll up on the script you pasted and replace **{NameofStorageAccount}** (for example: storageaccount204756) with the storage account name you created earlier. Make sure to remove the curly braces.
+    ```
+    #Variables
+    $storageAccountName = "{NameofStorageAccount}" 
+
+    #Create Directories
+    $LabFilesDirectory = "C:\LabFiles"
+    New-Item -Path $LabFilesDirectory -ItemType Directory |Out-Null
+    New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
+
+    #Download FSLogix Installation bundle
+    Invoke-WebRequest -Uri "https://experienceazure.blob.core.windows.net/templates/wvd/FSLogix_Apps_Installation.zip" -OutFile "$LabFilesDirectory\FSLogix_Apps_Installation.zip"
+
+    #Extract the downloaded FSLogix bundle
+    function Expand-ZIPFile($file, $destination){
+    $shell = new-object -com shell.application
+    $zip = $shell.NameSpace($file)
+    foreach($item in $zip.items()){
+     $shell.Namespace($destination).copyhere($item)
+    }
+    }
+
+    Expand-ZIPFile -File "$LabFilesDirectory\FSLogix_Apps_Installation.zip" -Destination "$LabFilesDirectory\FSLogix"
+
+    #Install FSLogix
+    $pathvargs = {C:\LabFiles\FSLogix\x64\Release\FSLogixAppsSetup.exe /quiet /install }
+    Invoke-Command -ScriptBlock $pathvargs
+
+    #Create registry key 'Profiles' under 'HKLM:\SOFTWARE\FSLogix'
+    $registryPath = "HKLM:\SOFTWARE\FSLogix\Profiles"
+    if(!(Test-path $registryPath)){
+    New-Item -Path $registryPath -Force | Out-Null
+    }
+
+    #Add registry values to enable FSLogix profiles, add VHD Locations, Delete local profile and FlipFlop Directory name
+    New-ItemProperty -Path $registryPath -Name "VHDLocations" -Value "\\$storageAccountName.file.core.windows.net\userprofile" -PropertyType String -Force | Out-Null
+    New-ItemProperty -Path $registryPath -Name "Enabled" -Value 1 -PropertyType DWord -Force | Out-Null
+    New-ItemProperty -Path $registryPath -Name "DeleteLocalProfileWhenVHDShouldApply" -Value 1 -PropertyType DWord -Force | Out-Null
+    New-ItemProperty -Path $registryPath -Name "FlipFlopProfileDirectoryName" -Value 1 -PropertyType DWord -Force | Out-Null
+
+    #Display script completion in console
+    Write-Host "Script Executed successfully"
+    ```
+ 
+ 
+    
+   >**Note:** The above script will create a new directory i.e. *C:\LabFiles* where it will download FSLogix Installation bundle and extract it. After extraction installation of FSLogix will begin. When configuring Profile Container registry settings are added here: Registry Key: *HKLM\SOFTWARE\FSLogix\Profiles*. When configuring Profile Container the entire contents of the registry will be redirected to the FSLogix Profile Container.
+
+12. Now scroll up on the script you pasted and replace **{NameofStorageAccount}** with the actual storage account name you created earlier. Make sure to remove the curly braces.
 
     ![ws name.](media/a113.png)
       
@@ -228,8 +275,9 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
 
     ![ws name.](media/a112.png)
 
+> **Note:** It will take around five minutes for the script to execute.
   
-14. Now search for *Windows virtual* in the search bar and select **Windows Virtual Desktop** from the suggestions.
+14. Now search for *Windows virtual desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
 
     ![ws name.](media/a109.png)
    
@@ -238,15 +286,15 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
 
     ![ws name.](media/fs5.png)
     
-16. Switch to **Sessions** blade, then select **odl_user_{unique_id}** and click on **Log off**.
+16. Switch to **Sessions** tab, then select both *Host Pools* and click on **Log off**.
 
     ![ws name.](media/a72.png)
     
-17. Click on **OK** for **Log off user from VMs**.
+17. Click on **OK** to *Log off user from VMs*.
 
     ![ws name.](media/a73.png)
 
-    >**Note:** This will logoff both the session host so that when the users sign in again to the session host the Fxlogix will start functioning.
+> **Note:** This will logoff the user **<inject key="AzureAdUserEmail" />** from both the session hosts, so that when the user sign in again to the session hosts, FSLogix will start functioning.
     
     
 18. Now paste this link ```aka.ms/wvdarmweb``` in your browser and enter your **credentials** to login. 
@@ -270,12 +318,16 @@ In this task we will install and configure FsLogix in the **WVD-HP01-SH-0** sess
 
    ![ws name.](media/89.png)
         
-21. Now you can see the desktop saying ***Please wait for the FSLogix Apps Services***.
+21. The desktop will launch looking similar to the screenshot below, telling ***Please wait for the FSLogix Apps Services***.
 
     ![ws name.](media/wiw19.png)
     
-    >**Note:** This means that user profile is being managed by FSLogix.
-    
+> **Note:** This means that user profile is being managed by FSLogix.
+
+22. The virtual desktop will launch and look similar to the screenshot below.
+
+    ![ws name.](media/launchwvd.png)
+
 ### **Task 4: Verifying the User profiles stored in File share.**
 
 In this task, we will be accessing the file share to verify the user profiles stored in *.vhd* format.
@@ -293,7 +345,7 @@ In this task, we will be accessing the file share to verify the user profiles st
 
    ![ws name.](media/a88.png)
     
-   >**Note:** This will enable access of your storage account on public network so that you can see the user profiles stored in the fileshare.
+> **Note:** This will enable access of your storage account on public network so that you can see the user profiles stored in the fileshare.
     
     
 4. Now click on **Overview** and open **Fileshare**.
