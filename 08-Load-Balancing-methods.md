@@ -12,11 +12,11 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 ### **Task 1: Add new users to Azure Active Directory**
 
-1. On theAzure Portal page, click on the **Show portals menu** button and select **Azure Active Directory**.
+1. In Azure Portal, click on the **Show portals menu** button and select **Azure Active Directory**.
 
-   ![ws name.](media/lb1.png)
+   ![ws name.](media/lb34.png)
 
-2. Click on **Users** under **Manage** blade.
+2. Click on **Users** under *Manage* blade.
 
    ![ws name.](media/lb6.png)
 
@@ -28,11 +28,11 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    - User name: **WVDUser01**
    - Name: **WVDUser01**
-   - Click on **Create**
+   - Click on **Create**.
 
    ![ws name.](media/lb8.png)
 
-5. Now again click on **+ New user**, then add the following configurations and leave rest to default.
+5. Click on **+ New user** to add one more user, then add the following configurations and leave rest to default.
 
    - User name: **WVDUser02**
    - Name: **WVDUser02**
@@ -40,7 +40,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
    
    ![ws name.](media/lb7.png)
 
-6. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and keep in a text editor.
+6. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste in a text editor so that we can use it further.
 
    ![ws name.](media/lb11.png)
 
@@ -52,7 +52,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/lb13.png)
 
-9. Once done, open **Profile** under **Manage** blade. Click on the **Reset password** and then click on **Reset password** button.
+9. Once done, open **Profile** under *Manage* blade. Click on the **Reset password** and then click on **Reset password** button.
 
    ![ws name.](media/lb3.png)
 
@@ -69,22 +69,26 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 **A**. While creating WVD-HP-01 host pool we selected load balancing method as *Breadth-first*, now we are going to log into both the session hosts created inside the WVD-HP-01 host pool and see the user distribution.
 
 
->**Note:** You are already logged into WVD-HP-01-DAG using WVDUser01 when you performed ***Exercise 11, Task 2, Step 20***, if that session is closed then visit `aka.ms/wvdarmweb` and click on WVD-HP-01-DAG and login with *WVDUser-01* credentials.
+> **Note:** You are already logged into WVD-HP-01-DAG using WVDUser01 when you performed ***Exercise 5, Task 3, Step 20***. If that session is closed, visit to  `aka.ms/wvdarmweb` and click on *WVD-HP-01-DAG* and login with *WVDUser-01* credentials.
 
 1. In your local machine go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
 
-2. Click on the *ellipses* and select **Unsubscribe**.
+2. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
 
    ![ws name.](media/lb16.png)
 
-3. Click on **Subscribe** and enter you user credentials.
+> **Note:** We need to unsubscribe because in Exercise 4, we logged in Remote Desktop using your user.
 
-   - Username: Put the username of **WVD User-02** you copied earlier (for example: **WVDUser-02@azurehol1055.onmicrosoft.com**).
-   
-   ![ws name.](media/username2.png)
+3. Click on **Subscribe** button.
+
+   ![ws name.](media/a49.png)
+
+4. Enter you user credentials access the workspace.
+
+   - Username: Put the username of **WVD User-02** which you copied in previous task (for example: **WVDUser-02@azurehol1055.onmicrosoft.com**), then click on **Next**
    
    - Password: *Paste the temporary password you copied earlier*
 
@@ -92,18 +96,18 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 4. Portal will ask you to set a permanent password. For that just paste your temporary password under *Current Password* and add a new password for the user.
 
-   ![ws name.](media/lb15.png)
+   ![ws name.](media/lb35.png)
 
-5. Now in the WVD client double click on the **WVD-HP-01-DAG** Desktop to access it. 
+5. In WVD client, double click on the **WVD-HP-01-DAG** Desktop to access it. 
 
    ![ws name.](media/lb14.png)
 
 6. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: Put the username of **WVD User-02** (for example: **WVDUser-02@azurehol1055.onmicrosoft.com**).
-   - Password: *Paste the permanent password*
+   - Password: *Paste the permanent password you created earlier and click on **OK**.* 
    
-   ![ws name.](media/lb33.png)
+   ![ws name.](media/lb37.png)
   
 
 7. The virtual Desktop will launch as shown below. 
@@ -113,24 +117,24 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 8. Return to the Azure portal on your browser and search for the host pool and click on it.
 
-   ![ws name.](media/w5.png)
+   ![ws name.](media/lb38.png)
    
    
 9. Now click on **WVD-HP-01** host pool to access it.
 
-   ![ws name.](media/w7.png)
+   ![ws name.](media/lb39.png)
    
    
 10. Under Manage blade, click on **Session hosts**.
 
-   ![ws name.](media/w8.png)
+   ![ws name.](media/lb24.png)
    
    
 11. Now as you can see two session hosts have one Active sessions each.
 
    ![ws name.](media/lb2.png)
    
->**Note:** This shows how users are divided into 2 different session host under *Breadth first load balancing methods*.
+> **Note:** This shows how users are divided into 2 different session host under *Breadth first load balancing methods*.
    
 12. Click on the first session with one active session host and verify which user has been assigned to the particular session host and click on **Log off all active users**, then click on the **X** icon on the top right corner to return to the session host page.
 
@@ -139,7 +143,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 >**Note:** We need to log off users from session hosts so that when the users login back to the session host, they are divided based on the depth first load balancing method.
    
 
-**B**. Now we will change the load balancing method of WVD-HP-01 host pool to *Depth first* and see how users are divided between session hosts.
+**B**. Now we will change the load balancing method of *WVD-HP-01* host pool to *Depth first* and see how users are divided between session hosts.
 
 1. In *WVD-HP-01* host pool, click on **Properties** under *Settings* blade.
 
@@ -163,7 +167,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 4. Portal will ask you to set a permanent password. For that just paste your temporary password under *Current Password* and add new password for the user.
 
-   ![ws name.](media/lb15.png)
+   ![ws name.](media/lb36.png)
 
 5. Now in the WVD client double click on the **WVD-HP-01-DAG** Desktop to access it. 
 
@@ -187,7 +191,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
    ![ws name.](media/lb28.png)
    
    
-9. In your local machine go to **Start** and search for **Remote desktop** and open the application with exact icon as shown below.
+9. In your local machine go to **Start** and search for **Remote desktop** and open the application.
 
    ![ws name.](media/137.png)
    
@@ -227,9 +231,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
    ![ws name.](media/lb22.png)
 
 
-
-
-# **Scale session hosts using Azure Automation**
+## **Scale session hosts using Azure Automation**
 
 Here, you will learn about the scaling tool built with the Azure Automation account and Azure Logic App that automatically scales session host VMs in your Windows Virtual Desktop environment. 
 
