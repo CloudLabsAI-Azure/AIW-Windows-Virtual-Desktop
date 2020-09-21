@@ -4,35 +4,35 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/00-OVERVIEW.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/00-Overview.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/01-PREREQUISITE.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/01-Pre-requisite.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/02-CREATE-HOSTPOOL.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/02-Create-HostPool.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/03-CREATE-APPLICATION-GROUP.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/03-Create-Application-group.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/04-ACCESS-WORKSPACE-USING-BROWSER.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/04-Access-Workspace-Using-Browser.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/05-ACCESS-WORKSPACE-USING-WVD-CLIENT.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/05-Access-Workspace-Using-WVD-Client.md",
         "Order": 6
       },
 	{
-        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/06-Setup-FsLogix.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/06-Setup-FSLogix.md",
         "Order": 7
       },
     {
-        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/07-Monitoring%20using%20Log%20Analytics.md",
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/07-Monitoring-using-Log-Analytics.md",
         "Order": 8
       },
 	{
