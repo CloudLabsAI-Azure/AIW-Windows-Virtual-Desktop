@@ -60,8 +60,33 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/lb4.png)
 
-11. Repeat *Step 7* to *Step 10* for **WVDUser02**.
+11. Repeat *Step 7* to *Step 1* for **WVDUser02**.
 
+12. Navigate to the host pool *WVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
+
+   ![ws name.](media/lb40.png)
+
+13. Open application group **WVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
+
+   ![ws name.](media/lb41.png)
+   
+14. Click on **+ Add**, then in the search bar, type *WVDUser* and select both **WVDUser01 ** & **WVDUser02** that we created earlier. At last, click on **Select** button.
+
+   ![ws name.](media/lb42.png)
+
+15. Once done, return to application groups and open **WVD-AG-01** and click on **Assignments** under *Manage* blade.
+
+   ![ws name.](media/lb43.png)
+ 
+16. Click on **+ Add**, then in the search bar, type *WVDUser* and select both **WVDUser01 ** & **WVDUser02** that we created earlier. At last, click on **Select** button.
+
+   ![ws name.](media/lb42.png)
+
+17. Once done, the users assigned to both the Application groups will look similar to the image given below.
+
+   ![ws name.](media/lb45.png)
+
+   ![ws name.](media/lb44.png)
 
 ### **Task 2: Change and experience Load Balancing methods**
 
