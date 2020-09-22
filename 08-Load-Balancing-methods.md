@@ -70,7 +70,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/lb41.png)
    
-14. Click on **+ Add**, then in the search bar, type *WVDUser* and select both **WVDUser01 ** & **WVDUser02** that we created earlier. At last, click on **Select** button.
+14. Click on **+ Add**, then in the search bar, type *WVDUser* and select both **WVDUser01** & **WVDUser02** that we created earlier. At last, click on **Select** button.
 
    ![ws name.](media/lb42.png)
 
@@ -78,7 +78,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/lb43.png)
  
-16. Click on **+ Add**, then in the search bar, type *WVDUser* and select both **WVDUser01 ** & **WVDUser02** that we created earlier. At last, click on **Select** button.
+16. Click on **+ Add**, then in the search bar, type *WVDUser* and select both **WVDUser01** & **WVDUser02** that we created earlier. At last, click on **Select** button.
 
    ![ws name.](media/lb42.png)
 
