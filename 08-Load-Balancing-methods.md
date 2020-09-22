@@ -94,8 +94,6 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 **A**. While creating WVD-HP-01 host pool we selected load balancing method as *Breadth-first*, now we are going to log into both the session hosts created inside the WVD-HP-01 host pool and see the user distribution.
 
 
-> **Note:** You are already logged into WVD-HP-01-DAG using WVDUser01 when you performed ***Exercise 5, Task 3, Step 20***. If that session is closed, visit to  `aka.ms/wvdarmweb` and click on *WVD-HP-01-DAG* and login with *WVDUser-01* credentials.
-
 1. In your local machine go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
@@ -169,6 +167,9 @@ The following load-balancing methods are available in Windows Virtual Desktop:
    
 
 **B**. Now we will change the load balancing method of *WVD-HP-01* host pool to *Depth first* and see how users are divided between session hosts.
+
+
+> **Note:** If previous session is closed, visit to  `aka.ms/wvdarmweb`, then click on *WVD-HP-01-DAG* and login with *WVDUser-01* credentials.
 
 1. In *WVD-HP-01* host pool, click on **Properties** under *Settings* blade.
 
