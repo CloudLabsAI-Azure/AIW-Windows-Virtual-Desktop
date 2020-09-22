@@ -46,9 +46,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/55.png)
    
    
-10. The WVD dashboard will launch, then double click on Excel application to access it.
+10. The WVD dashboard will launch, then double click on **Excel** application to access it.
 
-   ![ws name.](media/excel.png)
+   ![ws name.](media/ag10.png)
    
 
 11. Enter the lab credentials to access the Application.
@@ -79,9 +79,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/51.png)
  
-2. The WVD client application will launch and we will land on the WVD dashboard. Click on the tile named **WVD-HP-01-DAG** to launch the desktop.
+2. The WVD client application will launch and we will land on the WVD dashboard. Click on the tile named **Default Desktop** to launch the desktop.
 
-   ![ws name.](media/100.png)
+   ![ws name.](media/ag11.png)
    
 
 3. Enter the lab credentials to access the Desktop.
