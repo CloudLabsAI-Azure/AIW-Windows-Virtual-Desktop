@@ -59,7 +59,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/ag12.png)
 
-10. On the Applications tab, click on Add Applications to add applications to this application group.
+10. On the *Applications* tab, click on **Add Applications** to add applications to this application group.
 
    ![ws name.](media/ag1.png)
 
