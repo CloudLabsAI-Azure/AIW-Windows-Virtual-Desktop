@@ -22,7 +22,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 3. The WVD dashboard will launch, then click on **Word** application to access it. 
 
-   ![ws name.](media/a46.png)
+   ![ws name.](media/ag8.png)
 
 
 4. Select **Allow** on the prompt asking permission to *Access local resources*.
@@ -53,9 +53,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/w12.png)
    
    
-2. We will land on the WVD dashboard again. Click on the tile named WVD-HP-01-DAG to launch the desktop.
+2. We will land on the WVD dashboard again. Click on the tile named *Default Desktop* to launch the desktop.
 
-   ![ws name.](media/92.png)
+   ![ws name.](media/ag9.png)
 
 
 3. Select **Allow** on the prompt asking permission to *Access local resources*.
