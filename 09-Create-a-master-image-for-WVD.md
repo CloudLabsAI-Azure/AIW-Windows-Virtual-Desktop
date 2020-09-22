@@ -33,7 +33,7 @@ In this exercise, we are going to walk through the process of creating a master 
 
    ![ws name.](media/vmimage14.png) 
 
-5. After deployment of virtual machine completes, click on **Go to resource**.
+5. Once the deployment completes, click on **Go to resource**.
 
    ![ws name.](media/vmimage1.png)
 
@@ -41,26 +41,26 @@ In this exercise, we are going to walk through the process of creating a master 
 
    ![ws name.](media/e6.png)
 
-7. Click on **Download RDP file**.
+7. Click on **Download RDP file** button.
 
    ![ws name.](media/e7.png)
 
-8. Click on the downloaded RDP file to open it.
+8. Open the downloaded RDP file.
 
    ![ws name.](media/e8.png)
 
-9. Now in the following RDP client window click on **Connect** to establish an RDP connection to your virtual machine.
+9. Now in the RDP client window, click on **Connect** to establish an RDP connection to your virtual machine.
 
    ![ws name.](media/e9.png)
 
-10. Enter your virtual machine *credentials* and click **OK**.
+10. Enter the credentials of your virtual machine given below, and click on **OK**.
 
    - Username: **azuser**
    - Password: **Azure1234567**
    
    ![ws name.](media/vmimage3.png)
 
-11. The virtual machine will look similar to the one shown below.
+11. The virtual machine will launch and look similar to the screenshot below.
 
    ![ws name.](media/vmimage2.png)
 
@@ -72,7 +72,7 @@ Despite the Azure support teams best efforts, the Marketplace images are not alw
 
    ![ws name.](media/e11.png)
 
-2. Select **Updates & Security** in the *Settings*.
+2. Select **Updates & Security** in the *Settings* window.
 
    ![ws name.](media/e12.png)
 
@@ -123,7 +123,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/e14.png)
 
-2. Copy and paste the URL below and click on **Save** to download the *Customizations.zip* file.
+2. Copy and paste the URL below and click on **Save** to download and save the *Customizations.zip* file.
 
    `https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/shawntmeyer/WVD/tree/master/Image-Build/Customizations`
 
@@ -137,7 +137,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/e17.png)
 
-5. Now on your virtual machines taskbar search for *PowerShell*, and then select **Run as administrator**.
+5. Navigate to the taskbar in your virtual machine and search for *PowerShell*, then select **Run as administrator**.
 
    ![ws name.](media/e18.png)
 
@@ -145,7 +145,7 @@ The UI form offers the following actions:
 
    ` cd C:\Users\azuser\Downloads\Customizations\Customizations `
 
-> **Note:** If in case you used a different username for the virtual machine, then in the above command replace **azuser** with the username of your Virtual Machine that you created earlier.
+> **Note:** If in case you used a different username for the virtual machine, then in the above command replace ***azuser*** with the username of your Virtual Machine that you created earlier.
 
 7. Run the following command to allow for script execution.
 
@@ -159,18 +159,18 @@ The UI form offers the following actions:
 
    ![ws name.](media/e19.png)
 
-> **Note:** Make sure that the *FSlogix VHD location* and *AAD Tenant ID* columns are left **blank**.
+> **Note:** Make sure that the **FSlogix VHD location** and **AAD Tenant ID** columns are left **blank**.
 
 >**Note:** The script will begin configuring the image. **DO NOT close any of the remaining windows that appear until the script has finished execution**. Doing so will interrupt the process and will require you to start over.
 >The script will take several minutes to complete depending on the options you selected. Additional input from you is not required during this stage.
 
 > **Note:** This script takes some time to run, so be patient as it may seem like nothing is happening for a while, and then applications will begin to install. You can watch the status from within PowerShell. After the Disk Cleanup Wizard closes, you may notice the PowerShell window does not update. It is waiting for the cleanmgr.exe process to close, which can take some time. You can select the PowerShell window and continue to hit the up arrow on your keyboard until you are presented with an active prompt.
 
-10. After the script has completed, select the **Start** icon and note that **Microsoft Office, Microsoft Edge Chromium,** and **Microsoft Teams** have been installed.
+10. Once the script completes, select the **Start** icon and note that **Microsoft Office, Microsoft Edge Chromium,** and **Microsoft Teams** have been installed.
 
     ![ws name.](media/e20.png)
 
-11. Now open file explorer and delete *customizations.zip* file and *Customizations* folder from downloads.
+11. Now open file explorer and delete **customizations.zip** file and **Customizations** folder from downloads.
 
     ![ws name.](media/e21.png)
 
@@ -196,28 +196,32 @@ The UI form offers the following actions:
 
    ![ws name.](media/e26.png)
 
-2. On the Virtual machines blade, locate the VM you used for your master image and open it.
+2. On the Virtual machines blade, open the VM we used for creating master image i.e., **wvdwin10**.
 
    ![ws name.](media/vmimage4.png)
 
-3. On the *Overview* blade for your VM, confirm the *Status* shows **Stopped**. 
+3. On the *Overview* blade for the Virtual machine, confirm the *Status* reflects as **Stopped**. 
    
    ![ws name.](media/vmimage5.png)
 
-4. Click on **Stop** button to move it to *deallocated state*.
+4. Click on the **Stop** button to move it to *deallocated state*.
 
    ![ws name.](media/vmimage6.png)
 
-5. Click **OK** on the prompt.
+5. Click **OK** to the prompt asking *Stop this virtual machine*.
 
    ![ws name.](media/e29.png)
 
-6. When virtual machine is *deallocated*, click on **Capture**.
+6. Once the virtual machine is in *deallocated* state, click on **Capture**.
 
    ![ws name.](media/e30.png)
 
-7. Enter the name of your virtual machine i.e **wvdwin10** and click on **Create**.
+7. Enter the name of the virtual machine i.e **wvdwin10** and leave other values to default. Then click on **Create**.
 
+   - Name: *Leave to default*
+   - Resource group: *Select* **WVD-RG** *from the drop down.*
+   - Type the virtual machine name: **wvdwin10**
+   
    ![ws name.](media/e31.png)
 
 
@@ -233,6 +237,8 @@ The UI form offers the following actions:
 
 3. On the **Basics** tab configure your Host pool with following configurations:
 
+   - Subscription: *Choose the default subscription*.
+   - Resource Group: *Select **WVD-RG** from the drop down*.
    - Host pool name: **wvd-hostpool**
    - location: **EastUS**, *basically this should be same as the region of your resource group.*
    - Validation Environment: **No**
@@ -250,16 +256,16 @@ The UI form offers the following actions:
 
   **A.** Session Host Specifications:
 
-   - Resource Group: Select **WVD-RG** from the drop down.
-   - Virtual machine location: **East US**, location should be same as location of your resource group.
-   - Virtual machine size: **Standard D1_v2**. Click on **Change Size**, then select **D1_v2** and click on **Select** as shown below
+   - Resource Group: *Select* **WVD-RG** *from the drop down.*
+   - Virtual machine location: **East US**, *location should be same as location of your resource group.*
+   - Virtual machine size: **Standard D1_v2**. *Click on **Change Size**, then select **D1_v2** and click on **Select** as shown below.*
 
    ![ws name.](media/65.png)
 
    - Number of VMs: **2**
    - Name prefix: **VmFromImage**
    - Image type: **Gallery**
-   - Image: *Click on **Browse all images and disks** and select the Image we created earlier in this exercise, as shown below.*
+   - Image: *Click on **Browse all images and disks**, click on **My items** and select the Image we created earlier in this exercise, as shown below.*
 
    ![ws name.](media/vmimage7.png)
 
@@ -311,19 +317,19 @@ The UI form offers the following actions:
 
 ## **Task 7: Assign an Azure AD group to an application group**
 
-1. In search bar of Azure portal, search for *Windows virtual desktop* and click on it.
+1. In search bar of Azure portal, search for *Windows virtual desktop* and select **Windows virtual desktop** from the suggestions.
 
    ![ws name.](media/e33.png)
 
-2. Under Manage, select Application groups. Then locate the *Default Application group* that was created while creating Host pool in previous task.
+2. Under *Manage* blade, select **Application groups**. Then click on the *Default Application group* that was created while creating Host pool in previous task.
 
    ![ws name.](media/vmimage8.png)
 
-3. Under Manage, click on **Assignments** and then click on **+ Add** button.
+3. Now click on **Assignments** under Manage blade, and then click on **+ Add** button.
 
    ![ws name.](media/vmimage9.png)
 
-4. In the search bar, paste **<inject key="AzureAdUserEmail" />** and choose your user by clicking on it. Then click on **Select** to save your changes.
+4. In the search bar, paste **<inject key="AzureAdUserEmail" />** and choose your user by clicking on it. At last, click on **Select** to save your changes.
 
    ![ws name.](media/vmimage10.png)
 
@@ -345,7 +351,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/93.png)
 
-4. Enter the lab credentials to access the application and click on Submit.
+4. Enter the lab credentials given below, to access the application and click on **Submit**.
 
    - Username: **<inject key="AzureAdUserEmail" />**
    - Password: **<inject key="AzureAdUserPassword" />**
@@ -356,15 +362,9 @@ The UI form offers the following actions:
 
    ![ws name.](media/launchwvd.png)
 
-6. At last, validate the components relative to the configuration we made in previous task. The desktop should show icons for *Microsoft Edge* and *Microsoft Teams*. When you go to the *Windows start menu*, you can find the *Office applications*.
+6. At last, validate the components relative to the configuration we made in previous task. The desktop should show icons for ***Microsoft Edge*** and ***Microsoft Teams***. When you go to the ***Windows start menu***, you can find the ***Office applications***.
 
    ![ws name.](media/vmimage12.png)
 
 7. Click on the **Next** button present in the bottom-right corner of this lab guide.
-
-
-
-
-
-
 
