@@ -114,7 +114,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 3. Now in the WVD dashboard, click on the **Default Desktop** to access it. 
 
-   ![ws name.](media/lb46.png)
+   ![ws name.](media/lb51.png)
 
 4. Select **Allow** on the prompt asking permission to *Access local resources*.
 
@@ -247,7 +247,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
    
    - Password: *Paste the **Permanent password** that you created in Task 2:Step 2.*
    
-   ![ws name.](media/a47.png)
+   ![ws name.](media/lb51.png)
 
 
 7. The virtual Desktop will launch as shown below. 
@@ -269,7 +269,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
    - Username: *Paste username* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**).*
    - Password: *Paste the **permanent password** that you created in Task 2:Step 2.*
    
-   ![ws name.](media/lb33.png)
+   ![ws name.](media/lb51.png)
    
 
 11. The virtual Desktop will launch as shown below. 
