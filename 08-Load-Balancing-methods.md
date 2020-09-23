@@ -277,9 +277,9 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
    ![ws name.](media/lb23.png) 
 
 
-12. Return back to azure portal and navigate to **WVD-HP-01** host pool.
+12. Return back to the Azure portal, navigate to **WVD-HP-01** host pool and open **Session Hosts** present under *Manage* blade.
 
-   ![ws name.](media/w8.png)
+   ![ws name.](media/lb24.png)
    
    
 13. Here, one of the session hosts from  *WVD-HP01-SH-0* or *WVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
