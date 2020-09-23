@@ -86,35 +86,17 @@ Despite the Azure support teams best efforts, the Marketplace images are not alw
 
 **Introduction to the script**
 
-The authors for this content have developed a scripted solution to assist in automating some common baseline image build tasks. The script includes a UI form, enabling you to quickly select which actions to perform. The end result will be a custom master image that incorporates Microsoft's main business applications, along with the necessary policies and settings for an optimized user experience.
+We have used a scripted solution available in [Github](https://github.com/shawntmeyer/WVD) to assist in automating some common baseline image build tasks. The script includes a UI form, enabling you to quickly select which actions to perform. The end result will be a custom master image that incorporates Microsoft's main business applications, along with the necessary policies and settings for an optimized user experience.
 
 The UI form offers the following actions:
 
-**Office 365 ProPlus**
+   - **Office 365 ProPlus** - Install the **latest** version of Office 365 ProPlus monthly channel
+   - **OneDrive for Business** - Install the **latest** version of OneDrive for Business *per-machine*.
+   - **Microsoft Teams** - Install the **latest** version of Microsoft Teams *per-machine*.
+   - **Microsoft Edge Chromium** - Install the **latest** version of Microsoft Edge Enterprise.
+   - **FSLogix Profile Containers** - Install the **latest** version of the FSLogix Agent and apply recommended settings.
+   - **OS Settings** - Apply the recommended WVD settings for image capture.
 
--   Install the **latest** version of Office 365 ProPlus monthly channel.
-
-**OneDrive for Business**
-
--   Install the **latest** version of OneDrive for Business *per-machine*.
-
-**Microsoft Teams**
-
--   Install the **latest** version of Microsoft Teams *per-machine*.
-
-**Microsoft Edge Chromium**
-
--   Install the **latest** version of Microsoft Edge Enterprise.
-
-**FSLogix Profile Containers**
-
--   Install the **latest** version of the FSLogix Agent.
-
--   Apply recommended settings.
-
-**OS Settings**
-
--   Apply the recommended WVD settings for image capture.
 
 **Running the script**
 
