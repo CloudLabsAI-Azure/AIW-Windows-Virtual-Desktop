@@ -124,7 +124,7 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 
 > **[Optional]**
 >
-> **Note:** The logs from WVD might take upto 24 hours to get populated in Log Analytics Workspace, hence it is impossible for you to replicate the below steps. We are providing these steps as a reference, you do not need to execute them.
+> **Note:** The logs from WVD might take upto 24 hours to get populated in Log Analytics Workspace, hence it is impossible for you to replicate the below steps at this point. We are providing these steps as a reference, you do not need to execute them.
 >
 > i. In the *Query Editor*, paste the following query and click on **Run** button.
 >
