@@ -76,7 +76,7 @@ Despite the Azure support teams best efforts, the Marketplace images are not alw
 
    ![ws name.](media/e12.png)
 
-3. Click on **Download** to download and install available windows updates.
+3. Click on **Download** to download and install all available windows updates.
 
    ![ws name.](media/e13.png)
 
