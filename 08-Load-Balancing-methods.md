@@ -96,7 +96,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/lb16.png)
 
-> **Note:** We need to unsubscribe because in Exercise 4, we logged in Remote Desktop using your user.
+> **Note:** We need to unsubscribe from the feed, because in Exercise 4 we subscribed to WVD feed using a different user.
 
 3. Click on **Subscribe** button.
 
