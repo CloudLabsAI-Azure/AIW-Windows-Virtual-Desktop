@@ -197,11 +197,11 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
    
 > **Note:** This shows how users are distributed among different session hosts under *Breadth-first load balancing method*.
    
-19. Open **WVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now click on **Log off all active users** button and select **Yes** to the prompt asking *Do you ant to Log off active users of the virtual machine*.
+19. Open **WVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
    ![ws name.](media/lb50.png)
 
-20. Navigate back to *Session hosts* and open **WVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now click on **Log off all active users** button and select **Yes** to the prompt asking *Do you ant to Log off active users of the virtual machine*.
+20. Navigate back to *Session hosts* and open **WVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
    ![ws name.](media/lb48.png)
 
