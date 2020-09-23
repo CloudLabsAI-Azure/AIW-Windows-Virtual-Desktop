@@ -195,7 +195,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/lb47.png)
    
-> **Note:** This shows how users are distributed among different session hosts under *Breadth-first load balancing method*.
+> **Note:** This shows how users are distributed among different session hosts under *Breadth-first load balancing method*. The breadth-first method first queries session hosts that allow new connections. The method then selects a session host randomly from half the set of session hosts with the least number of sessions. 
    
 19. Open **WVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
@@ -283,18 +283,23 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
    ![ws name.](media/lb24.png)
    
    
-13. Here, one of the session hosts from  *WVD-HP01-SH-0* or *WVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
+13. Here one of the session hosts, either *WVD-HP01-SH-0* or *WVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
 
    ![ws name.](media/lb21.png)
    
->**Note:** This shows how both users are assigned into the same session host as *maximum limit per session was set to 5* under *Depth first load balancing method*
- that means first 5 users will be assigned to the the same session host, then the sixth user will be assigned to another session host.
+> **Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with highest number of sessions. If there's a tie, the method selects the first session host in the query.
  
    
 14. Verify that both users have been assigned to the particular session host. 
 
    ![ws name.](media/lb22.png)
 
+
+Please follow the link given below to know more about Load-Balancing Method.
+
+```
+https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method
+```
 
 ## **Scale session hosts using Azure Automation**
 
