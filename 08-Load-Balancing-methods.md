@@ -203,7 +203,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 20. Navigate back to *Session hosts* and open **WVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
-   ![ws name.](media/lb48.png)
+   ![ws name.](media/lb56.png)
 
 >**Note:** We need to log off the users from session hosts so that when the users login again, connection is made based on the *Depth-first load balancing method*.
    
