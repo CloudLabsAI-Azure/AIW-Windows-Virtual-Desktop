@@ -129,7 +129,7 @@ The UI form offers the following actions:
 
 > **Note:** If in case you used a different username for the virtual machine, then in the above command replace ***azuser*** with the username of your Virtual Machine that you created earlier.
 
-7. Run the following command to allow for script execution.
+7. Run the following command to allow script execution in Powershell.
 
    ` Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force `
 
@@ -137,7 +137,7 @@ The UI form offers the following actions:
 
    ` .\Prepare-WVDImage.ps1 -DisplayForm `
 
-9. This will trigger the PowerShell to launch an application, here select the applications shown below and click on **Execute**.
+9. This will trigger the Powershell to launch an application, here select the applications shown below and click on **Execute**.
 
    ![ws name.](media/e19.png)
 
@@ -342,7 +342,7 @@ The UI form offers the following actions:
 
 5. The virtual desktop will launch and look similar to the screenshot below.
 
-   ![ws name.](media/launchwvd.png)
+   ![ws name.](media/57.png)
 
 6. At last, validate the components relative to the configuration we made in previous task. The desktop should show icons for ***Microsoft Edge*** and ***Microsoft Teams***. When you go to the ***Windows start menu***, you can find the ***Office applications***.
 
