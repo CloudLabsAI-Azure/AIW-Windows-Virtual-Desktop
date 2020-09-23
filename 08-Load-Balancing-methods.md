@@ -192,11 +192,11 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
    ![ws name.](media/lb24.png)
    
    
-18. Now as you can see two session hosts have one Active sessions each.
+18. You can see that both session hosts have one Active sessions each.
 
    ![ws name.](media/lb47.png)
    
-> **Note:** This shows how users are divided into 2 different session host under *Breadth first load balancing methods*.
+> **Note:** This shows how users are distributed among different session hosts under *Breadth-first load balancing method*.
    
 19. Open both the session hosts one-by-one. You can see the user logged in to that session host. Now click on **Log off all active users** button to log off the user. At last, click on **X** icon on the top right corner to return to the session host page.
 
