@@ -165,7 +165,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 13. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste username* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**)*
+   - Username: *Paste username of* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**)*
    - Password: *Paste the **permanent password** you created in Task 2:Step 2., and click on **OK**.* 
    
    ![ws name.](media/lb37.png)
@@ -223,7 +223,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
    
 3. Now paste this link ```aka.ms/wvdarmweb``` in your browser and enter your **credentials** to login. 
 
-   - Username: *Paste username* **WVDUser01** *which you copied earlier(for example: **WVDUser01@azurehol1055.onmicrosoft.com**)* and then click on **Next**.
+   - Username: *Paste username of* **WVDUser01** *which you copied earlier(for example: **WVDUser01@azurehol1055.onmicrosoft.com**)* and then click on **Next**.
    
    ![ws name.](media/username.png)
 
@@ -242,7 +242,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
 6. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste username* **WVDUser01** *which you copied earlier(for example: **WVDUser01@azurehol1055.onmicrosoft.com**)*
+   - Username: *Paste username of* **WVDUser01** *which you copied earlier(for example: **WVDUser01@azurehol1055.onmicrosoft.com**)*
    
    - Password: *Paste the **Permanent password** that you created in Task 2:Step 2.*
    
@@ -265,7 +265,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
 10. Enter your **credentials** to access the desktop and click on **Submit**.
 
-   - Username: *Paste username* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**).*
+   - Username: *Paste username of* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**).*
    - Password: *Paste the **permanent password** that you created in Task 2:Step 2.*
    
    ![ws name.](media/lb51.png)
