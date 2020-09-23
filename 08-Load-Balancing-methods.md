@@ -110,15 +110,15 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/password2.png)
 
-4. Portal will ask you to set a ***permanent password***. For that just paste your temporary password under *Current Password* and add a new password for the user. This new password will act as the ***Permanent Password.***
+5. Portal will ask you to set a ***permanent password***. For that just paste your temporary password under *Current Password* and add a new password for the user. This new password will act as the ***Permanent Password.***
 
    ![ws name.](media/lb35.png)
 
-5. In WVD client, double click on the **WVD-HP-01-DAG** Desktop to access it. 
+6. In WVD client, double click on the **WVD-HP-01-DAG** Desktop to access it. 
 
    ![ws name.](media/lb46.png)
 
-6. Enter your **credentials** to access the application and click on **Submit**.
+7. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: *Put the username of* **WVD User-02** *(for example: **WVDUser-02@azurehol1055.onmicrosoft.com**).*
    - Password: *Paste the **permanent password** you created earlier and click on **OK**.* 
@@ -126,33 +126,33 @@ The following load-balancing methods are available in Windows Virtual Desktop:
    ![ws name.](media/lb37.png)
   
 
-7. The virtual Desktop will launch as shown below. 
+8. The virtual Desktop will launch as shown below. 
 
    ![ws name.](media/lb23.png) 
 
 
-8. Return to the Azure portal on your browser and search for the host pool and click on it.
+9. Return to the Azure portal on your browser and search for the host pool and click on it.
 
    ![ws name.](media/lb38.png)
    
    
-9. Now click on **WVD-HP-01** host pool to access it.
+10. Now click on **WVD-HP-01** host pool to access it.
 
    ![ws name.](media/lb39.png)
    
    
-10. Under Manage blade, click on **Session hosts**.
+11. Under Manage blade, click on **Session hosts**.
 
    ![ws name.](media/lb24.png)
    
    
-11. Now as you can see two session hosts have one Active sessions each.
+12. Now as you can see two session hosts have one Active sessions each.
 
    ![ws name.](media/lb2.png)
    
 > **Note:** This shows how users are divided into 2 different session host under *Breadth first load balancing methods*.
    
-12. Click on the first session with one active session host and verify which user has been assigned to the particular session host and click on **Log off all active users**, then click on the **X** icon on the top right corner to return to the session host page.
+13. Click on the first session with one active session host and verify which user has been assigned to the particular session host and click on **Log off all active users**, then click on the **X** icon on the top right corner to return to the session host page.
 
    ![ws name.](media/lb20.png)
     
