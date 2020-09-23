@@ -85,8 +85,9 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 
 **A**. **Breadth-first**
+   
+While creating WVD-HP-01 host pool, we selected load balancing method as *Breadth-first*.  Now we are going to log in to Desktop App created on WVD-HP-01 with both users simultaneously and see the user distribution.
 
-While creating WVD-HP-01 host pool we selected load balancing method as *Breadth-first*, now we are going to log into both the session hosts created inside the WVD-HP-01 host pool and see the user distribution.
 
 1. Paste this link ```aka.ms/wvdarmweb``` in your browser and enter your **credentials** to login. 
 
@@ -200,8 +201,7 @@ While creating WVD-HP-01 host pool we selected load balancing method as *Breadth
 
 **B**. **Depth first**
 
-Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth first* and see how users are divided between session hosts.
-
+Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth first* and see how user distribution changes in the Host pool.
 
 > **Note:** If previous session is closed, visit to  `aka.ms/wvdarmweb`, then click on *Default Desktop* and login with *WVDUser-01* credentials.
 
