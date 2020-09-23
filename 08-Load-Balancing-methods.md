@@ -84,25 +84,62 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 ### **Task 2: Change and experience Load Balancing methods**
 
 
-**A**. While creating WVD-HP-01 host pool we selected load balancing method as *Breadth-first*, now we are going to log into both the session hosts created inside the WVD-HP-01 host pool and see the user distribution.
+**A**. **Breadth-first**
+
+While creating WVD-HP-01 host pool we selected load balancing method as *Breadth-first*, now we are going to log into both the session hosts created inside the WVD-HP-01 host pool and see the user distribution.
+
+1. Paste this link ```aka.ms/wvdarmweb``` in your browser and enter your **credentials** to login. 
+
+   - Username: Put username **WVD User-01** which you copied earlier and then click on **Next**.
+   
+   ![ws name.](media/username.png)
+
+   - Password: *Paste the temporary password you copied earlier* and click on **Sign in**.
+
+   ![ws name.](media/password.png)
+ 
+
+2. Portal will ask you to set a ***permanent password***. For that just paste your temporary password under *Current Password* and add new password for the user.
+
+   ![ws name.](media/lb36.png)
+
+3. Now in the WVD client double click on the **Default Desktop** to access it. 
+
+   ![ws name.](media/lb46.png)
+
+4. Select **Allow** on the prompt asking permission to *Access local resources*.
+
+   ![ws name.](media/lb27.png)
+
+5. Enter your **credentials** to access the application and click on **Submit**.
+
+   - Username: *Put the username of* **WVD User-01** *which you copied earlier (for example: **WVDUser-01@azurehol1055.onmicrosoft.com**)*
+   
+   - Password: *Paste the **Permanent password** that you created.*
+   
+   ![ws name.](media/a47.png)
 
 
-1. In your local machine go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
+6. The virtual Desktop will launch as shown below. 
+
+   ![ws name.](media/lb28.png)
+   
+7. Navigate to your local machine go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
 
-2. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
+8. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
 
    ![ws name.](media/lb16.png)
 
 > **Note:** We need to unsubscribe from the feed, because in Exercise 4 we subscribed to WVD feed using a different user.
 
-3. Click on **Subscribe** button.
+9. Click on **Subscribe** button.
 
    ![ws name.](media/a49.png)
 
-4. Enter you user credentials access the workspace.
+10. Enter you user credentials access the workspace.
 
    - Username: *Put the username of* **WVD User-02** *which you copied in previous task (for example: **WVDUser-02@azurehol1055.onmicrosoft.com**), then click on **Next**.*
    
@@ -110,15 +147,15 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/password2.png)
 
-5. Portal will ask you to set a ***permanent password***. For that just paste your temporary password under *Current Password* and add a new password for the user. This new password will act as the ***Permanent Password.***
+11. Portal will ask you to set a ***permanent password***. For that just paste your temporary password under *Current Password* and add a new password for the user. This new password will act as the ***Permanent Password.***
 
    ![ws name.](media/lb35.png)
 
-6. In WVD client, double click on the **WVD-HP-01-DAG** Desktop to access it. 
+12. In WVD client, double click on the **Default Desktop** to access it. 
 
    ![ws name.](media/lb46.png)
 
-7. Enter your **credentials** to access the application and click on **Submit**.
+13. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: *Put the username of* **WVD User-02** *(for example: **WVDUser-02@azurehol1055.onmicrosoft.com**).*
    - Password: *Paste the **permanent password** you created earlier and click on **OK**.* 
@@ -126,43 +163,45 @@ The following load-balancing methods are available in Windows Virtual Desktop:
    ![ws name.](media/lb37.png)
   
 
-8. The virtual Desktop will launch as shown below. 
+14. The virtual Desktop will launch as shown below. 
 
    ![ws name.](media/lb23.png) 
 
 
-9. Return to the Azure portal on your browser and search for the host pool and click on it.
+15. Return to the Azure portal on your browser and search for the host pool and click on it.
 
    ![ws name.](media/lb38.png)
    
    
-10. Now click on **WVD-HP-01** host pool to access it.
+16. Now click on **WVD-HP-01** host pool to access it.
 
    ![ws name.](media/lb39.png)
    
    
-11. Under Manage blade, click on **Session hosts**.
+17. Under Manage blade, click on **Session hosts**.
 
    ![ws name.](media/lb24.png)
    
    
-12. Now as you can see two session hosts have one Active sessions each.
+18. Now as you can see two session hosts have one Active sessions each.
 
    ![ws name.](media/lb2.png)
    
 > **Note:** This shows how users are divided into 2 different session host under *Breadth first load balancing methods*.
    
-13. Click on the first session with one active session host and verify which user has been assigned to the particular session host and click on **Log off all active users**, then click on the **X** icon on the top right corner to return to the session host page.
+19. Click on the first session with one active session host and verify which user has been assigned to the particular session host and click on **Log off all active users**, then click on the **X** icon on the top right corner to return to the session host page.
 
    ![ws name.](media/lb20.png)
     
 >**Note:** We need to log off users from session hosts so that when the users login back to the session host, they are divided based on the depth first load balancing method.
    
 
-**B**. Now we will change the load balancing method of *WVD-HP-01* host pool to *Depth first* and see how users are divided between session hosts.
+**B**. **Depth first**
+
+Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth first* and see how users are divided between session hosts.
 
 
-> **Note:** If previous session is closed, visit to  `aka.ms/wvdarmweb`, then click on *WVD-HP-01-DAG* and login with *WVDUser-01* credentials.
+> **Note:** If previous session is closed, visit to  `aka.ms/wvdarmweb`, then click on *Default Desktop* and login with *WVDUser-01* credentials.
 
 1. In *WVD-HP-01* host pool, click on **Properties** under *Settings* blade.
 
@@ -179,16 +218,12 @@ The following load-balancing methods are available in Windows Virtual Desktop:
    
    ![ws name.](media/username.png)
 
-   - Password: *Paste the temporary password you copied earlier* and click on **Sign in**.
+   - Password: *Paste the **Permanent password** that you created and click on **Sign in**.*
 
    ![ws name.](media/password.png)
  
 
-4. Portal will ask you to set a ***permanent password***. For that just paste your temporary password under *Current Password* and add new password for the user.
-
-   ![ws name.](media/lb36.png)
-
-5. Now in the WVD client double click on the **WVD-HP-01-DAG** Desktop to access it. 
+4. Now in the WVD client double click on the **Default Desktop** to access it. 
 
    ![ws name.](media/lb46.png)
 
@@ -200,7 +235,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    - Username: *Put the username of* **WVD User-01** *which you copied earlier (for example: **WVDUser-01@azurehol1055.onmicrosoft.com**)*
    
-   - Password: *Paste the **Permanent password** that you created.*
+   - Password: *Paste the **Permanent password**.*
    
    ![ws name.](media/a47.png)
 
@@ -215,7 +250,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
    ![ws name.](media/137.png)
    
 
-10. Now in the WVD client double click on the **WVD-HP-01-DAG** Desktop to access it. 
+10. Now in the WVD client double click on the **Default Desktop** to access it. 
 
    ![ws name.](media/lb46.png)
 
