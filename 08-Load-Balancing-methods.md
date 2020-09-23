@@ -131,7 +131,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 6. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/lb28.png)
+   ![ws name.](media/lb57.png)
    
 7. Navigate to your local machine, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
 
@@ -173,7 +173,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 14. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/lb23.png) 
+   ![ws name.](media/lb55.png) 
 
 
 15. Return to the Azure portal on your browser and search for the host pool and click on it.
@@ -256,7 +256,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
 7. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/lb28.png)
+   ![ws name.](media/lb57.png)
    
    
 8. In your local machine, go to **Start** and search for **Remote desktop** and open the application.
@@ -278,7 +278,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
 11. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/lb23.png) 
+   ![ws name.](media/lb55.png) 
 
 
 12. Return back to the Azure portal, navigate to **WVD-HP-01** host pool and open **Session Hosts** present under *Manage* blade.
