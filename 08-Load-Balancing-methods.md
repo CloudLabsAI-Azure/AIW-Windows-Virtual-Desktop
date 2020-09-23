@@ -116,7 +116,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 5. In WVD client, double click on the **WVD-HP-01-DAG** Desktop to access it. 
 
-   ![ws name.](media/lb14.png)
+   ![ws name.](media/lb46.png)
 
 6. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -190,7 +190,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 5. Now in the WVD client double click on the **WVD-HP-01-DAG** Desktop to access it. 
 
-   ![ws name.](media/lb14.png)
+   ![ws name.](media/lb46.png)
 
 6. Select **Allow** on the prompt asking permission to *Access local resources*.
 
@@ -217,7 +217,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 10. Now in the WVD client double click on the **WVD-HP-01-DAG** Desktop to access it. 
 
-   ![ws name.](media/lb14.png)
+   ![ws name.](media/lb46.png)
 
 11. Enter your **credentials** to access the desktop and click on **Submit**.
 
