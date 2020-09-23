@@ -300,10 +300,6 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
 
 
-Please follow the link given below to know more about Load-Balancing Method.
-
-```https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method```
-
 
 ## **Scale session hosts using Azure Automation**
 
