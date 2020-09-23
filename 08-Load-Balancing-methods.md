@@ -56,6 +56,8 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/lb3.png)
 
+> **Note:** This password change process causes the password hashes for Kerberos and NTLM authentication to be generated and stored in Azure AD. The account isn't synchronized from Azure AD to Azure AD DS until the password is changed. It takes a few minutes after you've changed your password for the new password to be usable in Azure AD DS and to successfully sign in to computers joined to the managed domain.
+
 10. Copy the temporary password and paste it in a text editor.
 
    ![ws name.](media/lb4.png)
