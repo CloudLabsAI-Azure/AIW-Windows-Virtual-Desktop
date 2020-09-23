@@ -123,23 +123,19 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 >
 > **Note:** The logs from WVD might take upto 24 hours to get populated in Log Analytics Workspace, hence it is impossible for you to replicate the below steps. We are providing these steps as a reference, you do not need to execute them.
 >
-> i. In the *Query Explorer*, paste the following query and click on **Run** button.
-
-   ```
-   WVDConnections 
-   |sort by TimeGenerated asc, CorrelationId
-   |summarize Connectcount = dcount(CorrelationId) by bin(TimeGenerated, 1d),UserName = toupper(trim_end("@.*",UserName))
-   ```
-   
-   ![ws name.](media/lg1.png)
-
-ii. In results, logs will appear similar to one shown below.
-
-   ![ws name.](media/wiw17.png)
-
-iii. Click on the **Next** button present in the bottom-right corner of this lab guide.
-
-
-
-
+> i. In the *Query Editor*, paste the following query and click on **Run** button.
+>
+>   ```
+>   WVDConnections 
+>   |sort by TimeGenerated asc, CorrelationId
+>  |summarize Connectcount = dcount(CorrelationId) by bin(TimeGenerated, 1d),UserName = toupper(trim_end("@.*",UserName))
+>  ```
+>  
+>   ![ws name.](media/lg1.png)
+>
+>ii. In results, logs will appear similar to one shown below.
+>
+>  ![ws name.](media/wiw17.png)
+>
+> iii. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
