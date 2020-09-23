@@ -295,11 +295,11 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
    ![ws name.](media/lb22.png)
 
 
+
 Please follow the link given below to know more about Load-Balancing Method.
 
-```
-https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method
-```
+```https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method```
+
 
 ## **Scale session hosts using Azure Automation**
 
@@ -307,9 +307,8 @@ Here, you will learn about the scaling tool built with the Azure Automation acco
 
 Please follow the link given below to know more about this feature. 
 
-```
-https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script
-```
+```https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script```
+
 
 Click on the **Next** button present in the bottom-right corner of this lab guide.
 
