@@ -99,7 +99,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 1. Paste this link ```aka.ms/wvdarmweb``` in your browser and enter your **credentials** to login. 
 
-   - Username: *Paste username* **WVD User-01** *which you copied earlier and then click on **Next**.*
+   - Username: *Paste username* **WVDUser01** *which you copied earlier and then click on **Next**.*
    
    ![ws name.](media/username.png)
 
@@ -112,7 +112,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/lb36.png)
 
-3. Now in the WVD client double click on the **Default Desktop** to access it. 
+3. Now in the WVD dashboard, click on the **Default Desktop** to access it. 
 
    ![ws name.](media/lb46.png)
 
@@ -122,7 +122,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 5. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste username* **WVD User-01** *which you copied earlier(for example: **WVDUser-01@azurehol1055.onmicrosoft.com**)*
+   - Username: *Paste username* **WVDUser01** *which you copied earlier(for example: **WVDUser01@azurehol1055.onmicrosoft.com**)*
    
    - Password: *Paste the **Permanent password** that you created in Task 2:Step 2.*
    
@@ -150,7 +150,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 10. Enter the user credentials to access the workspace.
 
-   - Username: *Paste username* **WVD User-02** *which you copied earlier(for example: **WVDUser-02@azurehol1055.onmicrosoft.com**), then click on **Next**.*
+   - Username: *Paste username* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**), then click on **Next**.*
    
    - Password: *Paste the temporary password you copied in Task 1: Step 11*.
 
@@ -166,7 +166,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 13. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste username* **WVD User-02** *which you copied earlier(for example: **WVDUser-02@azurehol1055.onmicrosoft.com**)*
+   - Username: *Paste username* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**)*
    - Password: *Paste the **permanent password** you created in Task 2:Step 2., and click on **OK**.* 
    
    ![ws name.](media/lb37.png)
@@ -211,7 +211,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth first* and see how user distribution changes in the Host pool.
 
-> **Note:** If previous session is closed, visit to  `aka.ms/wvdarmweb`, then click on *Default Desktop* and login with *WVDUser-01* credentials.
+> **Note:** If previous session is closed, visit to  `aka.ms/wvdarmweb`, then click on *Default Desktop* and login with *WVDUser01* credentials.
 
 1. In *WVD-HP-01* host pool, click on **Properties** under *Settings* blade.
 
@@ -224,7 +224,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
    
 3. Now paste this link ```aka.ms/wvdarmweb``` in your browser and enter your **credentials** to login. 
 
-   - Username: *Paste username* **WVD User-01** *which you copied earlier(for example: **WVDUser-01@azurehol1055.onmicrosoft.com**)* and then click on **Next**.
+   - Username: *Paste username* **WVDUser01** *which you copied earlier(for example: **WVDUser01@azurehol1055.onmicrosoft.com**)* and then click on **Next**.
    
    ![ws name.](media/username.png)
 
@@ -233,7 +233,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
    ![ws name.](media/password.png)
  
 
-4. Now in the WVD client double click on the **Default Desktop** to access it. 
+4. In the WVD dashboard, click on the **Default Desktop** to access it. 
 
    ![ws name.](media/lb46.png)
 
@@ -243,7 +243,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
 6. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste username* **WVD User-01** *which you copied earlier(for example: **WVDUser-01@azurehol1055.onmicrosoft.com**)*
+   - Username: *Paste username* **WVDUser01** *which you copied earlier(for example: **WVDUser01@azurehol1055.onmicrosoft.com**)*
    
    - Password: *Paste the **Permanent password** that you created in Task 2:Step 2.*
    
@@ -266,7 +266,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
 10. Enter your **credentials** to access the desktop and click on **Submit**.
 
-   - Username: *Paste username* **WVD User-02** *which you copied earlier(for example: **WVDUser-02@azurehol1055.onmicrosoft.com**).*
+   - Username: *Paste username* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**).*
    - Password: *Paste the **permanent password** that you created in Task 2:Step 2.*
    
    ![ws name.](media/lb33.png)
