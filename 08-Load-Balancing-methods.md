@@ -189,7 +189,7 @@ While creating WVD-HP-01 host pool we selected load balancing method as *Breadth
    
 > **Note:** This shows how users are divided into 2 different session host under *Breadth first load balancing methods*.
    
-19. Open both session hosts and click on **Log off all active users**, then click on the **X** icon on the top right corner to return to the session host page.
+19. Open both the session hosts one-by-one. You can see the user logged in to that session host. Now click on **Log off all active users** button to log off the user. At last, click on **X** icon on the top right corner to return to the session host page.
 
    ![ws name.](media/lb48.png)
 
