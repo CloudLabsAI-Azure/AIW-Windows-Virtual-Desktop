@@ -104,7 +104,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 4. Enter you user credentials access the workspace.
 
-   - Username: Put the username of **WVD User-02** which you copied in previous task (for example: **WVDUser-02@azurehol1055.onmicrosoft.com**), then click on **Next**
+   - Username: *Put the username of* **WVD User-02** *which you copied in previous task (for example: **WVDUser-02@azurehol1055.onmicrosoft.com**), then click on **Next**.*
    
    - Password: *Paste the temporary password you copied earlier*
 
@@ -120,7 +120,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 6. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: Put the username of **WVD User-02** (for example: **WVDUser-02@azurehol1055.onmicrosoft.com**).
+   - Username: *Put the username of* **WVD User-02** *(for example: **WVDUser-02@azurehol1055.onmicrosoft.com**).*
    - Password: *Paste the permanent password you created earlier and click on **OK**.* 
    
    ![ws name.](media/lb37.png)
@@ -198,7 +198,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 7. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Put the username of **WVD User-01** which you copied earlier (for example: **WVDUser-01@azurehol1055.onmicrosoft.com**)*
+   - Username: *Put the username of* **WVD User-01** *which you copied earlier (for example: **WVDUser-01@azurehol1055.onmicrosoft.com**)*
    
    - Password: *Paste the Permanent password that you created.*
    
