@@ -62,13 +62,13 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/lb4.png)
 
-> **Note:** Make sure you have copy and pasted ***Username*** and ***Temporary Password*** for ***WVDUser01***.
+> **Note:** Make sure you have noted down the ***Username*** and ***Temporary Password*** for ***WVDUser01***, similar to the screenshot below.
 >
 >  ![ws name.](media/tp1.png)
 
 11. Repeat *Step 7* to *Step 10* for **WVDUser02**.
 
-> **Note:** Make sure you have copy and pasted ***Username*** and ***Temporary Password*** for ***WVDUser02***.
+> **Note:** Make sure you have noted down the ***Username*** and ***Temporary Password*** for ***WVDUser02***, similar to the screenshot below.
 >
 >  ![ws name.](media/tp2.png)
 
@@ -108,7 +108,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
    ![ws name.](media/password.png)
  
 
-2. Portal will ask you to set a ***permanent password***. Paste your temporary password that you copied in Task 1: Step 10, under *Current Password* and add new password for the user.This new password will act as the ***Permanent Password***.
+2. Portal will ask you to set a ***permanent password***. Paste your temporary password that you copied in Task 1: Step 10, under *Current Password* and add new password for the user.This new password will act as the ***Permanent Password*** for *WVDUser01*.
 
    ![ws name.](media/lb36.png)
 
@@ -122,7 +122,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 5. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste username* **WVDUser01** *which you copied earlier(for example: **WVDUser01@azurehol1055.onmicrosoft.com**)*
+   - Username: *Paste username of* **WVDUser01** *which you copied earlier(for example: **WVDUser01@azurehol1055.onmicrosoft.com**)*
    
    - Password: *Paste the **Permanent password** that you created in Task 2:Step 2.*
    
@@ -137,7 +137,6 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/137.png)
    
-
 8. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
 
    ![ws name.](media/lb16.png)
@@ -150,13 +149,13 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 10. Enter the user credentials to access the workspace.
 
-   - Username: *Paste username* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**), then click on **Next**.*
+   - Username: *Paste username of* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**), then click on **Next**.*
    
    - Password: *Paste the temporary password you copied in Task 1: Step 11*.
 
    ![ws name.](media/password2.png)
 
-11. Portal will ask you to set a ***permanent password***. Paste your temporary password that you copied in Task 1: Step 11, under *Current Password* and add a new password for the user. This new password will act as the ***Permanent Password.***
+11. Portal will ask you to set a ***permanent password***. Paste your temporary password that you copied in Task 1: Step 11, under *Current Password* and add a new password for the user. This new password will act as the ***Permanent Password*** for *WVDUser02*.
 
    ![ws name.](media/lb35.png)
 
