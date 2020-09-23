@@ -200,9 +200,9 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
    
 19. Open both the session hosts one-by-one. You can see the user logged in to that session host. Now click on **Log off all active users** button to log off the user. At last, click on **X** icon on the top right corner to return to the session host page.
 
-   ![ws name.](media/lb48.png)
+   ![ws name.](media/lb50.png)
 
-   ![ws name.](media/lb49.png)
+   ![ws name.](media/lb48.png)
 
 >**Note:** We need to log off users from session hosts so that when the users login back to the session host, they are divided based on the depth first load balancing method.
    
