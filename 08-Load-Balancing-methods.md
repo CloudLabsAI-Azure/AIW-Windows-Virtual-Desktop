@@ -58,11 +58,19 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 > **Note:** This password change process causes the password hashes for Kerberos and NTLM authentication to be generated and stored in Azure AD. The account isn't synchronized from Azure AD to Azure AD DS until the password is changed. It takes a few minutes after you've changed your password for the new password to be usable in Azure AD DS and to successfully sign in to computers joined to the managed domain.
 
-10. Copy the temporary password and paste it in a text editor.
+10. Copy the ***Temporary Password*** and paste it in a text editor.
 
    ![ws name.](media/lb4.png)
 
+> **Note:** Make sure you have copy and pasted *Username* and *Temporary Password* for *WVDUser01*.
+>
+>  ![ws name.](media/tp1.png)
+
 11. Repeat *Step 7* to *Step 10* for **WVDUser02**.
+
+> **Note:** Make sure you have copy and pasted *Username* and *Temporary Password* for *WVDUser02*.
+>
+>  ![ws name.](media/tp2.png)
 
 12. Navigate to the host pool *WVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
 
