@@ -342,7 +342,7 @@ The UI form offers the following actions:
 
 5. The virtual desktop will launch and look similar to the screenshot below.
 
-   ![ws name.](media/57.png)
+   ![ws name.](media/lb57.png)
 
 6. At last, validate the components relative to the configuration we made in previous task. The desktop should show icons for ***Microsoft Edge*** and ***Microsoft Teams***. When you go to the ***Windows start menu***, you can find the ***Office applications***.
 
