@@ -110,7 +110,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/password2.png)
 
-4. Portal will ask you to set a permanent password. For that just paste your temporary password under *Current Password* and add a new password for the user. This new password will act as the ***Permanent Password.***
+4. Portal will ask you to set a ***permanent password***. For that just paste your temporary password under *Current Password* and add a new password for the user. This new password will act as the ***Permanent Password.***
 
    ![ws name.](media/lb35.png)
 
@@ -121,7 +121,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 6. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: *Put the username of* **WVD User-02** *(for example: **WVDUser-02@azurehol1055.onmicrosoft.com**).*
-   - Password: *Paste the permanent password you created earlier and click on **OK**.* 
+   - Password: *Paste the **permanent password** you created earlier and click on **OK**.* 
    
    ![ws name.](media/lb37.png)
   
@@ -184,7 +184,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
    ![ws name.](media/password.png)
  
 
-4. Portal will ask you to set a permanent password. For that just paste your temporary password under *Current Password* and add new password for the user.
+4. Portal will ask you to set a ***permanent password***. For that just paste your temporary password under *Current Password* and add new password for the user.
 
    ![ws name.](media/lb36.png)
 
@@ -200,7 +200,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    - Username: *Put the username of* **WVD User-01** *which you copied earlier (for example: **WVDUser-01@azurehol1055.onmicrosoft.com**)*
    
-   - Password: *Paste the Permanent password that you created.*
+   - Password: *Paste the **Permanent password** that you created.*
    
    ![ws name.](media/a47.png)
 
@@ -222,7 +222,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 11. Enter your **credentials** to access the desktop and click on **Submit**.
 
    - Username: Put the username of **WVD User-02** which you copied in previous task (for example: **WVDUser-02@azurehol1055.onmicrosoft.com**)
-   - Password: *Paste the permanent password that you created earlier*.
+   - Password: *Paste the **permanent password** that you created earlier*.
    
    ![ws name.](media/lb33.png)
    
