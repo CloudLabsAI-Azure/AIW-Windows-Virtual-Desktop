@@ -110,7 +110,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/password2.png)
 
-4. Portal will ask you to set a permanent password. For that just paste your temporary password under *Current Password* and add a new password for the user.
+4. Portal will ask you to set a permanent password. For that just paste your temporary password under *Current Password* and add a new password for the user. This new password will act as the ***Permanent Password.***
 
    ![ws name.](media/lb35.png)
 
