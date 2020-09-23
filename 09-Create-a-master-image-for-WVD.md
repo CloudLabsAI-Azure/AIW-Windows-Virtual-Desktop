@@ -84,7 +84,7 @@ Despite the Azure support teams best efforts, the Marketplace images are not alw
 
 ## **Task 3: Prepare WVD image**
 
-**Introduction to the script**
+### **Introduction to the script**
 
 We have used a scripted solution available in [Github](https://github.com/shawntmeyer/WVD) to assist in automating some common baseline image build tasks. The script includes a UI form, enabling you to quickly select which actions to perform. The end result will be a custom master image that incorporates Microsoft's main business applications, along with the necessary policies and settings for an optimized user experience.
 
@@ -98,7 +98,7 @@ The UI form offers the following actions:
    - **OS Settings** - Apply the recommended WVD settings for image capture.
 
 
-**Running the script**
+### **Running the script**
 
 
 1. Inside your virtual machine click on **Start** and open **Microsoft edge browser**.
