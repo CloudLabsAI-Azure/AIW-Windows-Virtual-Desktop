@@ -129,7 +129,7 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 
    ![ws name.](media/wiw17.png)
 
-> **Note:** Logs may take upto 24 hours to appear in results.
+> **Note:** The logs from WVD might take upto 24 hours to get populated in Log Analytics Workspace, hence it is impossible for you to replicate the below steps. We are providing these steps as a reference, you do not need to execute them.
 
 22. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
