@@ -103,11 +103,14 @@ In this task we will give *Storage File Data SMB Share Contributor* permissions 
 
    ![ws name.](media/wvd48.png)
    
-3. Select following configuration for role assignment and then click on **Save**.  
+3. Select following configuration for role assignment:  
    
    - Role: **Storage File Data SMB Share Contributor**
    
-   >**Note:** There are three types of roles specified for the storage account i.e. *Storage Account contributor, Storage file data SMB share contributor, Storage File Data SMB share contributor*
+> **Note:** There are three Azure built-in roles for granting share-level permissions to users:
+> - ***Storage File Data SMB Share Reader*** allows read access in Azure Storage file shares over SMB.
+> - ***Storage File Data SMB Share Contributor*** allows read, write, and delete access in Azure Storage file shares over SMB.
+> - ***Storage File Data SMB Share Elevated Contributor*** allows read, write, delete, and modify Windows ACLs in Azure Storage file shares over SMB.
    
    - Under **Select** search paste your username **<inject key="AzureAdUserEmail" />** and select it.
    - Then click on **Save**.
@@ -193,7 +196,11 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
  
  
     
- > **Note:** The above script will create a new directory i.e. *C:\LabFiles* where it will download FSLogix Installation bundle and extract it. After extraction installation of FSLogix will begin. When configuring Profile Container registry settings are added here: Registry Key: *HKLM\SOFTWARE\FSLogix\Profiles*. When configuring Profile Container the entire contents of the registry will be redirected to the FSLogix Profile Container. 
+> **Note:** The above script will :
+> 1) Install FSLogix Profile Container application
+> 2) Configure the required registries
+> 3) Set the profile container location to the Azure file share location we created.
+ 
 
 
 7. Paste it by pressing **Ctrl + V** in the Powershell window.
@@ -268,7 +275,10 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
  
  
     
- > **Note:** The above script will create a new directory i.e. *C:\LabFiles* where it will download FSLogix Installation bundle and extract it. After extraction installation of FSLogix will begin. When configuring Profile Container registry settings are added here: Registry Key: *HKLM\SOFTWARE\FSLogix\Profiles*. When configuring Profile Container the entire contents of the registry will be redirected to the FSLogix Profile Container. 
+> **Note:** The above script will :
+> 1) Install FSLogix Profile Container application
+> 2) Configure the required registries
+> 3) Set the profile container location to the Azure file share location we created.
 
 
 13. Paste it by pressing **Ctrl + V** in the Powershell window.
