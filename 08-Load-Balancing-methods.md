@@ -74,7 +74,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/lb42.png)
 
-15. Once done, the users assigned to both the Application groups will look similar to the image given below.
+15. Once done, the users assigned to the Application group will look similar to the image given below.
 
    ![ws name.](media/lb45.png)
 
