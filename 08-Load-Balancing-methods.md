@@ -114,7 +114,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 3. Now in the WVD dashboard, click on the **Default Desktop** to access it. 
 
-   ![ws name.](media/lb53.png)
+   ![ws name.](media/im29.png)
 
 4. Select **Allow** on the prompt asking permission to *Access local resources*.
 
@@ -161,7 +161,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 12. In WVD client, double click on the **Default Desktop** to access it. 
 
-   ![ws name.](media/lb46.png)
+   ![ws name.](media/im30.png)
 
 13. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -239,7 +239,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
 4. In the WVD dashboard, click on the **Default Desktop** to access it. 
 
-   ![ws name.](media/lb53.png)
+   ![ws name.](media/im29.png)
 
 5. Select **Allow** on the prompt asking permission to *Access local resources*.
 
@@ -266,7 +266,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
 9. Now in the WVD client double click on the **Default Desktop** to access it. 
 
-   ![ws name.](media/lb46.png)
+   ![ws name.](media/im30.png)
 
 10. Enter your **credentials** to access the desktop and click on **Submit**.
 
