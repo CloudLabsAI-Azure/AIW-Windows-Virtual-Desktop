@@ -127,7 +127,7 @@ The UI form offers the following actions:
 
    `https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/shawntmeyer/WVD/tree/master/Image-Build/Customizations`
 
-   ![ws name.](media/e15.png)
+   ![ws name.](media/im33.png)
 
 3. Open file explorer and go to *Downloads directory*, then **right click** on *Customizations.zip* and select **Extract All**.
 
