@@ -174,15 +174,13 @@ The UI form offers the following actions:
    - **Run System Clean Up (CleanMgr.exe)**
    - At last, click on **Execute**.
 
-   ![ws name.](media/im.png)
+   ![ws name.](media/im9.png)
 
 > **Note:** Make sure that the **FSlogix VHD location** and **AAD Tenant ID** columns are left **blank**.
 
->**Note:** The script will begin configuring the image. **DO NOT close any of the remaining windows that appear until the script has finished execution**. Doing so will interrupt the process and will require you to start over.
-
    ![ws name.](media/im12.png)
 
-> **Note:** This script takes about 15 minutes time to run, so be patient as it may seem like nothing is happening for a while, and then applications will begin to install.
+> **Note:** This script takes about 15 minutes time to run, so be patient as it may seem like nothing is happening for a while, and then applications will begin to install. It will begin configuring the image. **DO NOT close any of the remaining windows that appear until the script has finished execution**. Doing so will interrupt the process and will require you to start over.
 
 11. Once the script completes, select the **Start** icon and note that **Microsoft Office, Microsoft Edge Chromium,** and **Microsoft Teams** have been installed.
 
