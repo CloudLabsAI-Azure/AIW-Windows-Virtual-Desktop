@@ -143,32 +143,52 @@ The UI form offers the following actions:
 
    ` cd C:\Users\azuser\Downloads\Customizations\Customizations `
 
+   ![ws name.](media/im8.png)
+
 > **Note:** If in case you used a different username for the virtual machine, then in the above command replace ***azuser*** with the username of your Virtual Machine that you created earlier.
 
 7. Run the following command to allow script execution in Powershell.
 
    ` Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force `
 
+   ![ws name.](media/im10.png)
+
 8. Execute the script by running the following command.
 
    ` .\Prepare-WVDImage.ps1 -DisplayForm `
 
-9. This will trigger the Powershell to launch an application, here select the applications shown below and click on **Execute**.
+   ![ws name.](media/im11.png)
 
-   ![ws name.](media/e19.png)
+9. This will trigger the Powershell to launch an application and will look similar to image shown below.
+
+   ![ws name.](media/im7.png)
+
+10.  Now select the following applications listed below:
+
+   - Install Office 365
+   - Install FSLogix Agent - *Blank out the value for FSLogix Agent, as shown in the image below*
+   - Install OneDrive per Machine - *Blank out the value for OneDrive per Machine, as shown in the image below*
+   - Install Microsoft Teams per Machine
+   - Install Microsoft Edge Chromium v80+
+   - Disable Windows Update
+   - Run System Clean Up (CleanMgr.exe)
+   - At last, click on **Execute**.
+
+   ![ws name.](media/im8.png)
 
 > **Note:** Make sure that the **FSlogix VHD location** and **AAD Tenant ID** columns are left **blank**.
 
 >**Note:** The script will begin configuring the image. **DO NOT close any of the remaining windows that appear until the script has finished execution**. Doing so will interrupt the process and will require you to start over.
->The script will take several minutes to complete depending on the options you selected. Additional input from you is not required during this stage.
 
-> **Note:** This script takes some time to run, so be patient as it may seem like nothing is happening for a while, and then applications will begin to install. You can watch the status from within PowerShell. After the Disk Cleanup Wizard closes, you may notice the PowerShell window does not update. It is waiting for the cleanmgr.exe process to close, which can take some time. You can select the PowerShell window and continue to hit the up arrow on your keyboard until you are presented with an active prompt.
+   ![ws name.](media/im12.png)
 
-10. Once the script completes, select the **Start** icon and note that **Microsoft Office, Microsoft Edge Chromium,** and **Microsoft Teams** have been installed.
+> **Note:** This script takes about 15 minutes time to run, so be patient as it may seem like nothing is happening for a while, and then applications will begin to install.
+
+11. Once the script completes, select the **Start** icon and note that **Microsoft Office, Microsoft Edge Chromium,** and **Microsoft Teams** have been installed.
 
     ![ws name.](media/e20.png)
 
-11. Now open file explorer and delete **customizations.zip** file and **Customizations** folder from downloads.
+12. Now open file explorer and delete **customizations.zip** file and **Customizations** folder from downloads.
 
     ![ws name.](media/e21.png)
 
