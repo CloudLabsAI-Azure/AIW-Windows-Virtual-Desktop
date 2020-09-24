@@ -100,7 +100,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/pu1.png)
 
-> **Note:** Make sure you have noted down the ***Username*** and ***Password*** for ***WVDUser01*** and ***WVDUser02**.
+> **Note:** Make sure you have noted down the ***Username*** and ***Password*** for ***WVDUser01*** and ***WVDUser02***.
 
 
 18. Navigate to the host pool *WVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
