@@ -222,27 +222,27 @@ The UI form offers the following actions:
 
 3. On the *Overview* blade for the Virtual machine, confirm the *Status* reflects as **Stopped**. 
    
-   ![ws name.](media/vmimage5.png)
+   ![ws name.](media/im15.png)
 
 4. Click on the **Stop** button to move it to *deallocated state*.
 
-   ![ws name.](media/vmimage6.png)
+   ![ws name.](media/im16.png)
 
 5. Click **OK** to the prompt asking *Stop this virtual machine*.
 
-   ![ws name.](media/e29.png)
+   ![ws name.](media/im17.png)
 
 6. Once the virtual machine is in *deallocated* state, click on **Capture**.
 
-   ![ws name.](media/e30.png)
+   ![ws name.](media/im18.png)
 
-7. Enter the name of the virtual machine i.e **wvdwin10** and leave other values to default. Then click on **Create**.
+7. Add the following values and then click on **Create**.
 
    - Name: *Leave to default*
    - Resource group: *Select* **WVD-RG** *from the drop down.*
-   - Type the virtual machine name: **wvdwin10**
+   - Type the virtual machine name: **WVDVMWin10**
    
-   ![ws name.](media/e31.png)
+   ![ws name.](media/im19.png)
 
 
 ## **Task 6: Provision a Host Pool with a custom image**
@@ -259,14 +259,14 @@ The UI form offers the following actions:
 
    - Subscription: *Choose the default subscription*.
    - Resource Group: *Select **WVD-RG** from the drop down*.
-   - Host pool name: **wvd-hostpool**
+   - Host pool name: **WVD-CustomImage-hostpool**
    - location: **EastUS**, *basically this should be same as the region of your resource group.*
    - Validation Environment: **No**
    - Host pool type: **Personal**
    - Assignment type: **Automatic**
    - Click on **Next: Virtual Machines**
 
-   ![ws name.](media/e35.png)
+   ![ws name.](media/im20.png)
 
 4. In the *Virtual machine*s tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool.
 
@@ -287,12 +287,12 @@ The UI form offers the following actions:
    - Image type: **Gallery**
    - Image: *Click on **Browse all images and disks**, click on **My items** and select the Image we created earlier in this exercise, as shown below.*
 
-   ![ws name.](media/vmimage7.png)
+   ![ws name.](media/im21.png)
 
    - OS disk type: **Standard SSD**
    - Use managed disks: **Leave to default**
 
-   ![ws name.](media/e36.png)
+   ![ws name.](media/im22.png)
 
   **B**. Network and Security:
 
@@ -324,11 +324,11 @@ The UI form offers the following actions:
    - Workspace name: **WVD-WS-02**
    - Click on **OK**
 
-   ![ws name.](media/e38.png)
+   ![ws name.](media/im23.png)
 
 8. Now click on **Review + create** on the bottom left corner.
 
-    ![ws name.](media/e39.png)
+    ![ws name.](media/im24.png)
 
 9. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
 
@@ -343,15 +343,15 @@ The UI form offers the following actions:
 
 2. Under *Manage* blade, select **Application groups**. Then click on the *Default Application group* that was created while creating Host pool in previous task.
 
-   ![ws name.](media/vmimage8.png)
+   ![ws name.](media/im25.png)
 
 3. Now click on **Assignments** under Manage blade, and then click on **+ Add** button.
 
-   ![ws name.](media/vmimage9.png)
+   ![ws name.](media/im26.png)
 
 4. In the search bar, paste **<inject key="AzureAdUserEmail" />** and choose your user by clicking on it. At last, click on **Select** to save your changes.
 
-   ![ws name.](media/vmimage10.png)
+   ![ws name.](media/im27.png)
 
 ## **Task 8: Connect to WVD with the web client**
 
