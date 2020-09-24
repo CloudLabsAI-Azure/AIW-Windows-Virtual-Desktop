@@ -218,7 +218,7 @@ The UI form offers the following actions:
 
 2. On the Virtual machines blade, open the VM we used for creating master image i.e., **wvdwin10**.
 
-   ![ws name.](media/vmimage4.png)
+   ![ws name.](media/im28.png)
 
 3. On the *Overview* blade for the Virtual machine, confirm the *Status* reflects as **Stopped**. 
    
