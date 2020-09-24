@@ -165,16 +165,16 @@ The UI form offers the following actions:
 
 10.  Now select the following applications listed below:
 
-   - Install Office 365
-   - Install FSLogix Agent - *Blank out the value for FSLogix Agent, as shown in the image below*
-   - Install OneDrive per Machine - *Blank out the value for OneDrive per Machine, as shown in the image below*
-   - Install Microsoft Teams per Machine
-   - Install Microsoft Edge Chromium v80+
-   - Disable Windows Update
-   - Run System Clean Up (CleanMgr.exe)
+   - **Install Office 365**
+   - **Install FSLogix Agent -** *Blank out the value for FSLogix Agent, as shown in the image below*
+   - **Install OneDrive per Machine -** *Blank out the value for OneDrive per Machine, as shown in the image below*
+   - **Install Microsoft Teams per Machine**
+   - **Install Microsoft Edge Chromium v80+**
+   - **Disable Windows Update**
+   - **Run System Clean Up (CleanMgr.exe)**
    - At last, click on **Execute**.
 
-   ![ws name.](media/im8.png)
+   ![ws name.](media/im.png)
 
 > **Note:** Make sure that the **FSlogix VHD location** and **AAD Tenant ID** columns are left **blank**.
 
