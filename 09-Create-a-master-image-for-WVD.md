@@ -96,7 +96,9 @@ Despite the Azure support teams best efforts, the Marketplace images are not alw
 
    ![ws name.](media/e13.png)
 
->**Note:** If the installation of update asks to restart the virtual machine then restart the vm and continue with the next task.
+4. Once the installation of updates complete, a message will appear asking **Restart Required**. Click on **Restart now** to restart the virtual machine.
+
+   ![ws name.](media/im32.png)
 
 ## **Task 3: Prepare WVD image**
 
@@ -117,7 +119,7 @@ The UI form offers the following actions:
 ### **Running the script**
 
 
-1. Inside your virtual machine click on **Start** and open **Microsoft edge browser**.
+1. Reconnect to the virtual machine which you restarted in the previous task. Inside the virtual machine click on **Start** and open **Microsoft edge browser**.
 
    ![ws name.](media/e14.png)
 
