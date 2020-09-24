@@ -321,7 +321,7 @@ The UI form offers the following actions:
 
 7. Under the *Workspace name*, fill the name of workspace.
 
-   - Workspace name: **WVD-WS-02**
+   - Workspace name: **WVD-CustomImage-workspace**
    - Click on **OK**
 
    ![ws name.](media/im23.png)
@@ -359,7 +359,7 @@ The UI form offers the following actions:
 
    `https://rdweb.wvd.microsoft.com/arm/webclient`
 
-> **Note:** If you are asked to login, use the following credentials:
+> **Note:** In case you are loggen in with WVDUser01, then logout and login back using following credentials:
 > - Username: **<inject key="AzureAdUserEmail" />**
 > - Password: **<inject key="AzureAdUserPassword" />**
 
