@@ -334,6 +334,7 @@ The UI form offers the following actions:
 
     ![ws name.](media/e40.png)
 
+> **Note:** The deployment will take about 15 minutes to succeed.
 
 ## **Task 7: Assign an Azure AD group to an application group**
 
