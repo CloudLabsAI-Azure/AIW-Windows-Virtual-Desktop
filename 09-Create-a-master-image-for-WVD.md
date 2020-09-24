@@ -63,7 +63,7 @@ In this exercise, we are going to walk through the process of creating a master 
 
 12. Open the downloaded RDP file.
 
-   ![ws name.](media/e8.png)
+   ![ws name.](media/im6.png)
 
 13. Now in the RDP client window, click on **Connect** to establish an RDP connection to your virtual machine.
 
