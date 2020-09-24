@@ -37,17 +37,17 @@ In this exercise, we are going to walk through the process of creating a master 
   
   ![ws name.](media/im2.png) 
 
-6. On *Networking* tab, click on **Create new** for **Virtual network**. Then enter **wvdvm-vnet** in the *Name* block and click on **OK.
+6. On *Networking* tab, click on **Create new** for **Virtual network**. Then enter **wvdvm-vnet** in the *Name* block and click on **OK**.
 
   ![ws name.](media/im3.png) 
 
 7. Leave other configurations on default and click on **Review + create**.
 
-  ![ws name.](media/im4.ng) 
+  ![ws name.](media/im4.png) 
 
 8. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
 
-  ![ws name.](media/im5.g) 
+  ![ws name.](media/im5.png) 
 
 9. Once the deployment completes, click on **Go to resource**.
 
