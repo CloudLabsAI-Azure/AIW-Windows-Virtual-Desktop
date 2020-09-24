@@ -96,7 +96,7 @@ Despite the Azure support teams best efforts, the Marketplace images are not alw
 
    ![ws name.](media/e13.png)
 
-4. Once the installation of updates complete, a message will appear asking **Restart Required**. Click on **Restart now** to restart the virtual machine.
+4. Once the installation of updates complete, a message will appear asking **Restart required**. Click on **Restart now** to restart the virtual machine.
 
    ![ws name.](media/im32.png)
 
