@@ -161,15 +161,15 @@ The UI form offers the following actions:
 
    ![ws name.](media/im11.png)
 
-9. This will trigger the Powershell to launch an application and will look similar to image shown below.
+9. This will trigger the Powershell to launch an application that will look similar to image shown below.
 
    ![ws name.](media/im7.png)
 
 10.  Now select the following applications listed below:
 
    - **Install Office 365**
-   - **Install FSLogix Agent -** *Blank out the value for FSLogix Agent, as shown in the image below*
-   - **Install OneDrive per Machine -** *Blank out the value for OneDrive per Machine, as shown in the image below*
+   - **Install FSLogix Agent -** *Blank out the value for FSLogix Agent, as shown in the image below.*
+   - **Install OneDrive per Machine -** *Blank out the value for OneDrive per Machine, as shown in the image below.*
    - **Install Microsoft Teams per Machine**
    - **Install Microsoft Edge Chromium v80+**
    - **Disable Windows Update**
@@ -178,11 +178,9 @@ The UI form offers the following actions:
 
    ![ws name.](media/im9.png)
 
-> **Note:** Make sure that the **FSlogix VHD location** and **AAD Tenant ID** columns are left **blank**.
+> **Note:** This script takes about 15 minutes time to run, so be patient as it may seem like nothing is happening for a while, and then applications will begin to install. It will begin configuring the image. **DO NOT close any of the remaining windows that appear until the script has finished execution**. Doing so will interrupt the process and will require you to start over.
 
    ![ws name.](media/im12.png)
-
-> **Note:** This script takes about 15 minutes time to run, so be patient as it may seem like nothing is happening for a while, and then applications will begin to install. It will begin configuring the image. **DO NOT close any of the remaining windows that appear until the script has finished execution**. Doing so will interrupt the process and will require you to start over.
 
 11. Once the script completes, select the **Start** icon and note that **Microsoft Office, Microsoft Edge Chromium,** and **Microsoft Teams** have been installed.
 
