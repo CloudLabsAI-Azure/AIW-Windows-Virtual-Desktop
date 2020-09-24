@@ -53,30 +53,30 @@ In this exercise, we are going to walk through the process of creating a master 
 
    ![ws name.](media/vmimage1.png)
 
-. Click on **Connect** and select **RDP** from the dropdown.
+10. Click on **Connect** and select **RDP** from the dropdown.
 
    ![ws name.](media/e6.png)
 
-7. Click on **Download RDP file** button.
+11. Click on **Download RDP file** button.
 
    ![ws name.](media/e7.png)
 
-8. Open the downloaded RDP file.
+12. Open the downloaded RDP file.
 
    ![ws name.](media/e8.png)
 
-9. Now in the RDP client window, click on **Connect** to establish an RDP connection to your virtual machine.
+13. Now in the RDP client window, click on **Connect** to establish an RDP connection to your virtual machine.
 
    ![ws name.](media/e9.png)
 
-10. Enter the credentials of your virtual machine given below, and click on **OK**.
+14. Enter the credentials of your virtual machine given below, and click on **OK**.
 
    - Username: **azuser**
    - Password: **Azure1234567**
    
    ![ws name.](media/vmimage3.png)
 
-11. The virtual machine will launch and look similar to the screenshot below.
+15. The virtual machine will launch and look similar to the screenshot below.
 
    ![ws name.](media/vmimage2.png)
 
