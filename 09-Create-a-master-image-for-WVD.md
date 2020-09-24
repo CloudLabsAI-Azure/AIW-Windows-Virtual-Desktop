@@ -208,7 +208,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/im14.png)
 
-> **Note:** The system will automatically shut down and disconnect your RDP session.
+> **Note:** The system will automatically shut down in about 2 minutes and disconnect your RDP session.
 
 ## **Task 5: Create a managed image from the Master Image VM**
 
