@@ -303,7 +303,7 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
    
 17. Click on **Users**, then in the search bar paste your username **<inject key="AzureAdUserEmail" />** and then click on your user.
 
-    ![ws name.](media/fs5.png)
+    ![ws name.](media/fs15.png)
     
 18. Switch to **Sessions** tab, then select both *Host Pools* and click on **Log off**.
 
