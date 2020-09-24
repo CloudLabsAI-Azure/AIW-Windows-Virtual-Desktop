@@ -16,11 +16,11 @@ In this exercise, we are going to walk through the process of creating a master 
 
    ![ws name.](media/e3.png)
 
-4. Provide the below configurations for the virtual machine, and click on **Review + create** and then click on **create**.
+4. Provide the below configurations for the virtual machine, and click on **Next: Disks**.
 
    - Subscription: *Choose the default subscription.*
    - Resource Group: *Select WVD-RG from the drop down.*
-   - Virtual machine name: **wvdwin10**
+   - Virtual machine name: **WVDVMWin10**
    - Region: **EastUS**, *basically this should be same as the region of your resource group.*
    - Image: **Windows 10 Enterprise multi-session, Version 1909-Gen1**
    - Size: **Standard_D2s_v3**
@@ -31,13 +31,29 @@ In this exercise, we are going to walk through the process of creating a master 
    - Select inbound ports: **RDP(3389)**
    - **Select** *the checkbox saying "I confirm I have an eligible Windows 10 license with multi-tenant hosting rights."*
 
-   ![ws name.](media/vmimage14.png) 
+   ![ws name.](media/im1.png) 
 
-5. Once the deployment completes, click on **Go to resource**.
+5. On *Disks* tab, leave all configurations on default and click on **Next: Networking**.
+  
+  ![ws name.](media/im2.png) 
+
+6. On *Networking* tab, click on **Create new** for **Virtual network**. Then enter **wvdvm-vnet** in the *Name* block and click on **OK.
+
+  ![ws name.](media/im3.png) 
+
+7. Leave other configurations on default and click on **Review + create**.
+
+  ![ws name.](media/im4.ng) 
+
+8. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
+
+  ![ws name.](media/im5.g) 
+
+9. Once the deployment completes, click on **Go to resource**.
 
    ![ws name.](media/vmimage1.png)
 
-6. Click on **Connect** and select **RDP** from the dropdown.
+. Click on **Connect** and select **RDP** from the dropdown.
 
    ![ws name.](media/e6.png)
 
