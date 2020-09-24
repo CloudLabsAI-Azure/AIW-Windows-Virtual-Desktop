@@ -52,39 +52,70 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/lb13.png)
 
-9. Once done, open **Profile** under *Manage* blade. Click on the **Reset password** and then click on **Reset password** button.
+9. Click on **WVDUser02** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
 
-   ![ws name.](media/lb3.png)
+   ![ws name.](media/im31.png)
 
-> **Note:** This password change process causes the password hashes for Kerberos and NTLM authentication to be generated and stored in Azure AD. The account isn't synchronized from Azure AD to Azure AD DS until the password is changed. It takes a few minutes after you've changed your password for the new password to be usable in Azure AD DS and to successfully sign in to computers joined to the managed domain.
+10. Click on the **AAD DC Administrators** group and then click on **Select**.
 
-10. Copy the ***Temporary Password*** and paste it in a text editor.
+   ![ws name.](media/lb13.png)
 
-   ![ws name.](media/lb4.png)
+11. Now we will use Azure Cloud Shell to run a script that will change the passwords for the users created, as user needs to reset password after registering to AADDS. In Azure portal, click on the **Cloud Shell** icon.
 
-> **Note:** Make sure you have noted down the ***Username*** and ***Temporary Password*** for ***WVDUser01***, similar to the screenshot below.
->
->  ![ws name.](media/tp1.png)
+   ![ws name.](media/a105.png)
+   
+12. In the Cloud Shell window that opens at the bottom of your browser window, select **PowerShell**.
 
-11. Repeat *Step 7* to *Step 10* for **WVDUser02**.
+   ![ws name.](media/wvd10.png)
 
-> **Note:** Make sure you have noted down the ***Username*** and ***Temporary Password*** for ***WVDUser02***, similar to the screenshot below.
->
->  ![ws name.](media/tp2.png)
+13. Click on **Show Advanced Settings**.
 
-12. Navigate to the host pool *WVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
+   ![ws name.](media/wvd11.png)
+
+14. Use exisiting resource group - **WVD-RG** from the drop down and for:
+
+    - Storage Account: Select **Create new** and enter **sa{uniqueid}**, for example: sa204272.
+    - File Share: Select **Create new** and enter **fs{uniqueid}**, for example: fs204272.
+    
+   ![ws name.](media/wvd12.png)
+
+15. After the terminal launches it will look like this.
+
+   ![ws name.](media/40.png)
+
+16. Copy and paste the following script and hit **Enter**.
+
+   ```
+   $domain = ((Get-AzADUser | where {$_.Type -eq "Member"}).UserPrincipalName.Split('@'))[1]
+   $password= ConvertTo-SecureString "Azure1234567" -AsPlainText -Force
+   $users = @("WVDUser01@$domain","WVDUser02@$domain")
+   $users | foreach{
+       Update-AzADUser -UserPrincipalName $_ -Password $password
+   }
+   ```
+ 
+   ![ws name.](media/pu2.png)
+ 
+17. Output of the script will be similar to the one shown below. The password for both **WVDUser01** and **WVDUser02** is reset to **Azure1234567**.
+
+   ![ws name.](media/pu1.png)
+
+> **Note:** Make sure you have noted down the ***Username*** and ***Password*** for ***WVDUser01*** and ***WVDUser02**.
+
+
+18. Navigate to the host pool *WVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
 
    ![ws name.](media/lb40.png)
 
-13. Open application group **WVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
+19. Open application group **WVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
 
    ![ws name.](media/lb41.png)
    
-14. Click on **+ Add**, then in the search bar, type *WVDUser* and select both **WVDUser01** & **WVDUser02** that we created earlier. At last, click on **Select** button.
+20. Click on **+ Add**, then in the search bar, type *WVDUser* and select both **WVDUser01** & **WVDUser02** that we created earlier. At last, click on **Select** button.
 
    ![ws name.](media/lb42.png)
 
-15. Once done, the users assigned to the Application group will look similar to the image given below.
+21. Once done, the users assigned to the Application group will look similar to the image given below.
 
    ![ws name.](media/lb45.png)
 
