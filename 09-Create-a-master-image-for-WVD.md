@@ -199,10 +199,14 @@ The UI form offers the following actions:
 2. Navigate to "C:\Windows\System32\Sysprep" by running the command below.
 
    ` cd C:\Windows\System32\Sysprep `
+   
+   ![ws name.](media/im13.png)
 
-3. Run the following command to sysprep the VM and shutdown.
+3. Run the following command to sysprep the VM and shutdown. A window will appear which wil show that *Sysprep is working*.
 
    ` sysprep.exe /oobe /generalize /shutdown `
+
+   ![ws name.](media/im14.png)
 
 > **Note:** The system will automatically shut down and disconnect your RDP session.
 
