@@ -214,7 +214,7 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
  
 9. Wait for sometime for the script to execute. It will show an output saying **Script Executed successfully**.
 
-   ![ws name.](media/fs13.png)
+   ![ws name.](media/fs14.png)
    
 > **Note:** It will take around five minutes for the script to execute.
    
@@ -292,7 +292,7 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
  
 15. Wait for sometime for the script to execute. It will show an output saying **Script Executed successfully**.
 
-   ![ws name.](media/fs13.png)
+   ![ws name.](media/fs14.png)
    
 > **Note:** It will take around five minutes for the script to execute.
   
