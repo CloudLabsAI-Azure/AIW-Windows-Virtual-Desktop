@@ -62,11 +62,11 @@ In the following task, we will be creating a storage account with a file share w
 
    ![ws name.](media/a59.png)
    
-7. Now click on **Configuration** present under **Settings** blade. Then scroll down and find the option **Active Directory Domain Services (Azure AD DS)**. Select **Enabled** for it.
+7. In the storage account, click on **Configuration** present under **Settings** blade. Then scroll down and find the option **Active Directory Domain Services (Azure AD DS)**. Select **Enabled** for it.
 
    ![ws name.](media/fs2.png)
     
-> **Note:** Setting this property implicitly *"domain joins"* the storage account with the associated Azure AD DS deployment. Azure AD DS authentication over SMB is then enabled for all new and existing file shares in the storage account.
+> **Note:** Setting this property implicitly ***"domain joins"*** the storage account with the associated Azure AD DS deployment. Azure AD DS authentication over SMB is then enabled for all new and existing file shares in the storage account.
     
     
 8. Then click on **Save**.
@@ -93,27 +93,17 @@ In the following task, we will be creating a storage account with a file share w
 ### **Task 2: Configure File share**
 
 In this task we will give *Storage File Data SMB Share Contributor* permissions to **<inject key="AzureAdUserEmail" />** so that their profiles can be stored in the fileshare.
-
-1. Click on the storage account we created in **Task 1 step 3**, then under settings blade click on  **Firewalls and virtual networks**.
-
-   ![ws name.](media/a87.png)
-    
-2. Under **Allow access from** select **All networks** and click on **save icon**.
-
-   ![ws name.](media/a88.png)
-    
-> **Note:** This will enable access of your storage account on public network so that you can see the user profiles stored in the fileshare.
-    
-3. Now open on the file share we created earlier.
+   
+1. Open on the file share we created earlier.
 
    ![ws name.](media/a65.png)
      
          
-4. Click on **Access Control (IAM)**, then click on **Add** and select **Add role assignment**.
+2. Click on **Access Control (IAM)**, then click on **Add** and select **Add role assignment**.
 
    ![ws name.](media/wvd48.png)
    
-5. Select following configuration for role assignment:  
+3. Select following configuration for role assignment:  
    
    - Role: **Storage File Data SMB Share Contributor**
    
@@ -365,22 +355,32 @@ In this task, we will be accessing the file share to verify the user profiles st
 
    ![ws name.](media/a55.png)
     
-2. Open the storage account we created earlier, then click on **Overview** and open **Fileshare**.
+2. Click on the storage account we created in **Task 1 step 3**, then under settings blade click on  **Firewalls and virtual networks**.
+
+   ![ws name.](media/a87.png)
+   
+3. Under **Allow access from** select **All networks** and click on **save icon**.
+
+   ![ws name.](media/a88.png)
+    
+> **Note:** This will enable access of your storage account on public network so that you can see the user profiles stored in the fileshare.
+    
+4. Open the storage account we created earlier, then click on **Overview** and open **Fileshare**.
 
    ![ws name.](media/a62.png)
     
     
-3. Click on the **userprofile** fileshare.
+5. Click on the **userprofile** fileshare.
 
    ![ws name.](media/a65.png)
 
-4. You will see the user folder created in the file share, click on the folder.
+6. You will see the user folder created in the file share, click on the folder.
 
    ![ws name.](media/fs6.png) 
 
-5. Now you will be able to see the user profiles data stored in the fileshares in a ***.vhd*** format.
+7. Now you will be able to see the user profiles data stored in the fileshares in a ***.vhd*** format.
 
    ![ws name.](media/wiw24.png)
 
-6. Click on the **Next** button present in the bottom-right corner of this lab guide.
+8. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
