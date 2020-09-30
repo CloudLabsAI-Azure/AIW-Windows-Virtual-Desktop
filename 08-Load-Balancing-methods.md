@@ -60,30 +60,35 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/lb13.png)
 
-11. Now we will use Azure Cloud Shell to run a script that will change the passwords for the users created, as user needs to reset password after registering to AADDS. In Azure portal, click on the **Cloud Shell** icon.
+
+### **Task 2: Update Passwords for the new users**
+
+Here, we will use Azure Cloud Shell to run a script that will change the passwords for the users created, as user needs to reset password after registering to AADDS. 
+
+1. In Azure portal, click on the **Cloud Shell** icon.
 
    ![ws name.](media/a105.png)
    
-12. In the Cloud Shell window that opens at the bottom of your browser window, select **PowerShell**.
+2. In the Cloud Shell window that opens at the bottom of your browser window, select **PowerShell**.
 
    ![ws name.](media/wvd10.png)
 
-13. Click on **Show Advanced Settings**.
+3. Click on **Show Advanced Settings**.
 
    ![ws name.](media/wvd11.png)
 
-14. Use exisiting resource group - **WVD-RG** from the drop down and for:
+4. Use exisiting resource group - **WVD-RG** from the drop down and for:
 
     - Storage Account: Select **Create new** and enter **sa{uniqueid}**, for example: sa204272.
     - File Share: Select **Create new** and enter **fs{uniqueid}**, for example: fs204272.
     
    ![ws name.](media/wvd12.png)
 
-15. After the terminal launches it will look like this.
+5. After the terminal launches it will look like this.
 
    ![ws name.](media/40.png)
 
-16. Copy and paste the following script and hit **Enter**.
+6. Copy and paste the following script and hit **Enter**.
 
    ```
    $domain = ((Get-AzADUser | where {$_.Type -eq "Member"}).UserPrincipalName.Split('@'))[1]
@@ -96,31 +101,31 @@ The following load-balancing methods are available in Windows Virtual Desktop:
  
    ![ws name.](media/pu2.png)
  
-17. Output of the script will be similar to the one shown below. The password for both **WVDUser01** and **WVDUser02** is reset to **Azure1234567**.
+7. Output of the script will be similar to the one shown below. The password for both **WVDUser01** and **WVDUser02** is reset to **Azure1234567**.
 
    ![ws name.](media/pu1.png)
 
 > **Note:** Make sure you have noted down the ***Username*** and ***Password*** for ***WVDUser01*** and ***WVDUser02***.
 
 
-18. Navigate to the host pool *WVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
+8. Navigate to the host pool *WVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
 
    ![ws name.](media/lb40.png)
 
-19. Open application group **WVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
+9. Open application group **WVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
 
    ![ws name.](media/lb41.png)
    
-20. Click on **+ Add**, then in the search bar, type *WVDUser* and select both **WVDUser01** & **WVDUser02** that we created earlier. At last, click on **Select** button.
+10. Click on **+ Add**, then in the search bar, type *WVDUser* and select both **WVDUser01** & **WVDUser02** that we created earlier. At last, click on **Select** button.
 
    ![ws name.](media/lb42.png)
 
-21. Once done, the users assigned to the Application group will look similar to the image given below.
+11. Once done, the users assigned to the Application group will look similar to the image given below.
 
    ![ws name.](media/lb45.png)
 
 
-### **Task 2: Change and experience Load Balancing methods**
+### **Task 3: Change and experience Load Balancing methods**
 
 
 **A**. **Breadth-first**
