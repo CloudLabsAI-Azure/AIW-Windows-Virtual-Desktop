@@ -60,7 +60,23 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/lb13.png)
 
+11. Navigate to the host pool *WVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
 
+   ![ws name.](media/lb40.png)
+
+12. Open application group **WVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
+
+   ![ws name.](media/lb41.png)
+   
+13. Click on **+ Add**, then in the search bar, type *WVDUser* and select both **WVDUser01** & **WVDUser02** that we created earlier. At last, click on **Select** button.
+
+   ![ws name.](media/lb42.png)
+
+14. Once done, the users assigned to the Application group will look similar to the image given below.
+
+   ![ws name.](media/lb45.png)
+   
+   
 ### **Task 2: Update Passwords for the new users**
 
 Here, we will use Azure Cloud Shell to run a script that will change the passwords for the users created, as user needs to reset password after registering to AADDS. 
@@ -106,23 +122,6 @@ Here, we will use Azure Cloud Shell to run a script that will change the passwor
    ![ws name.](media/pu1.png)
 
 > **Note:** Make sure you have noted down the ***Username*** and ***Password*** for ***WVDUser01*** and ***WVDUser02***.
-
-
-8. Navigate to the host pool *WVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
-
-   ![ws name.](media/lb40.png)
-
-9. Open application group **WVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
-
-   ![ws name.](media/lb41.png)
-   
-10. Click on **+ Add**, then in the search bar, type *WVDUser* and select both **WVDUser01** & **WVDUser02** that we created earlier. At last, click on **Select** button.
-
-   ![ws name.](media/lb42.png)
-
-11. Once done, the users assigned to the Application group will look similar to the image given below.
-
-   ![ws name.](media/lb45.png)
 
 
 ### **Task 3: Change and experience Load Balancing methods**
