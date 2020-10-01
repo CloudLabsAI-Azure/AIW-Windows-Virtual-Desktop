@@ -55,7 +55,7 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management, Connection and HostRegistration.** 
   - Destination details: *Check the box for* **Send to Log Analytics**
   - Subscription: *Choose the default subscription.*
-  - Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
+  - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
   - At last, click on **Save**.
 
    ![ws name.](media/wiw6.png)
@@ -80,7 +80,7 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
   - Destination details: *Check the box for* **Send to Log Analytics**
   - Subscription: *Choose the default subscription.*
-  - Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
+  - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
   - At last, click on **Save**.
 
    ![ws name.](media/wiw8.png)
@@ -99,7 +99,7 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
   - Destination details: *Check the box for* **Send to Log Analytics**
   - Subscription: *Choose the default subscription.*
-  - Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
+  - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
   - At last, click on **Save**.
 
    ![ws name.](media/wiw26.png)
@@ -125,7 +125,7 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management and Feed.** 
   - Destination details: *Check the box for* **Send to Log Analytics**
   - Subscription: *Choose the default subscription.*
-  - Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
+  - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
   - At last, click on **Save**.  
    
    ![ws name.](media/wiw13.png)
