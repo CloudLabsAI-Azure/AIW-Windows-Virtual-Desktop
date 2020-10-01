@@ -3,12 +3,12 @@
     "Name": "WVD Immersion Workshop",
     "Language": "English",
     "Files": [
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/00-Overview.md",
-        "Order": 0
-      },
 	{
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/Lab-outline.md",
+        "Order": 0
+      },
+	    {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/00-Overview.md",
         "Order": 1
       },
       {
