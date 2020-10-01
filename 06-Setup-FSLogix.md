@@ -347,7 +347,7 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
 
     ![ws name.](media/launchwvd.png)
 
-### **Task 4: Verifying the User profiles stored in File share.**
+### **Task 4: Verifying the User profiles stored in File share**
 
 In this task, we will be accessing the file share to verify the user profiles stored in *.vhd* format.
 
