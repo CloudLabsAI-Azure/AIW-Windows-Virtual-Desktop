@@ -42,6 +42,10 @@ ________________________
 
 
 
+
+
+
+
 # Lab Outline
 
 **Pre-requisites to deploy Windows Virtual Desktop**
