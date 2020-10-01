@@ -31,19 +31,25 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 
    ![ws name.](media/wiw18.png)
 
-6. Once the deployment gets succeeded, go to **Windows Virtual Desktop**.
+6. Once the deployment gets succeeded, it will look similar to the image shown below.
+
+   ![ws name.](media/lb60.png)
+
+### **Task 2: Enable diagnostic logging for Host Pool**
+
+1. Navigate to **Windows Virtual Desktop**. 
 
    ![ws name.](media/64.png)
 
-7. Open **Host Pools** and then click on **WVD-HP-01**.
+2. Open **Host Pools** and then click on **WVD-HP-01**.
 
    ![ws name.](media/wiw12.png)
 
-8. Now click on **Diagnostic settings** present under *Monitoring* blade, then click on **+Add diagnostic setting**.
+3. Now click on **Diagnostic settings** present under *Monitoring* blade, then click on **+Add diagnostic setting**.
 
    ![ws name.](media/wiw5.png)
 
-9. Add the following configurations:
+4. Add the following configurations:
 
   - Diagnostic settings name: **HostPoolMonitoring**
   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management, Connection and HostRegistration.** 
@@ -54,15 +60,21 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 
    ![ws name.](media/wiw6.png)
 
-10. Navigate back to Windows Virtual Desktop and open **Application groups**.
+5. Once saved, it will look similar to the image shown below.
+
+   ![ws name.](media/lb61.png)
+
+### **Task 3: Enable diagnostic logging for Application Groups**
+
+1. Navigate back to Windows Virtual Desktop and open **Application groups**.
 
    ![ws name.](media/wiw10.png)
    
-11. Click on **WVD-HP-01-DAG**. Then select **Diagnostic settings** present under *Monitoring* blade and click on **+Add diagnostic setting**.
+2. Click on **WVD-HP-01-DAG**. Then select **Diagnostic settings** present under *Monitoring* blade and click on **+Add diagnostic setting**.
 
    ![ws name.](media/wiw20.png) 
    
-12. Add the following configurations:
+3. Add the following configurations:
 
   - Diagnostic settings name: **ApplicationGroupMonitoring**
   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
@@ -72,12 +84,16 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
   - At last, click on **Save**.
 
    ![ws name.](media/wiw8.png)
+
+4. Once saved, it will look similar to the image shown below.
+
+   ![ws name.](media/lb63.png)
    
-13. Navigate back to **Application groups** and click on **WVD-AG-01**.
+5. Navigate back to **Application groups** and click on **WVD-AG-01**.
 
    ![ws name.](media/wiw25.png)
 
-14. Add the following configurations:
+6. Add the following configurations:
 
   - Diagnostic settings name: **ApplicationGroupMonitoring1**
   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
@@ -88,15 +104,22 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 
    ![ws name.](media/wiw26.png)
 
-15. Navigate back to Windows Virtual Desktop and open **Workspaces**.
+7. Once saved, it will look similar to the image shown below.
+
+   ![ws name.](media/lb62.png)
+
+
+### **Task 4: Enable diagnostic logging for Workspace**
+ 
+1. Navigate back to Windows Virtual Desktop and open **Workspaces**.
 
    ![ws name.](media/wiw9.png)
    
-16. Click on **WVD-WS-01**. Then select **Diagnostic settings** present under *Monitoring* blade and click on **+Add diagnostic setting**.    
+2. Click on **WVD-WS-01**. Then select **Diagnostic settings** present under *Monitoring* blade and click on **+Add diagnostic setting**.    
    
    ![ws name.](media/wiw11.png)
  
-17. Add the following configurations:
+3. Add the following configurations:
 
   - Diagnostic settings name: **WorkspaceMonitoring**
   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management and Feed.** 
@@ -106,18 +129,63 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
   - At last, click on **Save**.  
    
    ![ws name.](media/wiw13.png)
-   
-18. Now navigate to *Log Analytics Workspace* and open your workpsace, then select **Logs** under *General* blade. 
+
+4. Once saved, it will look similar to the image shown below.
+
+   ![ws name.](media/lb64.png)
+
+
+### **Task 5: Enable diagnostic logging for Session Host**   
+
+1. Navigate to **Virtual Machines**.
+
+   ![ws name.](media/lb65.png)
+  
+2. Open **WVD-HP01-SH-1** virtual machine. Click on **Insights** under *Monitoring* blade, and click on **Enable** button.
+
+   ![ws name.](media/lb66.png)
+
+3. Add the following configurations:
+
+   - Workspace Subscription: *Choose the default subscription.*
+   - Choose a Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
+   - At last, click on **Enable**. This will enable diagnostic settings in this Session host.
+
+   ![ws name.](media/lb67.png)
+
+4. Return to virtual machines. Open **WVD-HP01-SH-0** virtual machine, click on **Insights** under *Monitoring* blade, and click on **Enable** button.
+
+   ![ws name.](media/lb68.png)
+
+5. Add the following configurations:
+
+   - Workspace Subscription: *Choose the default subscription.*
+   - Choose a Log Analytics Workspace: *Select the log analytics workpsace(i.e.,**wvd-monitoring-la-[uniqueid]**) from the drop down, that we just created.*
+   - At last, click on **Enable**. This will enable diagnostic settings in this Session host.
+
+   ![ws name.](media/lb67.png)
+
+> **Note:** Deployment can take 5-10 minutes to complete. Once complete, you will see the following items configured on the VM:
+> - New VM Extensions Added
+> - New Monitoring Agents Installed
+> - Monitoring Agent Configured for Log Analytics 
+
+
+### **Task 6 : Query Editor in Log Analytics Workspace**
+
+1. Now navigate to *Log Analytics Workspace* and open your workpsace, then select **Logs** under *General* blade. 
 
    ![ws name.](media/wiw14.png)
 
-19. Click on **Get Started** button and then close the *Example queries* window by clicking on **X** button.
+2. Click on **Get Started** button and then close the *Example queries* window by clicking on **X** button.
 
    ![ws name.](media/wiw15.png)
 
-20. Query explorer will launch and look similar to screenshot given below.
+3. Query explorer will launch and look similar to screenshot given below. You can use this to run queries.
 
    ![ws name.](media/lg2.png)
+
+4. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
 
 > **[Optional]**
@@ -137,6 +205,3 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 >ii. In results, logs will appear similar to one shown below.
 >
 >  ![ws name.](media/wiw17.png)
-
-21. Click on the **Next** button present in the bottom-right corner of this lab guide.
-
