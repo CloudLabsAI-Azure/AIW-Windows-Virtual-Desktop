@@ -3,53 +3,49 @@
     "Name": "WVD Immersion Workshop",
     "Language": "English",
     "Files": [
-	{
-        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/Lab-outline.md",
-        "Order": 1
-      },
 	    {
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/00-Overview.md",
-        "Order": 2
+        "Order": 1
       },
       {
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/01-Pre-requisite.md",
-        "Order": 3
+        "Order": 2
       },
       {
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/02-Create-HostPool.md",
-        "Order": 4
+        "Order": 3
       },
       {
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/03-Create-Application-group.md",
-        "Order": 5
+        "Order": 4
       },
       {
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/04-Access-Workspace-Using-Browser.md",
-        "Order": 6
+        "Order": 5
       },
       {
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/05-Access-Workspace-Using-WVD-Client.md",
-        "Order": 7
+        "Order": 6
       },
 	{
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/06-Setup-FSLogix.md",
-        "Order": 8
+        "Order": 7
       },
     {
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/07-Monitoring-using-Log-Analytics.md",
-        "Order": 9
+        "Order": 8
       },
 	{
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/08-Load-Balancing-methods.md",
-        "Order": 10
+        "Order": 9
       },
 {
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/09-Create-a-master-image-for-WVD.md",
-        "Order": 11
+        "Order": 10
       },
 	    {
         "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Essentials/master/10-Summary.md",
-        "Order": 12
+        "Order": 11
       }
     ]
   }
