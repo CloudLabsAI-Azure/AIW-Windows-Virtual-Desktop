@@ -185,7 +185,6 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 
    ![ws name.](media/lg2.png)
 
-4. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
 
 > **[Optional]**
@@ -205,3 +204,6 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 >ii. In results, logs will appear similar to one shown below.
 >
 >  ![ws name.](media/wiw17.png)
+
+
+4. Click on the **Next** button present in the bottom-right corner of this lab guide.
