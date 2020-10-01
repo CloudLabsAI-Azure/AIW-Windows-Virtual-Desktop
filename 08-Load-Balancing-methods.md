@@ -327,16 +327,16 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
 
 
-**[Optional]**
-
-**Scale session hosts using Azure Automation**
-
-Here, you will learn about the scaling tool built with the Azure Automation account and Azure Logic App that automatically scales session host VMs in your Windows Virtual Desktop environment. 
-
-Please follow the link given below to learn more about this feature. 
-
-```https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script```
-
+> **[Optional]**
+>
+> **Note:** **Scale session hosts using Azure Automation**
+>
+> Here, you will learn about the scaling tool built with the Azure Automation account and Azure Logic App that automatically scales session host VMs in your Windows Virtual Desktop environment. 
+>
+> Please follow the link given below to learn more about this feature. 
+>
+> ```https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script```
+>
 
 Click on the **Next** button present in the bottom-right corner of this lab guide.
 
