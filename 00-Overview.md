@@ -25,7 +25,7 @@ Host pools are a collection of one or more identical virtual machines within Win
 
 An Application group is a logical grouping of applications installed on session hosts in the host pool. An application group can be one of two types: 
 
-   - RemoteApp, where users access the RemoteApps you individually select and publish to the application group . 
+   - RemoteApp, where users access the RemoteApps you individually select and publish to the application group. 
    - Desktop, where users access the full desktop By default, a desktop application group (named “Desktop Application Group”) is automatically created whenever you create a host pool. You can remove this application group at any time. However, you can’t create another desktop application group in the host pool while a desktop application group already exists. To publish RemoteApps, you must create a RemoteApp application group. You can create multiple RemoteApp application groups to accommodate different worker scenarios. Different RemoteApp application groups can also contain overlapping RemoteApps. 
 
 
