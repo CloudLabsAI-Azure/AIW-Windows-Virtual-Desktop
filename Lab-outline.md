@@ -33,6 +33,11 @@
 **Exercise 6: Monitoring using Log Analytics**
     
 - Task 1: Create Log Analytics
+- Task 2: Enable diagnostic logging for Host Pool
+- Task 3: Enable diagnostic logging for Application Groups
+- Task 4: Enable diagnostic logging for Workspace
+- Task 5: Enable diagnostic logging for Session Host
+- Task 6: Query Editor in Log Analytics Workspace
     
 **Exercise 7: Load Balancing methods**
     
