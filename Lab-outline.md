@@ -1,4 +1,4 @@
-# Table of Contents
+# Lab Outline
 
 **1. Pre-requisites to deploy Windows Virtual Desktop**
 
