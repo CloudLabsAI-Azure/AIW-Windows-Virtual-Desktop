@@ -138,28 +138,24 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
    
    ![ws name.](media/username.png)
 
-   - Password: *Paste the temporary password you copied in Task 1: Step 10* and click on **Sign in**.
+   - Password: *Paste the password **Azure1234567** and click on **Sign in**.
 
    ![ws name.](media/password.png)
  
 
-2. Portal will ask you to set a ***permanent password***. Paste your temporary password that you copied in Task 1: Step 10, under *Current Password* and add new password for the user.This new password will act as the ***Permanent Password*** for *WVDUser01*.
-
-   ![ws name.](media/lb36.png)
-
-3. Now in the WVD dashboard, click on the **Default Desktop** to access it. 
+2. Now in the WVD dashboard, click on the **Default Desktop** to access it. 
 
    ![ws name.](media/im29.png)
 
-4. Select **Allow** on the prompt asking permission to *Access local resources*.
+3. Select **Allow** on the prompt asking permission to *Access local resources*.
 
    ![ws name.](media/lb27.png)
 
-5. Enter your **credentials** to access the application and click on **Submit**.
+4. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: *Paste username of* **WVDUser01** *which you copied earlier(for example: **WVDUser01@azurehol1055.onmicrosoft.com**)*
    
-   - Password: *Paste the **Permanent password** that you created in Task 2:Step 2.*
+   - Password: *Paste the password **Azure1234567***
    
    ![ws name.](media/lb52.png)
 
@@ -186,47 +182,43 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
    - Username: *Paste username of* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**), then click on **Next**.*
    
-   - Password: *Paste the temporary password you copied in Task 1: Step 11*.
+   - Password: *Paste the password **Azure1234567***.
 
    ![ws name.](media/password2.png)
 
-11. Portal will ask you to set a ***permanent password***. Paste your temporary password that you copied in Task 1: Step 11, under *Current Password* and add a new password for the user. This new password will act as the ***Permanent Password*** for *WVDUser02*.
-
-   ![ws name.](media/lb35.png)
-
-12. In WVD client, double click on the **Default Desktop** to access it. 
+11. In WVD client, double click on the **Default Desktop** to access it. 
 
    ![ws name.](media/im30.png)
 
-13. Enter your **credentials** to access the application and click on **Submit**.
+12. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: *Paste username of* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**)*
-   - Password: *Paste the **permanent password** you created in Task 2:Step 2., and click on **OK**.* 
+   - Password: *Paste the **Azure1234567** and click on **OK**.* 
    
    ![ws name.](media/lb37.png)
   
 
-14. The virtual Desktop will launch as shown below. 
+13. The virtual Desktop will launch as shown below. 
 
    ![ws name.](media/lb55.png) 
 
 
-15. Return to the Azure portal on your browser and search for the host pool and click on it.
+14. Return to the Azure portal on your browser and search for the host pool and click on it.
 
    ![ws name.](media/lb38.png)
    
    
-16. Now click on **WVD-HP-01** host pool to access it.
+15. Now click on **WVD-HP-01** host pool to access it.
 
    ![ws name.](media/lb39.png)
    
    
-17. Under Manage blade, click on **Session hosts**.
+16. Under Manage blade, click on **Session hosts**.
 
    ![ws name.](media/lb24.png)
    
    
-18. You can see that both session hosts have one Active sessions each.
+17. You can see that both session hosts have one Active sessions each.
 
    ![ws name.](media/lb47.png)
    
@@ -235,11 +227,11 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 > Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
 
 
-19. Open **WVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
+18. Open **WVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
    ![ws name.](media/lb50.png)
 
-20. Navigate back to *Session hosts* and open **WVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
+19. Navigate back to *Session hosts* and open **WVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
    ![ws name.](media/lb56.png)
 
@@ -267,7 +259,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
    
    ![ws name.](media/username.png)
 
-   - Password: *Paste the **Permanent password** that you created in Task 2:Step 2., and click on **Sign in**.*
+   - Password: *Paste the password **Azure1234567** and click on **Sign in**.*
 
    ![ws name.](media/password.png)
  
@@ -284,7 +276,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
    - Username: *Paste username of* **WVDUser01** *which you copied earlier(for example: **WVDUser01@azurehol1055.onmicrosoft.com**)*
    
-   - Password: *Paste the **Permanent password** that you created in Task 2:Step 2.*
+   - Password: *Paste the password **Azure1234567***
    
    ![ws name.](media/lb52.png)
 
@@ -306,7 +298,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 10. Enter your **credentials** to access the desktop and click on **Submit**.
 
    - Username: *Paste username of* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**).*
-   - Password: *Paste the **permanent password** that you created in Task 2:Step 2.*
+   - Password: *Paste the password **Azure1234567***
    
    ![ws name.](media/lb51.png)
    
