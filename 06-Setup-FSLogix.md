@@ -198,7 +198,9 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
     
 > **Note:** The above script will :
 > 1) Install FSLogix Profile Container application
+> 
 > 2) Configure the required registries
+> 
 > 3) Set the profile container location to the Azure file share location we created.
  
 
@@ -277,9 +279,11 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
     
 > **Note:** The above script will :
 > 1) Install FSLogix Profile Container application
+> 
 > 2) Configure the required registries
+> 
 > 3) Set the profile container location to the Azure file share location we created.
-
+ 
 
 13. Paste it by pressing **Ctrl + V** in the Powershell window.
 
