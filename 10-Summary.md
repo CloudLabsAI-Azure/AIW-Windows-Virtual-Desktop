@@ -26,13 +26,3 @@
 - Configuring load balancing methods i.e. *Breadth-first* and *Depth-first* in your host pool to obtain required efficiency in your WVD environment.
 
 - Creating a master image to start with a clean base installation of Windows and layer on mandatory updates, applications and configurations.
-
-
-## **Why Windows Virtual Desktop?**
-
-The WVD-Essentials lab you just completed gives a complete walk-through on Windows Virtual Desktop essentials, making you confident enough to create and manage Windows Virtual Desktop as needed in the future.
-
-It ensures that you are knowledgeable enough to set up a single session and multi-session Windows 10 deployment that delivers scalability, virtualize Microsoft 365 Apps for enterprise and optimize it to run in multi-user virtual scenarios. 
-
-
-
