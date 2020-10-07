@@ -66,7 +66,7 @@ In the following task, we will be creating a storage account with a file share w
 
    ![ws name.](media/fs2.png)
     
-> **Note:** Setting this property implicitly ***"domain joins"*** the storage account with the associated Azure AD DS deployment. Azure AD DS authentication over SMB is then enabled for all new and existing file shares in the storage account.
+> **Note:** Setting this property implicitly ***domain joins*** the storage account with the associated Azure AD DS deployment. Azure AD DS authentication over SMB is then enabled for all new and existing file shares in the storage account.
     
     
 8. Then click on **Save**.
