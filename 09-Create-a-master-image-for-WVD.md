@@ -268,7 +268,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/im20.png)
 
-4. In the *Virtual machine*s tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool.
+4. In the *Virtual machines* tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool.
 
    ![ws name.](media/66.png)
 
@@ -278,9 +278,9 @@ The UI form offers the following actions:
 
    - Resource Group: *Select* **WVD-RG** *from the drop down.*
    - Virtual machine location: **East US**, *location should be same as location of your resource group.*
-   - Virtual machine size: **Standard D1_v2**. *Click on **Change Size**, then select **D1_v2** and click on **Select** as shown below.*
+   - Virtual machine size: **Standard D4s_v3**. *Click on **Change Size**, then select **D4s_v3** and click on **Select** as shown below.*
 
-   ![ws name.](media/65.png)
+   ![ws name.](media/ch1.png)
 
    - Number of VMs: **2**
    - Name prefix: **VmFromImage**
@@ -292,7 +292,7 @@ The UI form offers the following actions:
    - OS disk type: **Standard SSD**
    - Use managed disks: **Leave to default**
 
-   ![ws name.](media/im22.png)
+   ![ws name.](media/ch5.png)
 
   **B**. Network and Security:
 
