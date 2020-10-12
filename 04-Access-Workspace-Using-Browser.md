@@ -38,14 +38,23 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/89.png)
       
-6. The Word application will launch and look similar to the screenshot below.
+6. The Word application will launch and look similar to the screenshot below. Click on **Sign in**.
 
-   ![ws name.](media/130.png)
+   ![ws name.](media/ch9.png)
 
-7. Close the *Sign in* page of Word application by clicking on the close button.
+7. Enter username **<inject key="AzureAdUserEmail" />** on *Activate Office* window and click on **Next**.
 
-   ![ws name.](media/w11.png)
-   
+   ![ws name.](media/ch6.png)
+
+8. Enter password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
+
+   ![ws name.](media/ch7.png)
+
+9. Once signed in, the application will look similar to the screenshot below 
+
+   ![ws name.](media/ch8.png)
+
+
 ## **Task 2: Access the published Desktop**
 
 1. On the top-left side of Remote Desktop Web Client, click on **All Resources**.
