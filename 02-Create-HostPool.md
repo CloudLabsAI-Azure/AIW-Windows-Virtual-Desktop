@@ -92,7 +92,7 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    - Virtual machine location: **East US**, *location should be same as location of your resource group*.
    - Virtual machine size: **Standard D1_v2**. *Click on **Change Size**, then select **D1_v2** and click on **Select** as shown below*
    
-   ![ws name.](media/65.png)
+   ![ws name.](media/ch1.png)
 
    - Number of VMs: **2**   
    - Name prefix: **WVD-HP01-SH** 
@@ -101,16 +101,17 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    - OS disk type: **Standard SSD**
    - Use managed disks: *Leave to default*
    
-   ![ws name.](media/ex3.png)
+   ![ws name.](media/ch3.png)
     
   **B**. Network and Security:
     
    Leave all values to default, except:
     
+   - Virtual network: **aadds-vnet** *(choose from dropdown)*
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
    - Specify Domain or Unit: **No**
  
-   ![ws name.](media/w3.png)
+   ![ws name.](media/ch2.png)
  
   **C**. Administrator Account details:
   
@@ -145,7 +146,7 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
 
 11. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
-    ![ws name.](media/70.png)
+    ![ws name.](media/ch4.png)
 
 > **Note:** The deployment will take about 30 minutes to succeed.
 
