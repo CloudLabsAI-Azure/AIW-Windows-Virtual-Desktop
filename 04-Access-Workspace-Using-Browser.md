@@ -50,7 +50,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/ch7.png)
 
-9. Once signed in, the application will look similar to the screenshot below 
+9. Click on **Close** button on the window asking *Your privacy option*.
+
+   ![ws name.](media/ch11.png)
+
+10. Once signed in, the application will look similar to the screenshot below 
 
    ![ws name.](media/ch8.png)
 
@@ -83,6 +87,6 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 5. The virtual desktop will launch and look similar to the screenshot below. 
 
-   ![ws name.](media/lb57.png)
+   ![ws name.](media/ch12.png)
    
 6. Click on the **Next** button present in the bottom-right corner of this lab guide. 
