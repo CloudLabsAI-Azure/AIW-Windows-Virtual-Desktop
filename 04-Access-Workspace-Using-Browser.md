@@ -52,7 +52,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 9. Click on **Close** button on the window asking *Your privacy option*.
 
-   ![ws name.](media/ch11.png)
+   ![ws name.](media/ch19.png)
 
 10. Once signed in, the application will look similar to the screenshot below 
 
