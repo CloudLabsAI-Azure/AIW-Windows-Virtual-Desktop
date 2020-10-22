@@ -30,11 +30,9 @@ In the following task, we will be creating a storage account with a file share w
    
    - Replication: **Read-access-geo-redundant storage (RA-GRS)**
    
-   - Access tier(default): **Hot**
-   
    - Then click on **Next: Networking**
    
-   ![ws name.](media/a56.png)
+   ![ws name.](media/ch20.png)
    
 4. Under *Networking* tab use following configuration.
     
