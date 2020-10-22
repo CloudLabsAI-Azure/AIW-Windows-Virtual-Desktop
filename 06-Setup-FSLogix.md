@@ -386,5 +386,7 @@ In this task, we will be accessing the file share to verify the user profiles st
 
    ![ws name.](media/wiw24.png)
 
+> **Note:** It might take sometime for the User Profile folder to appear in the fileshare. If you do not see the folder now, please continue with the next task and check back later.
+
 8. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
