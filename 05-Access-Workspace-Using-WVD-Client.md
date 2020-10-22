@@ -41,9 +41,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/96.png)
    
    
-9. Make sure to **uncheck** *Allow my organization to manage my device* and click on **This app only**.
+9. Make sure to **uncheck** *Allow my organization to manage my device* and click on **OK**.
 
-   ![ws name.](media/55.png)
+   ![ws name.](media/ch13.png)
    
    
 10. The WVD dashboard will launch, then double click on **Excel** application to access it.
@@ -51,26 +51,24 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/ag10.png)
    
 
-11. Enter the lab credentials to access the Application.
+11. A window saying *Starting your app*, will appear. Wait for few seconds, then enter your password to access the Application.
 
-   - Username: **<inject key="AzureAdUserEmail" />** 
    - Password: **<inject key="AzureAdUserPassword" />**
    
-   ![ws name.](media/89.png)
+   ![ws name.](media/ch14.png)
    
-
-12. Wait for your application to connect.
+12. Wait for the Application to connect.
 
    ![ws name.](media/58.png)
    
 
-13. The Excel application will launch and will look similar to the screenshot below.
+13. The Excel application will launch and look similar to the screenshot below.
 
-   ![ws name.](media/w13.png) 
+   ![ws name.](media/ch15.png) 
     
-14. You can exit the sign-in window of Excel Application by clicking on close button.
+14. You can exit from the window of Excel Application by clicking on **X *i.e., the close button***.
 
-   ![ws name.](media/w11.png)
+   ![ws name.](media/ch16.png)
    
 ## **Task 2: Access the Virtual Desktop**
 
@@ -84,20 +82,19 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/ag11.png)
    
 
-3. Enter the lab credentials to access the Desktop.
+3. A window saying *Connecting to: Default Desktop* will appear. Wait for few seconds, then enter your password to access the Desktop.
 
-   - Username: **<inject key="AzureAdUserEmail" />** 
    - Password: **<inject key="AzureAdUserPassword" />**
    
-   ![ws name.](media/89.png)
+   ![ws name.](media/ch14.png)
    
 
-4. Wait for your Desktop to connect.
+4. Wait for the Default Desktop to connect.
 
-   ![ws name.](media/62.png)
+   ![ws name.](media/ch17.png)
    
 
-5. Your virtual desktop will launch.
+5. Your virtual desktop will launch and look similar to the screenshot below.
         
    ![ws name.](media/lb55.png)   
     
