@@ -43,7 +43,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    
 9. Make sure to **uncheck** *Allow my organization to manage my device* and click on **OK**.
 
-   ![ws name.](media/ch13.png)
+   ![ws name.](media/jvm5.png)
    
    
 10. The WVD dashboard will launch, then double click on **Excel** application to access it.
