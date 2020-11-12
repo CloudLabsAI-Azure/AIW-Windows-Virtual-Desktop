@@ -330,7 +330,7 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
    
 21. Click on the **WVD-HP-01-DAG** Desktop to launch it.
 
-    ![ws name.](media/a75.png)
+    ![ws name.](media/jvm14.png)
     
 22. Enter your **Credentials** to access the desktop.
 
