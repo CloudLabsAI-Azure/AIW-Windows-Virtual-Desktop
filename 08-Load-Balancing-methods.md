@@ -138,7 +138,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
    
    ![ws name.](media/username.png)
 
-   - Password: *Paste the password **Azure1234567** and click on **Sign in**.
+   - Password: *Paste the password* **Azure1234567** and click on **Sign in**.
 
    ![ws name.](media/password.png)
  
@@ -155,7 +155,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
    - Username: *Paste username of* **WVDUser01** *which you copied earlier(for example: **WVDUser01@azurehol1055.onmicrosoft.com**)*
    
-   - Password: *Paste the password **Azure1234567***
+   - Password: *Paste the password* **Azure1234567**
    
    ![ws name.](media/lb52.png)
 
@@ -182,7 +182,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
    - Username: *Paste username of* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**), then click on **Next**.*
    
-   - Password: *Paste the password **Azure1234567***.
+   - Password: *Paste the password* **Azure1234567**.
 
    ![ws name.](media/password2.png)
 
@@ -276,7 +276,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
    - Username: *Paste username of* **WVDUser01** *which you copied earlier(for example: **WVDUser01@azurehol1055.onmicrosoft.com**)*
    
-   - Password: *Paste the password **Azure1234567***
+   - Password: *Paste the password* **Azure1234567**
    
    ![ws name.](media/lb52.png)
 
@@ -298,7 +298,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 10. Enter your **credentials** to access the desktop and click on **Submit**.
 
    - Username: *Paste username of* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**).*
-   - Password: *Paste the password **Azure1234567***
+   - Password: *Paste the password* **Azure1234567**
    
    ![ws name.](media/lb51.png)
    
