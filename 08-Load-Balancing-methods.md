@@ -141,7 +141,10 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
    - Password: *Paste the password* **Azure1234567** and click on **Sign in**.
 
    ![ws name.](media/password.png)
- 
+
+> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+>
+>    ![](media/login.png)
 
 2. Now in the WVD dashboard, click on the **Default Desktop** to access it. 
 
@@ -185,6 +188,10 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
    - Password: *Paste the password* **Azure1234567**.
 
    ![ws name.](media/password2.png)
+
+> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+>
+>    ![](media/login.png)
 
 11. In WVD client, double click on the **Default Desktop** to access it. 
 
