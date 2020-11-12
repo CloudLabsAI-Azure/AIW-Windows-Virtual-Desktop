@@ -364,7 +364,7 @@ The UI form offers the following actions:
 > - Username: **<inject key="AzureAdUserEmail" />**
 > - Password: **<inject key="AzureAdUserPassword" />**
 
-2. The WVD dashboard will launch, then click on the tile named **Session Desktop** under workspace **WVD-WS-02** to launch the desktop.
+2. The WVD dashboard will launch, then click on the tile named **Session Desktop** under workspace **WVD-CustomImage-workspace** to launch the desktop.
 
    ![ws name.](media/ch21.png)
 
