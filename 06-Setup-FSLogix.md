@@ -6,7 +6,7 @@ The Windows Virtual Desktop service recommends FSLogix profile containers as a u
 
 In the following task, we will be creating a storage account with a file share which will be used to store user profiles for FSlogix.
 
-1. In your Azure portal search for *storage* and select **storage account** from the suggestions.
+1. Navigate to Azure portal, search for *storage* and select **storage account** from the suggestions.
 
    ![ws name.](media/a55.png)
    
@@ -20,7 +20,7 @@ In the following task, we will be creating a storage account with a file share w
    
    - Resource Group: *Select **WVD-RG** from the drop down*. 
    
-   - Storage account name: **storageaccount{unique-id}**, *for example: storageaacount204756*
+   - Storage account name: **storageaccount{unique-id}** (*Go to Lab Environment tab, copy the Unique ID and replace it with* ***{unique-id}*** *in* ***storageaccount{unique-id}***; *for example:* ***storageaacount204756***)
    
    - Location: **East US**, *this should be same as the location of your resource group*.  
    
@@ -147,7 +147,7 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
    ![ws name.](media/a69.png)
    
       
-6. **Copy** the script given below.
+6. **Copy** the script given below and paste it by pressing **Ctrl + V** in the Powershell window. Do not run the script right away.
 
     ```
     #Variables
@@ -192,7 +192,8 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
     Write-Host "Script Executed successfully"
     ```
  
- 
+   ![ws name.](media/fs11.png)
+   
     
 > **Note:** The above script will :
 > 1) Install FSLogix Profile Container application
@@ -203,32 +204,28 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
  
 
 
-7. Paste it by pressing **Ctrl + V** in the Powershell window.
-
-   ![ws name.](media/fs11.png)
-
-8. In the script, replace **{NameofStorageAccount}** with the actual storage account name you created earlier. Make sure to remove the curly braces, then click on **Run** to execute the script.
+7. In the script, replace **{NameofStorageAccount}** with the actual storage account name you created previosuly in Task 1. Make sure to remove the curly braces, then click on **Run** to execute the script.
 
    ![ws name.](media/fs12.png)
-      
- 
-9. Wait for sometime for the script to execute. It will show an output saying **Script Executed successfully**.
+
+
+8. Wait for some time for the script to execute. Once done, it will show an output saying **Script Executed successfully**.
 
    ![ws name.](media/fs14.png)
    
 > **Note:** It will take around five minutes for the script to execute.
    
-10. Navigate to virtual machines and click on **WVD-HP01-SH-1**.
+9. Navigate to virtual machines and click on **WVD-HP01-SH-1**.
 
     ![ws name.](media/fs8.png)
 
 
-11. Select **RunPowerShellScript**.
+10. Select **RunPowerShellScript**.
 
     ![ws name.](media/a68.png)
     
     
-12. **Copy** the script given below.
+11. **Copy** the script given below and paste it by pressing **Ctrl + V** in the Powershell window. Do not run the script right away.
 
     ```
     #Variables
@@ -273,7 +270,8 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
     Write-Host "Script Executed successfully"
     ```
  
- 
+   ![ws name.](media/fs11.png)
+   
     
 > **Note:** The above script will :
 > 1) Install FSLogix Profile Container application
@@ -283,42 +281,38 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
 > 3) Set the profile container location to the Azure file share location we created.
  
 
-13. Paste it by pressing **Ctrl + V** in the Powershell window.
-
-   ![ws name.](media/fs11.png)
-
-14. In the script, replace **{NameofStorageAccount}** with the actual storage account name you created earlier. Make sure to remove the curly braces, then click on **Run** to execute the script.
+12. In the script, replace **{NameofStorageAccount}** with the actual storage account name you created previosuly in Task 1. Make sure to remove the curly braces, then click on **Run** to execute the script.
 
    ![ws name.](media/fs12.png)
       
  
-15. Wait for sometime for the script to execute. It will show an output saying **Script Executed successfully**.
+13. Wait for some time for the script to execute.  Once done, it will show an output saying **Script Executed successfully**.
 
    ![ws name.](media/fs14.png)
    
 > **Note:** It will take around five minutes for the script to execute.
   
-16. Now search for *Windows virtual desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
+14. Now search for *Windows virtual desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
 
     ![ws name.](media/a109.png)
    
    
-17. Click on **Users**, then in the search bar paste your username **<inject key="AzureAdUserEmail" />** and then click on your user.
+15. Click on **Users**, then in the search bar paste your username **<inject key="AzureAdUserEmail" />** and then click on your user.
 
     ![ws name.](media/fs15.png)
     
-18. Switch to **Sessions** tab, then select both *Host Pools* and click on **Log off**.
+16. Switch to **Sessions** tab, then select both *Host Pools* and click on **Log off**.
 
     ![ws name.](media/a72.png)
     
-19. Click on **OK** to *Log off user from VMs*.
+17. Click on **OK** to *Log off user from VMs*.
 
     ![ws name.](media/a73.png)
 
 > **Note:** This will logoff the user **<inject key="AzureAdUserEmail" />** from both the session hosts, so that when the user sign in again to the session hosts, FSLogix will start functioning.
     
     
-20. Now paste this link ```aka.ms/wvdarmweb``` in your browser and enter your **credentials** to login. 
+18. Now paste this link ```aka.ms/wvdarmweb``` in your browser in the JumpVM, and enter your **credentials** to login. 
 
     - Username: Paste username **<inject key="AzureAdUserEmail" />**, then click on **Next**.
    
@@ -328,24 +322,24 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
 
     ![ws name.](media/w25.png)
    
-21. Click on the **WVD-HP-01-DAG** Desktop to launch it.
+19. Click on the **WVD-HP-01-DAG** Desktop to launch it.
 
-    ![ws name.](media/jvm14.png)
+    ![ws name.](media/a75.png)
     
-22. Enter your **Credentials** to access the desktop.
+20. Enter your **Credentials** to access the desktop.
 
    - Username: **<inject key="AzureAdUserEmail" />**
    - Password: **<inject key="AzureAdUserPassword" />**
 
    ![ws name.](media/89.png)
         
-23. The desktop will launch looking similar to the screenshot below, telling ***Please wait for the FSLogix Apps Services***.
+21. The desktop will launch looking similar to the screenshot below, telling ***Please wait for the FSLogix Apps Services***.
 
     ![ws name.](media/wiw19.png)
     
 > **Note:** This means that user profile is being managed by FSLogix.
 
-24. The virtual desktop will launch and look similar to the screenshot below.
+22. The virtual desktop will launch and look similar to the screenshot below.
 
     ![ws name.](media/launchwvd.png)
 
