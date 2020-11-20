@@ -149,6 +149,7 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
       
 6. **Copy** the script given below and paste it by pressing **Ctrl + V** in the Powershell window. Do not run the script right away.
 
+
     ```
     #Variables
    $storageAccountName = "NameofStorageAccount" 
@@ -290,7 +291,6 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
       Write-Host "Script Executed successfully"
     ```
 
- 
    ![ws name.](media/fs11.png)
    
     
