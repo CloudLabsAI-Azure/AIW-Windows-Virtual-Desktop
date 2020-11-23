@@ -125,9 +125,9 @@ In this task we will give *Storage File Data SMB Share Contributor* permissions 
 
 In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** session host using a Powershell script.
 
-1. In your Azure portal search for *Virtual* in the search bar and click on **Virtual Machines** from the suggestions.
+1. In your Azure portal search for *Virtual machines* in the search bar and click on **Virtual Machines** from the suggestions.
 
-   ![ws name.](media/a67.png)
+   ![ws name.](media/up11.png)
       
    
 2. Click on **WVD-HP01-SH-0**.
