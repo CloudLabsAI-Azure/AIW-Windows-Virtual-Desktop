@@ -6,7 +6,7 @@ The Windows Virtual Desktop service recommends FSLogix profile containers as a u
 
 In the following task, we will be creating a storage account with a file share which will be used to store user profiles for FSlogix.
 
-1. Navigate to Azure portal, search for *storage accounts* in the search bar and select **storage accounts** from the suggestions.
+1. Navigate to Azure portal, search for *storage accounts* in the search bar and select **Storage accounts** from the suggestions.
 
    ![ws name.](media/up10.png)
    
