@@ -34,7 +34,7 @@ In the following task, we will be creating a storage account with a file share w
    
    - Then click on **Next: Networking**
    
-   ![ws name.](media/ch20.png)
+   ![ws name.](media/up2.png)
    
 4. Under *Networking* tab use following configuration.
     
@@ -56,7 +56,7 @@ In the following task, we will be creating a storage account with a file share w
      
 5. Click on **Create**.
 
-   ![ws name.](media/a58.png)
+   ![ws name.](media/up3.png)
 
 6. After deployment completes click on the notification icon on your azure portal, then click on **Go to resource**.
 
@@ -64,7 +64,7 @@ In the following task, we will be creating a storage account with a file share w
    
 7. In the storage account, click on **Configuration** present under **Settings** blade. Then scroll down and find the option **Active Directory Domain Services (Azure AD DS)**. Select **Enabled** for it.
 
-   ![ws name.](media/fs2.png)
+   ![ws name.](media/up4.png)
     
 > **Note:** Setting this property implicitly ***domain joins*** the storage account with the associated Azure AD DS deployment. Azure AD DS authentication over SMB is then enabled for all new and existing file shares in the storage account.
     
@@ -75,7 +75,7 @@ In the following task, we will be creating a storage account with a file share w
  
 9. Now click on **Overview** to return back to storage account page, then click on **File shares**.
 
-   ![ws name.](media/a62.png)
+   ![ws name.](media/up9.png)
  
 10. Click on **+ File share**.
 
@@ -105,7 +105,7 @@ In this task we will give *Storage File Data SMB Share Contributor* permissions 
    
 3. Select following configuration for role assignment:  
    
-   - Role: **Storage File Data SMB Share Contributor**
+  - Role: **Storage File Data SMB Share Contributor**
    
 > **Note:** There are three Azure built-in roles for granting share-level permissions to users:
 > - ***Storage File Data SMB Share Reader*** allows read access in Azure Storage file shares over SMB.
@@ -216,14 +216,14 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
  
 
 
-7. In the script, replace **{NameofStorageAccount}** with the actual storage account name you created previosuly in Task 1. Make sure to remove the curly braces, then click on **Run** to execute the script.
+7. Go to **Lab Environment** tab and copy the **Storage Account Name**. In the script, replace **{NameofStorageAccount}** with the name you just copied. Make sure to remove the curly braces, then click on **Run** to execute the script.
 
-   ![ws name.](media/fs12.png)
+   ![ws name.](media/up5.png)
 
 
 8. Wait for some time for the script to execute. Once done, it will show an output saying **Script Executed successfully**.
 
-   ![ws name.](media/fs14.png)
+   ![ws name.](media/up6.png)
    
 > **Note:** It will take around five minutes for the script to execute.
    
@@ -302,14 +302,14 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
 > 3) Set the profile container location to the Azure file share location we created.
  
 
-12. In the script, replace **{NameofStorageAccount}** with the actual storage account name you created previosuly in Task 1. Make sure to remove the curly braces, then click on **Run** to execute the script.
+12. Go to **Lab Environment** tab and copy the **Storage Account Name**. In the script, replace **{NameofStorageAccount}** with the name you just copied. Make sure to remove the curly braces, then click on **Run** to execute the script.
 
-   ![ws name.](media/fs12.png)
+   ![ws name.](media/up5.png)
       
  
 13. Wait for some time for the script to execute.  Once done, it will show an output saying **Script Executed successfully**.
 
-   ![ws name.](media/fs14.png)
+   ![ws name.](media/up6.png)
    
 > **Note:** It will take around five minutes for the script to execute.
   
@@ -343,9 +343,9 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
 
     ![ws name.](media/w25.png)
    
-19. Click on the **WVD-HP-01-DAG** Desktop to launch it.
+19. Click on the **Default Desktop** to launch it.
 
-    ![ws name.](media/a75.png)
+    ![ws name.](media/up7.png)
     
 20. Enter your **Credentials** to access the desktop.
 
@@ -374,7 +374,7 @@ In this task, we will be accessing the file share to verify the user profiles st
     
 2. Click on the storage account we created in **Task 1 step 3**, then under settings blade click on  **Firewalls and virtual networks**.
 
-   ![ws name.](media/a87.png)
+   ![ws name.](media/up8.png)
    
 3. Under **Allow access from** select **All networks** and click on **save icon**.
 
@@ -384,7 +384,7 @@ In this task, we will be accessing the file share to verify the user profiles st
     
 4. Open the storage account we created earlier, then click on **Overview** and open **Fileshare**.
 
-   ![ws name.](media/a62.png)
+   ![ws name.](media/up9.png)
     
     
 5. Click on the **userprofile** fileshare.
