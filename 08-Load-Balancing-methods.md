@@ -95,9 +95,12 @@ Here, we will use Azure Cloud Shell to run a script that will change the passwor
 
 4. Use exisiting resource group - **WVD-RG** from the drop down and for:
 
-    - Storage Account: Select **Create new** and enter **sa{uniqueid}**, for example: sa204272.
-    - File Share: Select **Create new** and enter **fs{uniqueid}**, for example: fs204272.
-    
+    - Storage Account: Select **Create new** and enter **sa{uniqueid}**
+    - File Share: Select **Create new** and enter **fs{uniqueid}**
+
+> **Note:** **UniqueID** is the numerical value present in your username. 
+> For example, your username is *odl_user_258996@azurehol1004.onmicrosoft.com*; so your UniqueID will be 258996.
+
    ![ws name.](media/wvd12.png)
 
 5. After the terminal launches it will look like this.
