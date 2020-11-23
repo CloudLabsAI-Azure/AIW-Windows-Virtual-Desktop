@@ -20,7 +20,7 @@ In the following task, we will be creating a storage account with a file share w
    
    - Resource Group: *Select **WVD-RG** from the drop down*. 
    
-   - Storage account name: *Go to Lab Environment tab, copy the* **Storage Account Name** *and paste it here.*   
+   - Storage account name: *Go to Lab Environment tab, copy the* **Storage Account Name** *and paste it here in Storage account name box.*   
    
    ![ws name.](media/up1.png)
    
