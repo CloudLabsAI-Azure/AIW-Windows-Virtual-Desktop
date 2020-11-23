@@ -182,8 +182,7 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
 
     Expand-ZIPFile -File "$LabFilesDirectory\FSLogix_Apps_Installation.zip" -Destination "$LabFilesDirectory\FSLogix"
 
-}
-
+   }
       #Install FSLogix
       if(!(Get-WmiObject -Class Win32_Product | where vendor -eq "FSLogix, Inc." | select Name, Version)){
           $pathvargs = {C:\LabFiles\FSLogix\x64\Release\FSLogixAppsSetup.exe /quiet /install }
@@ -270,8 +269,7 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
 
     Expand-ZIPFile -File "$LabFilesDirectory\FSLogix_Apps_Installation.zip" -Destination "$LabFilesDirectory\FSLogix"
 
-}
-
+    }
       #Install FSLogix
       if(!(Get-WmiObject -Class Win32_Product | where vendor -eq "FSLogix, Inc." | select Name, Version)){
           $pathvargs = {C:\LabFiles\FSLogix\x64\Release\FSLogixAppsSetup.exe /quiet /install }
