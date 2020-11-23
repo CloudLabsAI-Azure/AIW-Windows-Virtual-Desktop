@@ -6,9 +6,9 @@ The Windows Virtual Desktop service recommends FSLogix profile containers as a u
 
 In the following task, we will be creating a storage account with a file share which will be used to store user profiles for FSlogix.
 
-1. Navigate to Azure portal, search for *storage* and select **storage account** from the suggestions.
+1. Navigate to Azure portal, search for *storage accounts* in the search bar and select **storage accounts** from the suggestions.
 
-   ![ws name.](media/a55.png)
+   ![ws name.](media/up10.png)
    
 2. Click on **+ Add** to create a new storage account.
 
@@ -315,7 +315,7 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
   
 14. Now search for *Windows virtual desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
 
-    ![ws name.](media/a109.png)
+    ![ws name.](media/w1.png)
    
    
 15. Click on **Users**, then in the search bar paste your username **<inject key="AzureAdUserEmail" />** and then click on your user.
@@ -368,9 +368,9 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
 
 In this task, we will be accessing the file share to verify the user profiles stored in *.vhd* format.
 
-1. Return to the Azure Portal and search for *storage account* and click on **Storage Accounts** from the suggestions.
+1. Return to the Azure Portal, search for *storage accounts* in the search bar and click on **Storage Accounts** from the suggestions.
 
-   ![ws name.](media/a55.png)
+   ![ws name.](media/up10.png)
     
 2. Click on the storage account we created in **Task 1 step 3**, then under settings blade click on  **Firewalls and virtual networks**.
 
