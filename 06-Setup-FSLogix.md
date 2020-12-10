@@ -372,9 +372,9 @@ In this task, we will be accessing the file share to verify the user profiles st
 
    ![ws name.](media/up10.png)
     
-2. Click on the storage account we created in **Task 1 step 3**, then under settings blade click on  **Firewalls and virtual networks**.
+2. Click on the storage account we created in **Task 1 step 3**, then under settings blade click on  **Networking**.
 
-   ![ws name.](media/up8.png)
+   ![ws name.](media/jvm15.png)
    
 3. Under **Allow access from** select **All networks** and click on **save icon**.
 
