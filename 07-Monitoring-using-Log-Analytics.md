@@ -55,13 +55,13 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 4. Add the following configurations:
 
   - Diagnostic settings name: **HostPoolMonitoring**
-  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management, Connection and HostRegistration.** 
+  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management, Connection, HostRegistration and AgentHealthStatus.** 
   - Destination details: *Check the box for* **Send to Log Analytics**
   - Subscription: *Choose the default subscription.*
   - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
   - At last, click on **Save**.
 
-   ![ws name.](media/wiw6.png)
+   ![ws name.](media/jvm16.png)
 
 5. Once saved, it will look similar to the image shown below.
 
