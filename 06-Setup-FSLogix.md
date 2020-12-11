@@ -46,7 +46,7 @@ In the following task, we will be creating a storage account with a file share w
   
   - Virtual Network: **aadds-vnet**
   
-  - Subnets: **SessionHost(10.0.2.0/24)**
+  - Subnets: **sessionhost-subnet (10.0.1.0/24)**
   
   - Leave the rest to default settings.
   
