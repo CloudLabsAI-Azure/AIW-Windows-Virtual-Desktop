@@ -8,6 +8,10 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ```https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10#install-the-windows-desktop-client```
 
+> **Note:** To download *WVD Mac Client* on **macOS**, use the link given below:
+>
+> ```https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos```
+
 2. Under *Install the Windows Desktop Client*, click on **Windows 64-bit**. This will download the **WVD Desktop Client** on your local machine.
    
    ![ws name.](media/a48.png)
