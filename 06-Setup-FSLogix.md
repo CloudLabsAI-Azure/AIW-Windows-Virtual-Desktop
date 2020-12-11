@@ -216,28 +216,31 @@ Write-Host "Script Executed successfully"
  
 
 
-7. Go to **Lab Environment** tab and copy the **Storage Account Name**. In the script, replace **{NameofStorageAccount}** with the name you just copied. Make sure to remove the curly braces, then click on **Run** to execute the script.
+7. In line 2, we have to replace the name of storage account with the **"NameofStorageAccount"** block.
+
+   ![ws name.](mediajvm24.png)
+
+8. Go to **Lab Environment** tab and copy the **Storage Account Name**. In the script, replace **{NameofStorageAccount}** with the name you just copied. Make sure to remove the curly braces, then click on **Run** to execute the script.
 
    ![ws name.](media/up5.png)
 
-
-8. Wait for some time for the script to execute. Once done, it will show an output saying **Script Executed successfully**.
+9. Wait for some time for the script to execute. Once done, it will show an output saying **Script Executed successfully**.
 
    ![ws name.](media/up6.png)
    
 > **Note:** It will take around five minutes for the script to execute.
    
-9. Navigate to virtual machines and click on **WVD-HP01-SH-1**.
+10. Navigate to virtual machines and click on **WVD-HP01-SH-1**.
 
     ![ws name.](media/fs8.png)
 
 
-10. Select **RunPowerShellScript**.
+11. Select **RunPowerShellScript**.
 
     ![ws name.](media/a68.png)
     
     
-11. **Copy** the script given below and paste it by pressing **Ctrl + V** in the Powershell window. Do not run the script right away.
+12. **Copy** the script given below and paste it by pressing **Ctrl + V** in the Powershell window. Do not run the script right away.
 
 ```
 #Variables
@@ -302,38 +305,42 @@ Write-Host "Script Executed successfully"
 > 3) Set the profile container location to the Azure file share location we created.
  
 
-12. Go to **Lab Environment** tab and copy the **Storage Account Name**. In the script, replace **{NameofStorageAccount}** with the name you just copied. Make sure to remove the curly braces, then click on **Run** to execute the script.
+13. In line 2, we have to replace the name of storage account with the **"NameofStorageAccount"** block.
+
+   ![ws name.](mediajvm24.png)
+
+14. Go to **Lab Environment** tab and copy the **Storage Account Name**. In the script, replace **{NameofStorageAccount}** with the name you just copied. Make sure to remove the curly braces, then click on **Run** to execute the script.
 
    ![ws name.](media/up5.png)
       
  
-13. Wait for some time for the script to execute.  Once done, it will show an output saying **Script Executed successfully**.
+15. Wait for some time for the script to execute.  Once done, it will show an output saying **Script Executed successfully**.
 
    ![ws name.](media/up6.png)
    
 > **Note:** It will take around five minutes for the script to execute.
   
-14. Now search for *Windows virtual desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
+16. Now search for *Windows virtual desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
 
     ![ws name.](media/w1.png)
    
    
-15. Click on **Users**, then in the search bar paste your username **<inject key="AzureAdUserEmail" />** and then click on your user.
+17. Click on **Users**, then in the search bar paste your username **<inject key="AzureAdUserEmail" />** and then click on your user.
 
     ![ws name.](media/fs15.png)
     
-16. Switch to **Sessions** tab, then select both *Host Pools* and click on **Log off**.
+18. Switch to **Sessions** tab, then select both *Host Pools* and click on **Log off**.
 
     ![ws name.](media/a72.png)
     
-17. Click on **OK** to *Log off user from VMs*.
+19. Click on **OK** to *Log off user from VMs*.
 
     ![ws name.](media/a73.png)
 
 > **Note:** This will logoff the user **<inject key="AzureAdUserEmail" />** from both the session hosts, so that when the user sign in again to the session hosts, FSLogix will start functioning.
     
     
-18. Now paste this link ```aka.ms/wvdarmweb``` in your browser in the JumpVM, and enter your **credentials** to login. 
+20. Now paste this link ```aka.ms/wvdarmweb``` in your browser in the JumpVM, and enter your **credentials** to login. 
 
     - Username: Paste username **<inject key="AzureAdUserEmail" />**, then click on **Next**.
    
@@ -343,24 +350,24 @@ Write-Host "Script Executed successfully"
 
     ![ws name.](media/w25.png)
    
-19. Click on the **Default Desktop** to launch it.
+21. Click on the **Default Desktop** to launch it.
 
     ![ws name.](media/up7.png)
     
-20. Enter your **Credentials** to access the desktop.
+22. Enter your **Credentials** to access the desktop.
 
    - Username: **<inject key="AzureAdUserEmail" />**
    - Password: **<inject key="AzureAdUserPassword" />**
 
    ![ws name.](media/89.png)
         
-21. The desktop will launch looking similar to the screenshot below, telling ***Please wait for the FSLogix Apps Services***.
+23. The desktop will launch looking similar to the screenshot below, telling ***Please wait for the FSLogix Apps Services***.
 
     ![ws name.](media/wiw19.png)
     
 > **Note:** This means that user profile is being managed by FSLogix.
 
-22. The virtual desktop will launch and look similar to the screenshot below.
+24. The virtual desktop will launch and look similar to the screenshot below.
 
     ![ws name.](media/launchwvd.png)
 
