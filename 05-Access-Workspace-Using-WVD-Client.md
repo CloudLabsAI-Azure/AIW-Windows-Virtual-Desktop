@@ -97,9 +97,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/ch17.png)
    
 
-5. Your virtual desktop will launch and look similar to the screenshot below.
+5. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
         
-   ![ws name.](media/lb55.png)   
+   ![ws name.](media/jvm22.png)  
     
      
 6. Click on the **Next** button present in the bottom-right corner of this lab guide. 
