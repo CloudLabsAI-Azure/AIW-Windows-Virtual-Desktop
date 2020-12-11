@@ -371,6 +371,10 @@ Write-Host "Script Executed successfully"
 
     ![ws name.](media/launchwvd.png)
 
+25. At last, click on **User Account** and click on **Sign Out**.
+
+   ![ws name.](mediajvm23.png)
+   
 ### **Task 4: Verifying the User profiles stored in File share**
 
 In this task, we will be accessing the file share to verify the user profiles stored in *.vhd* format.
