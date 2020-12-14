@@ -208,11 +208,11 @@ Write-Host "Script Executed successfully"
    
     
 > **Note:** The above script will :
-> 1) Install FSLogix Profile Container application
+> i) Install FSLogix Profile Container application
 > 
-> 2) Configure the required registries
+> ii) Configure the required registries
 > 
-> 3) Set the profile container location to the Azure file share location we created.
+> iii) Set the profile container location to the Azure file share location we created.
  
 
 
@@ -298,11 +298,11 @@ Write-Host "Script Executed successfully"
    
     
 > **Note:** The above script will :
-> 1) Install FSLogix Profile Container application
+> i) Install FSLogix Profile Container application
 > 
-> 2) Configure the required registries
+> ii) Configure the required registries
 > 
-> 3) Set the profile container location to the Azure file share location we created.
+> iii) Set the profile container location to the Azure file share location we created.
  
 
 13. In line 2, we have to replace the name of storage account with the **"NameofStorageAccount"** block.
