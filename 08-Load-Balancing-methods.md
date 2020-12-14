@@ -309,7 +309,8 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
    - Username: *Paste username of* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**).*
    - Password: *Paste the password* **Azure1234567**
-   
+
+
    ![ws name.](media/lb51.png)
    
 
