@@ -375,7 +375,7 @@ Write-Host "Script Executed successfully"
 
 25. At last, click on **User Account** and click on **Sign Out**.
 
-   ![ws name.](mediajvm23.png)
+   ![ws name.](media/jvm23.png)
    
 ### **Task 4: Verifying the User profiles stored in File share**
 
