@@ -208,6 +208,7 @@ Write-Host "Script Executed successfully"
    
     
 > **Note:** The above script will :
+>
 > i) Install FSLogix Profile Container application
 > 
 > ii) Configure the required registries
@@ -298,6 +299,7 @@ Write-Host "Script Executed successfully"
    
     
 > **Note:** The above script will :
+>
 > i) Install FSLogix Profile Container application
 > 
 > ii) Configure the required registries
