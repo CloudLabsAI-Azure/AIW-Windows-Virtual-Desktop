@@ -236,14 +236,22 @@ The UI form offers the following actions:
 
    ![ws name.](media/im18.png)
 
-7. Add the following values and then click on **Create**.
+7. Add the following values:
 
-   - Name: *Leave to default*
    - Resource group: *Select* **WVD-RG** *from the drop down.*
-   - Type the virtual machine name: **WVDVMWin10**
+   - Share Image to Shared image gallery: **No, capture only a managed image**
+   - Name: *Leave to default*
+   - Click on **Review + Create**
    
-   ![ws name.](media/im19.png)
+   ![ws name.](media/jvm28.png)
 
+8. Once the validation passes, click on **Create**.
+
+   ![ws name.](media/jvm29.png)
+
+9. Wait for the deployment to succeed, once succeeded it will look similar to the image below.
+
+   ![ws name.](media/jvm30.png)
 
 ## **Task 6: Provision a Host Pool with a custom image**
 
