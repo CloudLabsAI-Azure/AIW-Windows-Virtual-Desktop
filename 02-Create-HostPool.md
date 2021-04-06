@@ -6,6 +6,8 @@ A Host Pool is a collection of Azure virtual machines that register to Windows V
  
 ### **Task 1: Log in to Azure Portal**
 
+>**Note:** It is important that you login to the cloud environment using **Incognito window** only.
+
 1. Open **Azure Portal** (https://portal.azure.com) in your browser. 
 
 2. Login to Azure with the username **<inject key="AzureAdUserEmail" />** and click on **Next**.
