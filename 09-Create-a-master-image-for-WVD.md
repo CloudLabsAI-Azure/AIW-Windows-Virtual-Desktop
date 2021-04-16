@@ -46,7 +46,7 @@ In this exercise, we are going to walk through the process of creating a master 
 
   ![ws name.](media/im4.png) 
 
-8. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
+8. The last window helps us to verify if the parameters you filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
 
   ![ws name.](media/im5.png) 
 
@@ -217,7 +217,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/e26.png)
 
-2. On the Virtual machines blade, open the VM we used for creating master image i.e., **wvdwin10**.
+2. On the Virtual machines blade, open the VM you used for creating master image i.e., **wvdwin10**.
 
    ![ws name.](media/im28.png)
 
@@ -281,7 +281,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/66.png)
 
-5. In this step, we will provide the details of the VMs to be created as session Hosts. For your convenience, this step is divided into three sections as follows:
+5. In this step, you will provide the details of the VMs to be created as session Hosts. For your convenience, this step is divided into three sections as follows:
 
   **A.** Session Host Specifications:
 
@@ -294,7 +294,7 @@ The UI form offers the following actions:
    - Number of VMs: **2**
    - Name prefix: **VmFromImage**
    - Image type: **Gallery**
-   - Image: *Click on **Browse all images and disks**, click on **My items** and select the Image we created earlier in this exercise, as shown below.*
+   - Image: *Click on **Browse all images and disks**, click on **My items** and select the Image you created earlier in this exercise, as shown below.*
 
    ![ws name.](media/im21.png)
 
@@ -339,7 +339,7 @@ The UI form offers the following actions:
 
     ![ws name.](media/im24.png)
 
-9. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
+9. The last window helps us to verify if the parameters you filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
 
     ![ws name.](media/e40.png)
 
@@ -392,7 +392,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/lb57.png)
 
-6. At last, validate the components relative to the configuration we made in previous task. The desktop should show icons for ***Microsoft Edge*** and ***Microsoft Teams***. When you go to the ***Windows start menu***, you can find the ***Office applications***.
+6. At last, validate the components relative to the configuration you made in previous task. The desktop should show icons for ***Microsoft Edge*** and ***Microsoft Teams***. When you go to the ***Windows start menu***, you can find the ***Office applications***.
 
    ![ws name.](media/vmimage12.png)
 
