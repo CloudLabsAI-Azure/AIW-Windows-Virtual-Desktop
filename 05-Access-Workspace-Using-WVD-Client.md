@@ -84,7 +84,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/51.png)
  
-2. The WVD client application will launch and we will land on the WVD dashboard. Click on the tile named **Default Desktop** to launch the desktop.
+2. The WVD client application will launch and you will land on the WVD dashboard. Click on the tile named **Default Desktop** to launch the desktop.
 
    ![ws name.](media/ag11.png)
    
