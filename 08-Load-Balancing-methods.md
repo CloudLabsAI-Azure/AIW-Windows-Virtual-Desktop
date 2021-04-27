@@ -1,7 +1,7 @@
 # **Exercise 7: Load Balancing methods**
 
 Windows Virtual Desktop supports two load-balancing methods. Each method determines which session host will host a user's session when they connect to a resource in a host pool.
-While configuring  a host pool, we can select load balancing methods as per the needs.
+While configuring a host pool, we can select load balancing methods as per the needs.
 
 The following load-balancing methods are available in Windows Virtual Desktop:
 
@@ -12,11 +12,11 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 ### **Task 1: Add new users to Azure Active Directory**
 
-1. In Azure Portal, click on the **Show portals menu** button and select **Azure Active Directory**.
+1. In Azure Portal, click on the **Show portals menu (1)** button and select **Azure Active Directory (2)**.
 
    ![ws name.](media/lb34.png)
 
-2. Click on **Users** under *Manage* blade.
+2. Click on **Users** under the *Manage* blade.
 
    ![ws name.](media/lb6.png)
 
@@ -24,23 +24,23 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/lb5.png)
 
-4. Add the following configurations and leave rest to default:
+4. Add the following configurations and leave rest to default and click on **Create**:
 
    - User name: **WVDUser01**
    - Name: **WVDUser01**
-   - Click on **Create**.
+   
 
    ![ws name.](media/lb8.png)
 
-5. Click on **+ New user** to add one more user, then add the following configurations and leave rest to default.
+5. Click on **+ New user** to add one more user, then add the following configurations and leave the rest to default. Once done, click on **Create**
 
    - User name: **WVDUser02**
    - Name: **WVDUser02**
-   - Click on **Create**
+   
    
    ![ws name.](media/lb7.png)
 
-6. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste in a text editor so that we can use it further.
+6. Both the newly created users will show up as shown below. Copy the **user principal name** of both users and paste in a text editor so that we can use it later.
 
    ![ws name.](media/lb11.png)
 
@@ -48,7 +48,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/lb12.png)
 
-8. Click on the **AAD DC Administrators** group and then click on **Select**.
+8. Click on the **AAD DC Administrators (1)** group and then click on **Select (2)**.
 
    ![ws name.](media/lb13.png)
 
@@ -56,11 +56,11 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/im31.png)
 
-10. Click on the **AAD DC Administrators** group and then click on **Select**.
+10. Click on the **AAD DC Administrators (1)** group and then click on **Select (2)**.
 
    ![ws name.](media/lb13.png)
 
-11. Navigate to the host pool *WVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
+11. Navigate to the host pool *WVD-HP-01* and open **Application groups** present under the *Manage* blade. Two application groups will be listed there.
 
    ![ws name.](media/lb40.png)
 
@@ -68,7 +68,7 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
    ![ws name.](media/lb41.png)
    
-13. Click on **+ Add**, then in the search bar, type *WVDUser* and select both **WVDUser01** & **WVDUser02** that we created earlier. At last, click on **Select** button.
+13. Click on **+ Add (1)**, then in the search bar, type **WVDUser (2)** and select both **WVDUser01 (3)** & **WVDUser02 (4)** that we created earlier. At last, click on **Select (5)** button.
 
    ![ws name.](media/lb42.png)
 
@@ -79,9 +79,9 @@ The following load-balancing methods are available in Windows Virtual Desktop:
    
 ### **Task 2: Update Passwords for the new users**
 
-Here, we will use Azure Cloud Shell to run a script that will change the passwords for the users created, as user needs to reset password after registering to AADDS. 
+Here, we will use Azure Cloud Shell to run a script that will change the passwords for the users created, as the user needs to reset the password after registering to AADDS. 
 
-1. In Azure portal, click on the **Cloud Shell** icon.
+1. In the Azure portal, click on the **Cloud Shell** icon.
 
    ![ws name.](media/a105.png)
    
@@ -132,7 +132,7 @@ Here, we will use Azure Cloud Shell to run a script that will change the passwor
 
 **A**. **Breadth-first**
    
-While creating WVD-HP-01 host pool, we selected load balancing method as *Breadth-first*.  Now we are going to log in to Desktop App created on WVD-HP-01 with both users simultaneously and see the user distribution.
+While creating WVD-HP-01 host pool, we selected the load balancing method as *Breadth-first*.  Now we are going to log in to Desktop App created on WVD-HP-01 with both users simultaneously and see the user distribution.
 
 
 1. Paste this link ```aka.ms/wvdarmweb``` in your browser and enter your **credentials** to login. 
@@ -237,29 +237,29 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 > Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
 
 
-18. Open **WVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
+18. Open **WVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now click on **Log off all active users (1)** button and select **Ok (2)** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
    ![ws name.](media/lb50.png)
 
-19. Navigate back to *Session hosts* and open **WVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
+19. Navigate back to *Session hosts* and open **WVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now click on **Log off all active users (1)** button and select **Ok (2)** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
    ![ws name.](media/lb56.png)
 
->**Note:** We need to log off the users from session hosts so that when the users login again, connection is made based on the *Depth-first load balancing method*.
+>**Note:** We need to log off the users from session hosts so that when the users login again, the connection is made based on the *Depth-first load balancing method*.
    
 
 **B**. **Depth first**
 
 Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth first* and see how user distribution changes in the Host pool.
 
-> **Note:** If previous session is closed, visit to  `aka.ms/wvdarmweb`, then click on *Default Desktop* and login with *WVDUser01* credentials.
+> **Note:** If the previous session is closed, visit to  `aka.ms/wvdarmweb`, then click on *Default Desktop* and login with *WVDUser01* credentials.
 
 1. In *WVD-HP-01* host pool, click on **Properties** under *Settings* blade.
 
    ![ws name.](media/lb25.png)
    
    
-2. Change the load balancing algorithm to **Depth-first** then click on **Save icon**.
+2. Change the load balancing algorithm to **Depth-first (1)** then click on **Save icon (2)**.
 
    ![ws name.](media/lb26.png)
    
@@ -328,7 +328,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
    ![ws name.](media/lb21.png)
    
-> **Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with highest number of sessions. If there's a tie, the method selects the first session host in the query.
+> **Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with the highest number of sessions. If there's a tie, the method selects the first session host in the query.
 >
 > Please follow [Depth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#depth-first-load-balancing-method) to learn more about it.
    
